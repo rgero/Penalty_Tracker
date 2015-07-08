@@ -1,0 +1,23 @@
+Planning for the second iteration of my Penalty Counter
+
+Issues with the first iteration:
+	-Downloading all of the box scores
+		In the previous version of the program, I required the end-user to download all of the box scores. This was a very lazy method of obtaining the data and was very costly both in time and in disk space as the full 82 game season for 30 teams took up 114 MB.
+	-There was no automated testing of algorithms
+		Because I did not know how to do true test automation, I couldn't verify that the algorithm to parse through the data was accurate enough to catch every instance. This led to me manually comparing the generated result to what the NHL had on their website.
+	-Data Storage was HORRENDOUS.
+		I had to parse through EVERY file every time the program was ran. This was a huge time sink. Realistically the program should be able to determine the last time it was ran and gather the data from that point to the current date. This also meant that I wasn't running it very often.
+	-I had to run the program manually.
+		Ideally, this program should be stored on a server somewhere and automatically ran every day at a certain time.
+
+		
+Ideas for next iteration:
+	-Enhance the program so that it does not have to download all of the box scores.
+	-Insert automated testing to insure that the algorithm is correctly parsing through the data.
+		-Python has a module called "unittest" that could be leveraged if nothing else
+		-This would require me manually going through and counting the penalties in a select number of games.
+	-Enhance the program so it will remember the last time it was ran and only search between that last time and the current date.
+	-Automate the program.
+		-Investigate how
+	-USE AN OBJECT ORIENTATED DESIGN
+		- I was storing every penalty event as an array that was then inserted into another array. This was definitely a bad practice as I could have easily written a class to do this cleaner.
