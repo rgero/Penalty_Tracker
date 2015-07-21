@@ -3,12 +3,17 @@ from Teams import *
 from Penalty import *
 
 GameData = []
-
+MasterPenaltyList = [] #So I can return this to the test framework
 
 class MyHTMLParser(HTMLParser):
 	'''This generates an Array with all the HTML elements so I can quickly sort through it.'''	
 	def handle_data(self, data):
 		GameData.append(data)
+		
+def clearLists():
+	GameData[:] = []
+	MasterPenaltyList[:] = []
+	return GameData, MasterPenaltyList
 	
 	
 def teamsPlaying(scan):
@@ -41,20 +46,22 @@ def processPenalty(penalty):
 def processData(scan):
 	MasterPenaltyList = [] #So I can return this to the test framework
 	
+	GameData,MasterPenaltyList = clearLists()
+	
 	teams = teamsPlaying(scan)
 	referees = refsInGame(scan)
 	date = getDateFromFile(scan)
-	
 			
 	parser= MyHTMLParser() #Creates an instance of the HTML Parser class
 	parser.feed(scan)
 	
 	inSection = False
-
+	startedProcessing = False
+	
 	for i in range(0,len(GameData)):
 		if(GameData[i] == "Penalty Summary" or inSection):
+			startedProcessing = True
 			inSection = True
-
 			if(GameData[i] in Teams):
 				playersTeam = Teams[GameData[i]]
 				playersName = GameData[i+1]
@@ -70,7 +77,8 @@ def processData(scan):
 				newPenalty = Penalty(playersName, playersTeam, playersPenalty, location, opponent, date, referees)
 				MasterPenaltyList.append(newPenalty)
 			
-		if("Stats" in GameData[i]):
+		if("Stats" in GameData[i] and startedProcessing):
 			inSection = False
-			
-	return MasterPenaltyList	
+			break
+	return MasterPenaltyList
+	
