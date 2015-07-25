@@ -11,6 +11,7 @@ class MyHTMLParser(HTMLParser):
 		GameData.append(data)
 		
 def clearLists():
+	'''This is going to make sure that the both lists are cleared so that way I can guarentee to get all the correct data.'''
 	GameData[:] = []
 	MasterPenaltyList[:] = []
 	return GameData, MasterPenaltyList
@@ -40,10 +41,17 @@ def getDateFromFile(scan):
 	return scan[tailOfDate-frontOfDate:tailOfDate]
 	
 def processPenalty(penalty):
+	'''	This is necessary because of the fact that the NHL website uses &nbsp spaces, which gets parsed differently when processing the file.
+		So I added this to make sure that I get the penalties correctly formatted.
+	'''
 	penalty = penalty.decode('unicode_escape').encode('ascii','ignore').split("\n")
 	return penalty[1] #Returning the second index because that is where the actual penalty is stored.
 
 def processData(scan):
+	'''Processes the file which has been opened and read into a variable.
+	scan is the file data
+	returns: List of Penalty objects.
+	'''
 	MasterPenaltyList = [] #So I can return this to the test framework
 	
 	GameData,MasterPenaltyList = clearLists()
@@ -55,6 +63,7 @@ def processData(scan):
 	parser= MyHTMLParser() #Creates an instance of the HTML Parser class
 	parser.feed(scan)
 	
+	#Establishing two boolean variables. inSection means that we're in the penalty section. startedProcessing makes it so that way we don't find any false positives for "Stats"
 	inSection = False
 	startedProcessing = False
 	
@@ -79,6 +88,6 @@ def processData(scan):
 			
 		if("Stats" in GameData[i] and startedProcessing):
 			inSection = False
-			break
+			break #Once we find the end of the penalty section, we can ignore the rest of the file
 	return MasterPenaltyList
 	
