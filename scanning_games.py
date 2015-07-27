@@ -47,12 +47,17 @@ def processPenalty(penalty):
 	penalty = penalty.decode('unicode_escape').encode('ascii','ignore').split("\n")
 	return penalty[1] #Returning the second index because that is where the actual penalty is stored.
 
+
 def processData(scan):
 	'''Processes the file which has been opened and read into a variable.
 	scan is the file data
 	returns: List of Penalty objects.
 	'''
 	MasterPenaltyList = [] #So I can return this to the test framework
+	
+	try:
+		storageFile = open("penaltyList.txt","a") #Opening the file to write the penalties to
+	
 	
 	GameData,MasterPenaltyList = clearLists()
 	
@@ -84,10 +89,12 @@ def processData(scan):
 					opponent = teams[0]
 					
 				newPenalty = Penalty(playersName, playersTeam, playersPenalty, location, opponent, date, referees)
+				storageFile.write(newPenalty.printEvent() + "\n")
 				MasterPenaltyList.append(newPenalty)
 			
 		if("Stats" in GameData[i] and startedProcessing):
 			inSection = False
 			break #Once we find the end of the penalty section, we can ignore the rest of the file
+	storageFile.close()
 	return MasterPenaltyList
 	
