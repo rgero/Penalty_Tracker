@@ -3,7 +3,7 @@ from Teams import *
 from Penalty import *
 
 GameData = []
-MasterPenaltyList = [] #So I can return this to the test framework
+GamePenaltyList = [] #So I can return this to the test framework
 
 class MyHTMLParser(HTMLParser):
 	'''This generates an Array with all the HTML elements so I can quickly sort through it.'''	
@@ -13,8 +13,8 @@ class MyHTMLParser(HTMLParser):
 def clearLists():
 	'''This is going to make sure that the both lists are cleared so that way I can guarentee to get all the correct data.'''
 	GameData[:] = []
-	MasterPenaltyList[:] = []
-	return GameData, MasterPenaltyList
+	GamePenaltyList[:] = []
+	return GameData, GamePenaltyList
 	
 	
 def teamsPlaying(scan):
@@ -48,26 +48,28 @@ def processPenalty(penalty):
 	return penalty[1] #Returning the second index because that is where the actual penalty is stored.
 	
 def processFromFile(scan):
-	global MasterPenaltyList
+	'''	This might need to be moved to a different file.
+		This would be because of the fact that this should be processing the text file
+		and working for ALL games in the text file. This section of the code is for every
+		instance of a game.
+	'''
+	GamePenaltyList = []
 	for i in scan:
 		i = i.rstrip("\n")
 		event = i.split(" | ")
 		event[6] = event[6].split(", ")
 		newPenalty = Penalty(event[0],event[1],event[2],"Home" in event[5],event[4],event[3],event[6])
-		MasterPenaltyList.append(newPenalty)
-	return MasterPenaltyList
+		GamePenaltyList.append(newPenalty)
+	return GamePenaltyList
 
 def processData(scan):
 	'''Processes the file which has been opened and read into a variable.
 	scan is the file data
 	returns: List of Penalty objects.
 	'''
-	global MasterPenaltyList
+	GamePenaltyList = []
 	
-	storageFile = open("penaltyList.txt","a") #Opening the file to write the penalties to
-	
-	
-	GameData,MasterPenaltyList = clearLists()
+	GameData,GamePenaltyList = clearLists()
 	
 	teams = teamsPlaying(scan)
 	referees = refsInGame(scan)
@@ -97,12 +99,10 @@ def processData(scan):
 					opponent = teams[0]
 					
 				newPenalty = Penalty(playersName, playersTeam, playersPenalty, location, opponent, date, referees)
-				storageFile.write(newPenalty.printEvent() + "\n")
-				MasterPenaltyList.append(newPenalty)
+				GamePenaltyList.append(newPenalty)
 			
 		if("Stats" in GameData[i] and startedProcessing):
 			inSection = False
 			break #Once we find the end of the penalty section, we can ignore the rest of the file
-	storageFile.close()
-	return MasterPenaltyList
+	return GamePenaltyList
 	
