@@ -46,17 +46,25 @@ def processPenalty(penalty):
 	'''
 	penalty = penalty.decode('unicode_escape').encode('ascii','ignore').split("\n")
 	return penalty[1] #Returning the second index because that is where the actual penalty is stored.
-
+	
+def processFromFile(scan):
+	global MasterPenaltyList
+	for i in scan:
+		i = i.rstrip("\n")
+		event = i.split(" | ")
+		event[6] = event[6].split(", ")
+		newPenalty = Penalty(event[0],event[1],event[2],"Home" in event[5],event[4],event[3],event[6])
+		MasterPenaltyList.append(newPenalty)
+	return MasterPenaltyList
 
 def processData(scan):
 	'''Processes the file which has been opened and read into a variable.
 	scan is the file data
 	returns: List of Penalty objects.
 	'''
-	MasterPenaltyList = [] #So I can return this to the test framework
+	global MasterPenaltyList
 	
-	try:
-		storageFile = open("penaltyList.txt","a") #Opening the file to write the penalties to
+	storageFile = open("penaltyList.txt","a") #Opening the file to write the penalties to
 	
 	
 	GameData,MasterPenaltyList = clearLists()
