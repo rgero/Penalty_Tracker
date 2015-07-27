@@ -1,0 +1,278 @@
+Jordan Eberle | Edmonton Oilers | Tripping | 10/09/2014 | Calgary Flames | Home | Tim Peel, Ghislain Hebert
+Benoit Pouliot | Edmonton Oilers | Slashing | 10/09/2014 | Calgary Flames | Home | Tim Peel, Ghislain Hebert
+Jordan Eberle | Edmonton Oilers | Hi-sticking | 10/11/2014 | Vancouver Canucks | Away | Mike Leggo, Ghislain Hebert
+Taylor Hall | Edmonton Oilers | Hi stick - double minor | 10/11/2014 | Vancouver Canucks | Away | Mike Leggo, Ghislain Hebert
+Matt Hendricks | Edmonton Oilers | Delaying Game-Puck over glass | 10/11/2014 | Vancouver Canucks | Away | Mike Leggo, Ghislain Hebert
+Mark Fayne | Edmonton Oilers | Hooking | 10/11/2014 | Vancouver Canucks | Away | Mike Leggo, Ghislain Hebert
+Andrew Ference | Edmonton Oilers | Holding | 10/11/2014 | Vancouver Canucks | Away | Mike Leggo, Ghislain Hebert
+Benoit Pouliot | Edmonton Oilers | Interference | 10/11/2014 | Vancouver Canucks | Away | Mike Leggo, Ghislain Hebert
+Ryan Nugent-Hopkins | Edmonton Oilers | Fighting (maj) | 10/11/2014 | Vancouver Canucks | Away | Mike Leggo, Ghislain Hebert
+Matt Hendricks | Edmonton Oilers | Fighting (maj) | 10/14/2014 | LA Kings | Away | Mike Leggo, Brad Watson
+Benoit Pouliot | Edmonton Oilers | Cross checking | 10/14/2014 | LA Kings | Away | Mike Leggo, Brad Watson
+Mark Arcobello | Edmonton Oilers | Hi-sticking | 10/14/2014 | LA Kings | Away | Mike Leggo, Brad Watson
+Jesse Joensuu | Edmonton Oilers | Holding | 10/14/2014 | LA Kings | Away | Mike Leggo, Brad Watson
+Nikita Nikitin | Edmonton Oilers | Hooking | 10/15/2014 | Arizona Coyotes | Away | Eric Furlatt, Tom Chmielewski
+Matt Hendricks | Edmonton Oilers | Interference | 10/15/2014 | Arizona Coyotes | Away | Eric Furlatt, Tom Chmielewski
+Nail Yakupov | Edmonton Oilers | Roughing | 10/15/2014 | Arizona Coyotes | Away | Eric Furlatt, Tom Chmielewski
+Jordan Eberle | Edmonton Oilers | Hooking | 10/15/2014 | Arizona Coyotes | Away | Eric Furlatt, Tom Chmielewski
+Jeff Petry | Edmonton Oilers | Cross checking | 10/15/2014 | Arizona Coyotes | Away | Eric Furlatt, Tom Chmielewski
+Will Acton | Edmonton Oilers | Fighting (maj) | 10/15/2014 | Arizona Coyotes | Away | Eric Furlatt, Tom Chmielewski
+Mark Arcobello | Edmonton Oilers | Hooking | 10/17/2014 | Vancouver Canucks | Home | Kyle Rehman, Steve Kozari
+Jeff Petry | Edmonton Oilers | Boarding | 10/17/2014 | Vancouver Canucks | Home | Kyle Rehman, Steve Kozari
+Jesse Joensuu | Edmonton Oilers | Hi-sticking | 10/17/2014 | Vancouver Canucks | Home | Kyle Rehman, Steve Kozari
+Jesse Joensuu | Edmonton Oilers | Holding | 10/20/2014 | Tampa Bay Lightning | Home | Dave Jackson, Steve Kozari
+Taylor Hall | Edmonton Oilers | Hi-sticking | 10/20/2014 | Tampa Bay Lightning | Home | Dave Jackson, Steve Kozari
+Matt Hendricks | Edmonton Oilers | Roughing | 10/20/2014 | Tampa Bay Lightning | Home | Dave Jackson, Steve Kozari
+Matt Hendricks | Edmonton Oilers | Tripping | 10/22/2014 | Washington Capitals | Home | Dave Jackson, Chris Lee
+Matt Hendricks | Edmonton Oilers | Fighting (maj) | 10/22/2014 | Washington Capitals | Home | Dave Jackson, Chris Lee
+Jesse Joensuu | Edmonton Oilers | Hi-sticking | 10/22/2014 | Washington Capitals | Home | Dave Jackson, Chris Lee
+Justin Schultz | Edmonton Oilers | Holding | 10/24/2014 | Carolina Hurricanes | Home | Tom Kowal, Brad Meier
+Jesse Joensuu | Edmonton Oilers | Slashing | 10/27/2014 | Montreal Canadiens | Home | Brad Watson, Graham Skilliter
+Mark Fayne | Edmonton Oilers | Tripping | 10/27/2014 | Montreal Canadiens | Home | Brad Watson, Graham Skilliter
+Jordan Eberle | Edmonton Oilers | Hi-sticking | 10/27/2014 | Montreal Canadiens | Home | Brad Watson, Graham Skilliter
+Martin Marincin | Edmonton Oilers | Illegal stick | 10/27/2014 | Montreal Canadiens | Home | Brad Watson, Graham Skilliter
+Andrew Ference | Edmonton Oilers | Hooking | 10/29/2014 | Nashville Predators | Home | Brian Pochmara, Ian Walsh
+Jesse Joensuu | Edmonton Oilers | Hooking | 11/01/2014 | Vancouver Canucks | Home | Dennis LaRue, Francois St. Laurent
+Jordan Eberle | Edmonton Oilers | Roughing | 11/01/2014 | Vancouver Canucks | Home | Dennis LaRue, Francois St. Laurent
+Andrew Ference | Edmonton Oilers | Illegal Check To Head | 11/01/2014 | Vancouver Canucks | Home | Dennis LaRue, Francois St. Laurent
+Matt Hendricks | Edmonton Oilers | Fighting (maj) | 11/04/2014 | Philadelphia Flyers | Away | Wes McCauley, Frederick L'Ecuyer
+Matt Hendricks | Edmonton Oilers | Hooking | 11/06/2014 | Boston Bruins | Away | Jean Hebert, Tom Kowal
+Nikita Nikitin | Edmonton Oilers | Hooking | 11/06/2014 | Boston Bruins | Away | Jean Hebert, Tom Kowal
+Keith Aulie | Edmonton Oilers | Holding the stick | 11/06/2014 | Boston Bruins | Away | Jean Hebert, Tom Kowal
+Nikita Nikitin | Edmonton Oilers | Tripping | 11/06/2014 | Boston Bruins | Away | Jean Hebert, Tom Kowal
+Keith Aulie | Edmonton Oilers | Fighting (maj) | 11/07/2014 | Buffalo Sabres | Away | Chris Rooney, Marc Joannette
+Keith Aulie | Edmonton Oilers | Holding | 11/07/2014 | Buffalo Sabres | Away | Chris Rooney, Marc Joannette
+Jordan Eberle | Edmonton Oilers | Hooking | 11/09/2014 | NY Rangers | Away | Paul Devorski, Trevor Hanson
+Nikita Nikitin | Edmonton Oilers | Tripping | 11/11/2014 | Nashville Predators | Away | Kelly Sutherland, Jean Hebert
+Mark Arcobello | Edmonton Oilers | Slashing | 11/11/2014 | Nashville Predators | Away | Kelly Sutherland, Jean Hebert
+Keith Aulie | Edmonton Oilers | Fighting (maj) | 11/13/2014 | Ottawa Senators | Home | Marc Joannette, Mark Lemelin
+Teddy Purcell | Edmonton Oilers | Tripping | 11/13/2014 | Ottawa Senators | Home | Marc Joannette, Mark Lemelin
+Justin Schultz | Edmonton Oilers | Tripping | 11/13/2014 | Ottawa Senators | Home | Marc Joannette, Mark Lemelin
+Keith Aulie | Edmonton Oilers | Fighting (maj) | 11/13/2014 | Ottawa Senators | Home | Marc Joannette, Mark Lemelin
+Mark Arcobello | Edmonton Oilers | Slashing | 11/13/2014 | Ottawa Senators | Home | Marc Joannette, Mark Lemelin
+Benoit Pouliot | Edmonton Oilers | Roughing | 11/13/2014 | Ottawa Senators | Home | Marc Joannette, Mark Lemelin
+David Perron | Edmonton Oilers | Embellishment | 11/13/2014 | Ottawa Senators | Home | Marc Joannette, Mark Lemelin
+Boyd Gordon | Edmonton Oilers | Hi-sticking | 11/16/2014 | Arizona Coyotes | Home | Tom Kowal, Brad Meier
+Ryan Nugent-Hopkins | Edmonton Oilers | Hooking | 11/16/2014 | Arizona Coyotes | Home | Tom Kowal, Brad Meier
+Ben Scrivens | Edmonton Oilers | Delaying Game-Puck over glass | 11/16/2014 | Arizona Coyotes | Home | Tom Kowal, Brad Meier
+Benoit Pouliot | Edmonton Oilers | Boarding | 11/16/2014 | Arizona Coyotes | Home | Tom Kowal, Brad Meier
+Steven Pinizzotto | Edmonton Oilers | Fighting (maj) | 11/19/2014 | Vancouver Canucks | Home | Dan O'Rourke, Gord Dwyer
+Nikita Nikitin | Edmonton Oilers | Tripping | 11/19/2014 | Vancouver Canucks | Home | Dan O'Rourke, Gord Dwyer
+Boyd Gordon | Edmonton Oilers | Delaying Game-Puck over glass | 11/19/2014 | Vancouver Canucks | Home | Dan O'Rourke, Gord Dwyer
+Andrew Ference | Edmonton Oilers | Fighting (maj) | 11/19/2014 | Vancouver Canucks | Home | Dan O'Rourke, Gord Dwyer
+Steven Pinizzotto | Edmonton Oilers | Interference | 11/19/2014 | Vancouver Canucks | Home | Dan O'Rourke, Gord Dwyer
+Ryan Nugent-Hopkins | Edmonton Oilers | Tripping | 11/19/2014 | Vancouver Canucks | Home | Dan O'Rourke, Gord Dwyer
+Taylor Hall | Edmonton Oilers | Hi-sticking | 11/19/2014 | Vancouver Canucks | Home | Dan O'Rourke, Gord Dwyer
+Teddy Purcell | Edmonton Oilers | Tripping | 11/21/2014 | New Jersey Devils | Home | Francis Charron, Chris Lee
+David Perron | Edmonton Oilers | Too many men/ice - bench | 11/21/2014 | New Jersey Devils | Home | Francis Charron, Chris Lee
+Keith Aulie | Edmonton Oilers | Interference | 11/22/2014 | Chicago Blackhawks | Home | Chris Lee, Ian Walsh
+Jordan Eberle | Edmonton Oilers | Hooking | 11/22/2014 | Chicago Blackhawks | Home | Chris Lee, Ian Walsh
+Ryan Nugent-Hopkins | Edmonton Oilers | Hooking | 11/22/2014 | Chicago Blackhawks | Home | Chris Lee, Ian Walsh
+Teddy Purcell | Edmonton Oilers | Slashing | 11/22/2014 | Chicago Blackhawks | Home | Chris Lee, Ian Walsh
+Keith Aulie | Edmonton Oilers | Roughing | 11/22/2014 | Chicago Blackhawks | Home | Chris Lee, Ian Walsh
+Steven Pinizzotto | Edmonton Oilers | Roughing | 11/22/2014 | Chicago Blackhawks | Home | Chris Lee, Ian Walsh
+Jesse Joensuu | Edmonton Oilers | Hi-sticking | 11/22/2014 | Chicago Blackhawks | Home | Chris Lee, Ian Walsh
+Andrew Ference | Edmonton Oilers | Interference | 11/22/2014 | Chicago Blackhawks | Home | Chris Lee, Ian Walsh
+Andrew Ference | Edmonton Oilers | Holding | 11/25/2014 | Dallas Stars | Away | Brad Watson, Dean Morton
+Matt Hendricks | Edmonton Oilers | Fighting (maj) | 11/25/2014 | Dallas Stars | Away | Brad Watson, Dean Morton
+Andrew Ference | Edmonton Oilers | Slashing | 11/25/2014 | Dallas Stars | Away | Brad Watson, Dean Morton
+Ryan Nugent-Hopkins | Edmonton Oilers | Hooking | 11/25/2014 | Dallas Stars | Away | Brad Watson, Dean Morton
+Taylor Hall | Edmonton Oilers | Hooking | 11/25/2014 | Dallas Stars | Away | Brad Watson, Dean Morton
+Mark Arcobello | Edmonton Oilers | Hooking | 11/27/2014 | Nashville Predators | Away | Graham Skilliter, Eric Furlatt
+Teddy Purcell | Edmonton Oilers | Hooking | 11/27/2014 | Nashville Predators | Away | Graham Skilliter, Eric Furlatt
+Andrew Ference | Edmonton Oilers | Tripping | 11/27/2014 | Nashville Predators | Away | Graham Skilliter, Eric Furlatt
+Keith Aulie | Edmonton Oilers | Roughing | 11/27/2014 | Nashville Predators | Away | Graham Skilliter, Eric Furlatt
+David Perron | Edmonton Oilers | Roughing | 11/27/2014 | Nashville Predators | Away | Graham Skilliter, Eric Furlatt
+Taylor Hall | Edmonton Oilers | Tripping | 11/27/2014 | Nashville Predators | Away | Graham Skilliter, Eric Furlatt
+David Perron | Edmonton Oilers | Misconduct (10 min) | 11/27/2014 | Nashville Predators | Away | Graham Skilliter, Eric Furlatt
+Steven Pinizzotto | Edmonton Oilers | Fighting (maj) | 11/28/2014 | St Louis Blues | Away | Tim Peel, Dave Lewis
+Leon Draisaitl | Edmonton Oilers | Holding | 11/28/2014 | St Louis Blues | Away | Tim Peel, Dave Lewis
+Oscar Klefbom | Edmonton Oilers | Delaying Game-Puck over glass | 11/28/2014 | St Louis Blues | Away | Tim Peel, Dave Lewis
+Mark Fayne | Edmonton Oilers | Tripping | 11/28/2014 | St Louis Blues | Away | Tim Peel, Dave Lewis
+Luke Gazdic | Edmonton Oilers | Fighting (maj) | 12/01/2014 | Arizona Coyotes | Home | Dave Jackson, Justin St. Pierre
+Taylor Hall | Edmonton Oilers | Cross checking | 12/01/2014 | Arizona Coyotes | Home | Dave Jackson, Justin St. Pierre
+Taylor Hall | Edmonton Oilers | Boarding | 12/01/2014 | Arizona Coyotes | Home | Dave Jackson, Justin St. Pierre
+Mark Arcobello | Edmonton Oilers | Interference | 12/01/2014 | Arizona Coyotes | Home | Dave Jackson, Justin St. Pierre
+Luke Gazdic | Edmonton Oilers | Fighting (maj) | 12/03/2014 | Winnipeg Jets | Away | Mike Leggo, Rob Martell
+Keith Aulie | Edmonton Oilers | Fighting (maj) | 12/07/2014 | SJ Sharks | Home | Rob Martell, Kevin Pollock
+Keith Aulie | Edmonton Oilers | Boarding | 12/07/2014 | SJ Sharks | Home | Rob Martell, Kevin Pollock
+Boyd Gordon | Edmonton Oilers | Hi-sticking | 12/07/2014 | SJ Sharks | Home | Rob Martell, Kevin Pollock
+Steven Pinizzotto | Edmonton Oilers | Roughing | 12/07/2014 | SJ Sharks | Home | Rob Martell, Kevin Pollock
+Steven Pinizzotto | Edmonton Oilers | Fighting (maj) | 12/09/2014 | SJ Sharks | Away | Francis Charron, Brian Pochmara
+Steven Pinizzotto | Edmonton Oilers | Holding the stick | 12/09/2014 | SJ Sharks | Away | Francis Charron, Brian Pochmara
+Andrew Ference | Edmonton Oilers | Interference | 12/10/2014 | Anaheim Ducks | Away | Francis Charron, Brian Pochmara
+Jeff Petry | Edmonton Oilers | Holding | 12/10/2014 | Anaheim Ducks | Away | Francis Charron, Brian Pochmara
+Jeff Petry | Edmonton Oilers | Slashing | 12/10/2014 | Anaheim Ducks | Away | Francis Charron, Brian Pochmara
+Taylor Hall | Edmonton Oilers | Tripping | 12/10/2014 | Anaheim Ducks | Away | Francis Charron, Brian Pochmara
+Andrew Ference | Edmonton Oilers | Hi-sticking | 12/12/2014 | Anaheim Ducks | Home | Dan O'Halloran, Kyle Rehman
+Jeff Petry | Edmonton Oilers | Tripping | 12/12/2014 | Anaheim Ducks | Home | Dan O'Halloran, Kyle Rehman
+Ryan Nugent-Hopkins | Edmonton Oilers | Hooking | 12/14/2014 | NY Rangers | Home | Kevin Pollock, Kyle Rehman
+Jeff Petry | Edmonton Oilers | Interference | 12/16/2014 | Arizona Coyotes | Away | Chris Rooney, Paul Devorski
+Jeff Petry | Edmonton Oilers | Hooking | 12/16/2014 | Arizona Coyotes | Away | Chris Rooney, Paul Devorski
+Taylor Hall | Edmonton Oilers | Boarding | 12/16/2014 | Arizona Coyotes | Away | Chris Rooney, Paul Devorski
+Steven Pinizzotto | Edmonton Oilers | Holding | 12/16/2014 | Arizona Coyotes | Away | Chris Rooney, Paul Devorski
+Nail Yakupov | Edmonton Oilers | Interference | 12/18/2014 | SJ Sharks | Away | Paul Devorski, Marc Joannette
+Oscar Klefbom | Edmonton Oilers | Hi-sticking | 12/18/2014 | SJ Sharks | Away | Paul Devorski, Marc Joannette
+David Perron | Edmonton Oilers | Illegal Check To Head | 12/18/2014 | SJ Sharks | Away | Paul Devorski, Marc Joannette
+Boyd Gordon | Edmonton Oilers | Fighting (maj) | 12/21/2014 | Dallas Stars | Home | Dan O'Halloran, Ian Walsh
+Nail Yakupov | Edmonton Oilers | Holding the stick | 12/21/2014 | Dallas Stars | Home | Dan O'Halloran, Ian Walsh
+Boyd Gordon | Edmonton Oilers | Holding | 12/21/2014 | Dallas Stars | Home | Dan O'Halloran, Ian Walsh
+Tyler Pitlick | Edmonton Oilers | Delaying Game-Puck over glass | 12/21/2014 | Dallas Stars | Home | Dan O'Halloran, Ian Walsh
+Andrew Ference | Edmonton Oilers | Tripping | 12/21/2014 | Dallas Stars | Home | Dan O'Halloran, Ian Walsh
+Steven Pinizzotto | Edmonton Oilers | Fighting (maj) | 12/23/2014 | Arizona Coyotes | Home | Tom Kowal, Brad Meier
+Luke Gazdic | Edmonton Oilers | Boarding | 12/23/2014 | Arizona Coyotes | Home | Tom Kowal, Brad Meier
+Nail Yakupov | Edmonton Oilers | Interference | 12/23/2014 | Arizona Coyotes | Home | Tom Kowal, Brad Meier
+David Perron | Edmonton Oilers | Slashing | 12/23/2014 | Arizona Coyotes | Home | Tom Kowal, Brad Meier
+David Perron | Edmonton Oilers | Slashing | 12/27/2014 | Calgary Flames | Away | Graham Skilliter, Brad Meier
+Jeff Petry | Edmonton Oilers | Slashing | 12/27/2014 | Calgary Flames | Away | Graham Skilliter, Brad Meier
+Andrew Ference | Edmonton Oilers | Roughing | 12/27/2014 | Calgary Flames | Away | Graham Skilliter, Brad Meier
+Matt Hendricks | Edmonton Oilers | Roughing | 12/27/2014 | Calgary Flames | Away | Graham Skilliter, Brad Meier
+Taylor Hall | Edmonton Oilers | Unsportsmanlike conduct | 12/27/2014 | Calgary Flames | Away | Graham Skilliter, Brad Meier
+Leon Draisaitl | Edmonton Oilers | Hooking | 12/30/2014 | LA Kings | Home | Eric Furlatt, Dean Morton
+Jeff Petry | Edmonton Oilers | Tripping | 12/30/2014 | LA Kings | Home | Eric Furlatt, Dean Morton
+Nail Yakupov | Edmonton Oilers | Roughing | 12/30/2014 | LA Kings | Home | Eric Furlatt, Dean Morton
+Justin Schultz | Edmonton Oilers | Hi-sticking | 12/30/2014 | LA Kings | Home | Eric Furlatt, Dean Morton
+Mark Fayne | Edmonton Oilers | Interference | 12/31/2014 | Calgary Flames | Away | Francis Charron, Eric Furlatt
+Keith Aulie | Edmonton Oilers | Hooking | 12/31/2014 | Calgary Flames | Away | Francis Charron, Eric Furlatt
+Keith Aulie | Edmonton Oilers | Match penalty | 12/31/2014 | Calgary Flames | Away | Francis Charron, Eric Furlatt
+Keith Aulie | Edmonton Oilers | Keith Aulie | 12/31/2014 | Calgary Flames | Away | Francis Charron, Eric Furlatt
+Tyler Pitlick | Edmonton Oilers | Elbowing | 12/31/2014 | Calgary Flames | Away | Francis Charron, Eric Furlatt
+Taylor Hall | Edmonton Oilers | Slashing | 12/31/2014 | Calgary Flames | Away | Francis Charron, Eric Furlatt
+Jeff Petry | Edmonton Oilers | Embellishment | 12/31/2014 | Calgary Flames | Away | Francis Charron, Eric Furlatt
+Luke Gazdic | Edmonton Oilers | Slashing | 01/02/2015 | Colorado Avalanche | Away | Steve Kozari, Dave Lewis
+Matt Hendricks | Edmonton Oilers | Fighting (maj) | 01/02/2015 | Colorado Avalanche | Away | Steve Kozari, Dave Lewis
+Anton Lander | Edmonton Oilers | Cross checking | 01/02/2015 | Colorado Avalanche | Away | Steve Kozari, Dave Lewis
+Taylor Hall | Edmonton Oilers | Slashing | 01/02/2015 | Colorado Avalanche | Away | Steve Kozari, Dave Lewis
+Matt Fraser | Edmonton Oilers | Roughing | 01/02/2015 | Colorado Avalanche | Away | Steve Kozari, Dave Lewis
+Taylor Hall | Edmonton Oilers | Tripping | 01/04/2015 | NY Islanders | Home | Dan O'Rourke, Gord Dwyer
+Andrew Ference | Edmonton Oilers | Hooking | 01/04/2015 | NY Islanders | Home | Dan O'Rourke, Gord Dwyer
+Andrew Ference | Edmonton Oilers | Hooking | 01/04/2015 | NY Islanders | Home | Dan O'Rourke, Gord Dwyer
+Nail Yakupov | Edmonton Oilers | Slashing | 01/04/2015 | NY Islanders | Home | Dan O'Rourke, Gord Dwyer
+Teddy Purcell | Edmonton Oilers | Hooking | 01/06/2015 | Detroit Red Wings | Home | Wes McCauley, Gord Dwyer
+Nikita Nikitin | Edmonton Oilers | Delaying Game-Puck over glass | 01/06/2015 | Detroit Red Wings | Home | Wes McCauley, Gord Dwyer
+Matt Hendricks | Edmonton Oilers | Closing hand on puck | 01/06/2015 | Detroit Red Wings | Home | Wes McCauley, Gord Dwyer
+Jordan Eberle | Edmonton Oilers | Tripping | 01/06/2015 | Detroit Red Wings | Home | Wes McCauley, Gord Dwyer
+Benoit Pouliot | Edmonton Oilers | Spearing - double minor | 01/06/2015 | Detroit Red Wings | Home | Wes McCauley, Gord Dwyer
+Matt Hendricks | Edmonton Oilers | Closing hand on puck | 01/09/2015 | Chicago Blackhawks | Home | Wes McCauley, Francois St. Laurent
+Rob Klinkhammer | Edmonton Oilers | Slashing | 01/09/2015 | Chicago Blackhawks | Home | Wes McCauley, Francois St. Laurent
+Mark Fayne | Edmonton Oilers | Interference | 01/11/2015 | Florida Panthers | Home | Francis Charron, Francois St. Laurent
+Andrew Ference | Edmonton Oilers | Tripping | 01/11/2015 | Florida Panthers | Home | Francis Charron, Francois St. Laurent
+Matt Hendricks | Edmonton Oilers | Fighting (maj) | 01/11/2015 | Florida Panthers | Home | Francis Charron, Francois St. Laurent
+Luke Gazdic | Edmonton Oilers | Roughing | 01/13/2015 | St Louis Blues | Away | Greg Kimmerly, Ian Walsh
+Benoit Pouliot | Edmonton Oilers | Roughing | 01/13/2015 | St Louis Blues | Away | Greg Kimmerly, Ian Walsh
+Rob Klinkhammer | Edmonton Oilers | Hooking | 01/13/2015 | St Louis Blues | Away | Greg Kimmerly, Ian Walsh
+Benoit Pouliot | Edmonton Oilers | Hi-sticking | 01/13/2015 | St Louis Blues | Away | Greg Kimmerly, Ian Walsh
+Matt Hendricks | Edmonton Oilers | Holding | 01/13/2015 | St Louis Blues | Away | Greg Kimmerly, Ian Walsh
+Benoit Pouliot | Edmonton Oilers | Cross checking | 01/13/2015 | St Louis Blues | Away | Greg Kimmerly, Ian Walsh
+Matt Hendricks | Edmonton Oilers | Tripping | 01/15/2015 | Tampa Bay Lightning | Away | Rob Martell, Kevin Pollock
+Taylor Hall | Edmonton Oilers | Hooking | 01/17/2015 | Florida Panthers | Away | Kelly Sutherland, Justin St. Pierre
+Taylor Hall | Edmonton Oilers | Slashing | 01/17/2015 | Florida Panthers | Away | Kelly Sutherland, Justin St. Pierre
+Anton Lander | Edmonton Oilers | Holding the stick | 01/17/2015 | Florida Panthers | Away | Kelly Sutherland, Justin St. Pierre
+Jeff Petry | Edmonton Oilers | Interference | 01/20/2015 | Washington Capitals | Away | Dan O'Rourke, Justin St. Pierre
+Mark Fayne | Edmonton Oilers | Delaying Game-Smothering puck | 01/20/2015 | Washington Capitals | Away | Dan O'Rourke, Justin St. Pierre
+Rob Klinkhammer | Edmonton Oilers | Tripping | 01/27/2015 | Minnesota Wild | Home | Brian Pochmara, Greg Kimmerly
+Jeff Petry | Edmonton Oilers | Holding the stick | 01/27/2015 | Minnesota Wild | Home | Brian Pochmara, Greg Kimmerly
+Nail Yakupov | Edmonton Oilers | Unsportsmanlike conduct | 01/27/2015 | Minnesota Wild | Home | Brian Pochmara, Greg Kimmerly
+Boyd Gordon | Edmonton Oilers | Tripping | 01/29/2015 | Buffalo Sabres | Home | Chris Lee, Kevin Pollock
+Luke Gazdic | Edmonton Oilers | Fighting (maj) | 01/29/2015 | Buffalo Sabres | Home | Chris Lee, Kevin Pollock
+Matt Hendricks | Edmonton Oilers | Tripping | 01/29/2015 | Buffalo Sabres | Home | Chris Lee, Kevin Pollock
+Keith Aulie | Edmonton Oilers | Fighting (maj) | 01/31/2015 | Calgary Flames | Away | Jean Hebert, Chris Lee
+Luke Gazdic | Edmonton Oilers | Fighting (maj) | 01/31/2015 | Calgary Flames | Away | Jean Hebert, Chris Lee
+Matt Hendricks | Edmonton Oilers | Roughing | 01/31/2015 | Calgary Flames | Away | Jean Hebert, Chris Lee
+Benoit Pouliot | Edmonton Oilers | Hooking | 01/31/2015 | Calgary Flames | Away | Jean Hebert, Chris Lee
+Derek Roy | Edmonton Oilers | Hooking | 01/31/2015 | Calgary Flames | Away | Jean Hebert, Chris Lee
+Matt Fraser | Edmonton Oilers | Slashing | 01/31/2015 | Calgary Flames | Away | Jean Hebert, Chris Lee
+Andrew Ference | Edmonton Oilers | Hooking | 02/02/2015 | SJ Sharks | Away | Wes McCauley, Frederick L'Ecuyer
+Jeff Petry | Edmonton Oilers | Roughing | 02/02/2015 | SJ Sharks | Away | Wes McCauley, Frederick L'Ecuyer
+Matt Hendricks | Edmonton Oilers | Roughing | 02/04/2015 | Pittsburgh Penguins | Home | Dan O'Halloran, Graham Skilliter
+Rob Klinkhammer | Edmonton Oilers | Fighting (maj) | 02/07/2015 | Toronto Maple Leafs | Away | Brian Pochmara, Kevin Pollock
+Rob Klinkhammer | Edmonton Oilers | Roughing | 02/07/2015 | Toronto Maple Leafs | Away | Brian Pochmara, Kevin Pollock
+Jeff Petry | Edmonton Oilers | Cross checking | 02/07/2015 | Toronto Maple Leafs | Away | Brian Pochmara, Kevin Pollock
+Matt Fraser | Edmonton Oilers | Holding | 02/07/2015 | Toronto Maple Leafs | Away | Brian Pochmara, Kevin Pollock
+Andrew Ference | Edmonton Oilers | Holding | 02/09/2015 | New Jersey Devils | Away | Paul Devorski, Kyle Rehman
+Iiro Pakarinen | Edmonton Oilers | Embellishment | 02/09/2015 | New Jersey Devils | Away | Paul Devorski, Kyle Rehman
+Matt Hendricks | Edmonton Oilers | Delaying Game-Puck over glass | 02/10/2015 | NY Islanders | Away | Dave Jackson, Marc Joannette
+Matt Hendricks | Edmonton Oilers | Roughing | 02/10/2015 | NY Islanders | Away | Dave Jackson, Marc Joannette
+Derek Roy | Edmonton Oilers | Hooking | 02/10/2015 | NY Islanders | Away | Dave Jackson, Marc Joannette
+Martin Marincin | Edmonton Oilers | Tripping | 02/12/2015 | Montreal Canadiens | Away | Chris Rooney, Eric Furlatt
+Jeff Petry | Edmonton Oilers | Tripping | 02/12/2015 | Montreal Canadiens | Away | Chris Rooney, Eric Furlatt
+Ryan Nugent-Hopkins | Edmonton Oilers | Closing hand on puck | 02/12/2015 | Montreal Canadiens | Away | Chris Rooney, Eric Furlatt
+Ryan Hamilton | Edmonton Oilers | Interference | 02/14/2015 | Ottawa Senators | Away | Marc Joannette, TJ Luxmore
+Luke Gazdic | Edmonton Oilers | Fighting (maj) | 02/14/2015 | Ottawa Senators | Away | Marc Joannette, TJ Luxmore
+Teddy Purcell | Edmonton Oilers | Unsportsmanlike conduct | 02/14/2015 | Ottawa Senators | Away | Marc Joannette, TJ Luxmore
+Teddy Purcell | Edmonton Oilers | Abuse of officials | 02/14/2015 | Ottawa Senators | Away | Marc Joannette, TJ Luxmore
+Keith Aulie | Edmonton Oilers | Tripping | 02/16/2015 | Winnipeg Jets | Away | Mike Leggo, Kelly Sutherland
+Keith Aulie | Edmonton Oilers | Interference | 02/16/2015 | Winnipeg Jets | Away | Mike Leggo, Kelly Sutherland
+Luke Gazdic | Edmonton Oilers | Fighting (maj) | 02/16/2015 | Winnipeg Jets | Away | Mike Leggo, Kelly Sutherland
+Jordan Eberle | Edmonton Oilers | Hi-sticking | 02/16/2015 | Winnipeg Jets | Away | Mike Leggo, Kelly Sutherland
+Matt Hendricks | Edmonton Oilers | Fighting (maj) | 02/18/2015 | Boston Bruins | Home | Dan O'Rourke, Ian Walsh
+Andrew Ference | Edmonton Oilers | Tripping | 02/18/2015 | Boston Bruins | Home | Dan O'Rourke, Ian Walsh
+Derek Roy | Edmonton Oilers | Hooking | 02/21/2015 | Anaheim Ducks | Home | Marc Joannette, Garrett Rank
+Jeff Petry | Edmonton Oilers | Tripping | 02/24/2015 | Minnesota Wild | Away | Jean Hebert, Brad Watson
+Jordan Eberle | Edmonton Oilers | Slashing | 02/24/2015 | Minnesota Wild | Away | Jean Hebert, Brad Watson
+Boyd Gordon | Edmonton Oilers | Delaying Game-Puck over glass | 02/24/2015 | Minnesota Wild | Away | Jean Hebert, Brad Watson
+Martin Marincin | Edmonton Oilers | Holding | 02/28/2015 | St Louis Blues | Home | Tom Kowal, Kyle Rehman
+Derek Roy | Edmonton Oilers | Hooking | 02/28/2015 | St Louis Blues | Home | Tom Kowal, Kyle Rehman
+Matt Hendricks | Edmonton Oilers | Slashing | 03/03/2015 | LA Kings | Home | Greg Kimmerly, Steve Kozari
+Benoit Pouliot | Edmonton Oilers | Hooking | 03/03/2015 | LA Kings | Home | Greg Kimmerly, Steve Kozari
+Ryan Hamilton | Edmonton Oilers | Tripping | 03/03/2015 | LA Kings | Home | Greg Kimmerly, Steve Kozari
+Justin Schultz | Edmonton Oilers | Hi-sticking | 03/06/2015 | Chicago Blackhawks | Away | Brad Watson, Kyle Rehman
+Martin Marincin | Edmonton Oilers | Holding | 03/06/2015 | Chicago Blackhawks | Away | Brad Watson, Kyle Rehman
+Derek Roy | Edmonton Oilers | Embellishment | 03/06/2015 | Chicago Blackhawks | Away | Brad Watson, Kyle Rehman
+Luke Gazdic | Edmonton Oilers | Tripping | 03/08/2015 | Carolina Hurricanes | Away | Francois St. Laurent, Trevor Hanson
+Justin Schultz | Edmonton Oilers | Interference | 03/08/2015 | Carolina Hurricanes | Away | Francois St. Laurent, Trevor Hanson
+Teddy Purcell | Edmonton Oilers | Hooking | 03/08/2015 | Carolina Hurricanes | Away | Francois St. Laurent, Trevor Hanson
+Martin Marincin | Edmonton Oilers | Holding | 03/08/2015 | Carolina Hurricanes | Away | Francois St. Laurent, Trevor Hanson
+Jordan Eberle | Edmonton Oilers | Hi-sticking | 03/08/2015 | Carolina Hurricanes | Away | Francois St. Laurent, Trevor Hanson
+Jordan Eberle | Edmonton Oilers | Roughing | 03/08/2015 | Carolina Hurricanes | Away | Francois St. Laurent, Trevor Hanson
+Ryan Hamilton | Edmonton Oilers | Roughing | 03/09/2015 | Detroit Red Wings | Away | Paul Devorski, Evgeny Romasko
+Matt Fraser | Edmonton Oilers | Tripping | 03/09/2015 | Detroit Red Wings | Away | Paul Devorski, Evgeny Romasko
+Rob Klinkhammer | Edmonton Oilers | Interference | 03/09/2015 | Detroit Red Wings | Away | Paul Devorski, Evgeny Romasko
+Rob Klinkhammer | Edmonton Oilers | Cross checking | 03/12/2015 | Pittsburgh Penguins | Away | Greg Kimmerly, Dean Morton
+Matt Hendricks | Edmonton Oilers | Fighting (maj) | 03/12/2015 | Pittsburgh Penguins | Away | Greg Kimmerly, Dean Morton
+Derek Roy | Edmonton Oilers | Tripping | 03/12/2015 | Pittsburgh Penguins | Away | Greg Kimmerly, Dean Morton
+Ryan Nugent-Hopkins | Edmonton Oilers | Cross checking | 03/12/2015 | Pittsburgh Penguins | Away | Greg Kimmerly, Dean Morton
+Anton Lander | Edmonton Oilers | Tripping | 03/12/2015 | Pittsburgh Penguins | Away | Greg Kimmerly, Dean Morton
+Luke Gazdic | Edmonton Oilers | Fighting (maj) | 03/13/2015 | Columbus Blue Jackets | Away | Dave Jackson, Rob Martell
+Nail Yakupov | Edmonton Oilers | Hi-sticking | 03/13/2015 | Columbus Blue Jackets | Away | Dave Jackson, Rob Martell
+Keith Aulie | Edmonton Oilers | Cross checking | 03/13/2015 | Columbus Blue Jackets | Away | Dave Jackson, Rob Martell
+Derek Roy | Edmonton Oilers | Hi stick - double minor | 03/13/2015 | Columbus Blue Jackets | Away | Dave Jackson, Rob Martell
+Matt Hendricks | Edmonton Oilers | Interference | 03/16/2015 | Toronto Maple Leafs | Home | Tim Peel, Kevin Pollock
+Anton Lander | Edmonton Oilers | Unsportsmanlike conduct | 03/16/2015 | Toronto Maple Leafs | Home | Tim Peel, Kevin Pollock
+Matt Fraser | Edmonton Oilers | Too many men/ice - bench | 03/16/2015 | Toronto Maple Leafs | Home | Tim Peel, Kevin Pollock
+Keith Aulie | Edmonton Oilers | Cross checking | 03/16/2015 | Toronto Maple Leafs | Home | Tim Peel, Kevin Pollock
+Nail Yakupov | Edmonton Oilers | Tripping | 03/16/2015 | Toronto Maple Leafs | Home | Tim Peel, Kevin Pollock
+Derek Roy | Edmonton Oilers | Slashing | 03/18/2015 | Columbus Blue Jackets | Home | Brad Watson, Kendrick Nicholson
+Benoit Pouliot | Edmonton Oilers | Hooking | 03/18/2015 | Columbus Blue Jackets | Home | Brad Watson, Kendrick Nicholson
+Taylor Hall | Edmonton Oilers | Interference | 03/21/2015 | Philadelphia Flyers | Home | Brad Meier, Kyle Rehman
+Andrew Miller | Edmonton Oilers | Too many men/ice - bench | 03/21/2015 | Philadelphia Flyers | Home | Brad Meier, Kyle Rehman
+Ben Scrivens | Edmonton Oilers | Slashing | 03/21/2015 | Philadelphia Flyers | Home | Brad Meier, Kyle Rehman
+Ryan Nugent-Hopkins | Edmonton Oilers | Tripping | 03/21/2015 | Philadelphia Flyers | Home | Brad Meier, Kyle Rehman
+Anton Lander | Edmonton Oilers | Roughing | 03/23/2015 | Winnipeg Jets | Home | Frederick L'Ecuyer, Brad Meier
+Mark Fayne | Edmonton Oilers | Slashing | 03/23/2015 | Winnipeg Jets | Home | Frederick L'Ecuyer, Brad Meier
+Martin Marincin | Edmonton Oilers | Hi-sticking | 03/23/2015 | Winnipeg Jets | Home | Frederick L'Ecuyer, Brad Meier
+Taylor Hall | Edmonton Oilers | Cross checking | 03/23/2015 | Winnipeg Jets | Home | Frederick L'Ecuyer, Brad Meier
+Taylor Hall | Edmonton Oilers | Too many men/ice - bench | 03/23/2015 | Winnipeg Jets | Home | Frederick L'Ecuyer, Brad Meier
+Martin Marincin | Edmonton Oilers | Delaying Game-Puck over glass | 03/25/2015 | Colorado Avalanche | Home | Chris Lee, Trevor Hanson
+Rob Klinkhammer | Edmonton Oilers | Tripping | 03/25/2015 | Colorado Avalanche | Home | Chris Lee, Trevor Hanson
+Matt Hendricks | Edmonton Oilers | Tripping | 03/25/2015 | Colorado Avalanche | Home | Chris Lee, Trevor Hanson
+Martin Marincin | Edmonton Oilers | Hooking | 03/25/2015 | Colorado Avalanche | Home | Chris Lee, Trevor Hanson
+Justin Schultz | Edmonton Oilers | Delaying Game-Puck over glass | 03/25/2015 | Colorado Avalanche | Home | Chris Lee, Trevor Hanson
+Taylor Hall | Edmonton Oilers | Tripping | 03/27/2015 | Dallas Stars | Home | Graham Skilliter, Ian Walsh
+Matt Fraser | Edmonton Oilers | Roughing | 03/27/2015 | Dallas Stars | Home | Graham Skilliter, Ian Walsh
+Ryan Nugent-Hopkins | Edmonton Oilers | Tripping | 03/27/2015 | Dallas Stars | Home | Graham Skilliter, Ian Walsh
+Benoit Pouliot | Edmonton Oilers | Hooking | 03/27/2015 | Dallas Stars | Home | Graham Skilliter, Ian Walsh
+Rob Klinkhammer | Edmonton Oilers | Hooking | 03/30/2015 | Colorado Avalanche | Away | Greg Kimmerly, Evgeny Romasko
+Taylor Hall | Edmonton Oilers | Unsportsmanlike conduct | 04/01/2015 | Anaheim Ducks | Away | Frederick L'Ecuyer, Kyle Rehman
+Ryan Nugent-Hopkins | Edmonton Oilers | Holding | 04/01/2015 | Anaheim Ducks | Away | Frederick L'Ecuyer, Kyle Rehman
+Anton Lander | Edmonton Oilers | Hooking | 04/02/2015 | LA Kings | Away | Frederick L'Ecuyer, Tom Kowal
+Andrew Miller | Edmonton Oilers | Too many men/ice - bench | 04/02/2015 | LA Kings | Away | Frederick L'Ecuyer, Tom Kowal
+Keith Aulie | Edmonton Oilers | Cross checking | 04/04/2015 | Calgary Flames | Home | Jean Hebert, Ian Walsh
+Keith Aulie | Edmonton Oilers | Fighting (maj) | 04/07/2015 | LA Kings | Home | Brian Pochmara, Tom Kowal
+Keith Aulie | Edmonton Oilers | Delaying Game-Puck over glass | 04/07/2015 | LA Kings | Home | Brian Pochmara, Tom Kowal
+Rob Klinkhammer | Edmonton Oilers | Roughing | 04/07/2015 | LA Kings | Home | Brian Pochmara, Tom Kowal
+Derek Roy | Edmonton Oilers | Hooking | 04/07/2015 | LA Kings | Home | Brian Pochmara, Tom Kowal
+Curtis Hamilton | Edmonton Oilers | Boarding (maj) | 04/09/2015 | SJ Sharks | Home | Brian Pochmara, Kyle Rehman
+Derek Roy | Edmonton Oilers | Hooking | 04/11/2015 | Vancouver Canucks | Away | Graham Skilliter, Brad Meier
+Anton Lander | Edmonton Oilers | Tripping | 04/11/2015 | Vancouver Canucks | Away | Graham Skilliter, Brad Meier
+David Musil | Edmonton Oilers | Interference | 04/11/2015 | Vancouver Canucks | Away | Graham Skilliter, Brad Meier

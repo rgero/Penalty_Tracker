@@ -1,0 +1,340 @@
+Mark Borowiecki | Ottawa Senators | Interference | 10/09/2014 | Nashville Predators | Away | Kelly Sutherland, Dave Lewis
+David Legwand | Ottawa Senators | Tripping | 10/09/2014 | Nashville Predators | Away | Kelly Sutherland, Dave Lewis
+Jared Cowen | Ottawa Senators | Interference | 10/09/2014 | Nashville Predators | Away | Kelly Sutherland, Dave Lewis
+David Legwand | Ottawa Senators | Holding the stick | 10/09/2014 | Nashville Predators | Away | Kelly Sutherland, Dave Lewis
+Eric Gryba | Ottawa Senators | Tripping | 10/11/2014 | Tampa Bay Lightning | Away | Chris Rooney, Kyle Rehman
+David Legwand | Ottawa Senators | Tripping | 10/11/2014 | Tampa Bay Lightning | Away | Chris Rooney, Kyle Rehman
+Eric Gryba | Ottawa Senators | Roughing | 10/11/2014 | Tampa Bay Lightning | Away | Chris Rooney, Kyle Rehman
+Alex Chiasson | Ottawa Senators | Slashing | 10/11/2014 | Tampa Bay Lightning | Away | Chris Rooney, Kyle Rehman
+Alex Chiasson | Ottawa Senators | Holding | 10/13/2014 | Florida Panthers | Away | Chris Rooney, Ian Walsh
+Eric Gryba | Ottawa Senators | Cross checking | 10/13/2014 | Florida Panthers | Away | Chris Rooney, Ian Walsh
+Patrick Wiercioch | Ottawa Senators | Hi-sticking | 10/13/2014 | Florida Panthers | Away | Chris Rooney, Ian Walsh
+Bobby Ryan | Ottawa Senators | Embellishment | 10/13/2014 | Florida Panthers | Away | Chris Rooney, Ian Walsh
+Eric Gryba | Ottawa Senators | Holding | 10/16/2014 | Colorado Avalanche | Home | Dan O'Rourke, Jon McIsaac
+Mark Borowiecki | Ottawa Senators | Roughing | 10/16/2014 | Colorado Avalanche | Home | Dan O'Rourke, Jon McIsaac
+Mark Borowiecki | Ottawa Senators | Roughing | 10/16/2014 | Colorado Avalanche | Home | Dan O'Rourke, Jon McIsaac
+Eric Gryba | Ottawa Senators | Holding the stick | 10/16/2014 | Colorado Avalanche | Home | Dan O'Rourke, Jon McIsaac
+Chris Neil | Ottawa Senators | Fighting (maj) | 10/16/2014 | Colorado Avalanche | Home | Dan O'Rourke, Jon McIsaac
+Mika Zibanejad | Ottawa Senators | Holding | 10/16/2014 | Colorado Avalanche | Home | Dan O'Rourke, Jon McIsaac
+Mark Stone | Ottawa Senators | Tripping | 10/16/2014 | Colorado Avalanche | Home | Dan O'Rourke, Jon McIsaac
+Bobby Ryan | Ottawa Senators | Hi-sticking | 10/18/2014 | Columbus Blue Jackets | Home | Graham Skilliter, Marc Joannette
+Kyle Turris | Ottawa Senators | Roughing | 10/18/2014 | Columbus Blue Jackets | Home | Graham Skilliter, Marc Joannette
+Kyle Turris | Ottawa Senators | Hooking | 10/18/2014 | Columbus Blue Jackets | Home | Graham Skilliter, Marc Joannette
+Zack Smith | Ottawa Senators | Hooking | 10/18/2014 | Columbus Blue Jackets | Home | Graham Skilliter, Marc Joannette
+Mark Borowiecki | Ottawa Senators | Roughing | 10/18/2014 | Columbus Blue Jackets | Home | Graham Skilliter, Marc Joannette
+Curtis Lazar | Ottawa Senators | Tripping | 10/25/2014 | New Jersey Devils | Home | Wes McCauley, Gord Dwyer
+Mark Borowiecki | Ottawa Senators | Holding | 10/25/2014 | New Jersey Devils | Home | Wes McCauley, Gord Dwyer
+Chris Phillips | Ottawa Senators | Unsportsmanlike conduct | 10/25/2014 | New Jersey Devils | Home | Wes McCauley, Gord Dwyer
+Chris Phillips | Ottawa Senators | Roughing | 10/25/2014 | New Jersey Devils | Home | Wes McCauley, Gord Dwyer
+Patrick Wiercioch | Ottawa Senators | Tripping | 10/25/2014 | New Jersey Devils | Home | Wes McCauley, Gord Dwyer
+Clarke MacArthur | Ottawa Senators | Hi-sticking | 10/25/2014 | New Jersey Devils | Home | Wes McCauley, Gord Dwyer
+Patrick Wiercioch | Ottawa Senators | Holding | 10/26/2014 | Chicago Blackhawks | Away | Eric Furlatt, Steve Kozari
+Alex Chiasson | Ottawa Senators | Hooking | 10/26/2014 | Chicago Blackhawks | Away | Eric Furlatt, Steve Kozari
+Zack Smith | Ottawa Senators | Roughing | 10/26/2014 | Chicago Blackhawks | Away | Eric Furlatt, Steve Kozari
+Mike Hoffman | Ottawa Senators | Roughing | 10/26/2014 | Chicago Blackhawks | Away | Eric Furlatt, Steve Kozari
+Chris Phillips | Ottawa Senators | Hooking | 10/26/2014 | Chicago Blackhawks | Away | Eric Furlatt, Steve Kozari
+Mark Borowiecki | Ottawa Senators | Holding | 10/26/2014 | Chicago Blackhawks | Away | Eric Furlatt, Steve Kozari
+Chris Phillips | Ottawa Senators | Interference | 10/26/2014 | Chicago Blackhawks | Away | Eric Furlatt, Steve Kozari
+Mike Hoffman | Ottawa Senators | Too many men/ice - bench | 10/26/2014 | Chicago Blackhawks | Away | Eric Furlatt, Steve Kozari
+Clarke MacArthur | Ottawa Senators | Tripping | 10/26/2014 | Chicago Blackhawks | Away | Eric Furlatt, Steve Kozari
+Mark Borowiecki | Ottawa Senators | Fighting (maj) | 10/28/2014 | Columbus Blue Jackets | Away | Paul Devorski, Justin St. Pierre
+Mark Borowiecki | Ottawa Senators | Roughing | 10/28/2014 | Columbus Blue Jackets | Away | Paul Devorski, Justin St. Pierre
+Clarke MacArthur | Ottawa Senators | Cross checking | 10/28/2014 | Columbus Blue Jackets | Away | Paul Devorski, Justin St. Pierre
+Chris Neil | Ottawa Senators | Unsportsmanlike conduct | 10/28/2014 | Columbus Blue Jackets | Away | Paul Devorski, Justin St. Pierre
+Chris Neil | Ottawa Senators | Fighting (maj) | 10/28/2014 | Columbus Blue Jackets | Away | Paul Devorski, Justin St. Pierre
+Jared Cowen | Ottawa Senators | Hi-sticking | 10/28/2014 | Columbus Blue Jackets | Away | Paul Devorski, Justin St. Pierre
+Eric Gryba | Ottawa Senators | Match penalty | 10/28/2014 | Columbus Blue Jackets | Away | Paul Devorski, Justin St. Pierre
+Eric Gryba | Ottawa Senators | Game misconduct | 10/28/2014 | Columbus Blue Jackets | Away | Paul Devorski, Justin St. Pierre
+Zack Smith | Ottawa Senators | Hooking | 10/30/2014 | Chicago Blackhawks | Home | Dan O'Rourke, Graham Skilliter
+Eric Gryba | Ottawa Senators | Tripping | 10/30/2014 | Chicago Blackhawks | Home | Dan O'Rourke, Graham Skilliter
+Jared Cowen | Ottawa Senators | Roughing | 10/30/2014 | Chicago Blackhawks | Home | Dan O'Rourke, Graham Skilliter
+Clarke MacArthur | Ottawa Senators | Too many men/ice - bench | 10/30/2014 | Chicago Blackhawks | Home | Dan O'Rourke, Graham Skilliter
+Craig Anderson | Ottawa Senators | Interference | 10/30/2014 | Chicago Blackhawks | Home | Dan O'Rourke, Graham Skilliter
+Patrick Wiercioch | Ottawa Senators | Hooking | 10/30/2014 | Chicago Blackhawks | Home | Dan O'Rourke, Graham Skilliter
+Patrick Wiercioch | Ottawa Senators | Holding | 11/01/2014 | Boston Bruins | Away | Justin St. Pierre, Steve Kozari
+Alex Chiasson | Ottawa Senators | Slashing | 11/01/2014 | Boston Bruins | Away | Justin St. Pierre, Steve Kozari
+Clarke MacArthur | Ottawa Senators | Holding | 11/01/2014 | Boston Bruins | Away | Justin St. Pierre, Steve Kozari
+Erik Karlsson | Ottawa Senators | Interference | 11/04/2014 | Detroit Red Wings | Home | Jean Hebert, Brad Watson
+Chris Neil | Ottawa Senators | Tripping | 11/04/2014 | Detroit Red Wings | Home | Jean Hebert, Brad Watson
+Jared Cowen | Ottawa Senators | Holding | 11/04/2014 | Detroit Red Wings | Home | Jean Hebert, Brad Watson
+Curtis Lazar | Ottawa Senators | Embellishment | 11/06/2014 | Minnesota Wild | Home | Dave Jackson, Dan O'Halloran
+Mark Borowiecki | Ottawa Senators | Fighting (maj) | 11/06/2014 | Minnesota Wild | Home | Dave Jackson, Dan O'Halloran
+Erik Karlsson | Ottawa Senators | Hi-sticking | 11/06/2014 | Minnesota Wild | Home | Dave Jackson, Dan O'Halloran
+Patrick Wiercioch | Ottawa Senators | Interference | 11/06/2014 | Minnesota Wild | Home | Dave Jackson, Dan O'Halloran
+David Legwand | Ottawa Senators | Tripping | 11/06/2014 | Minnesota Wild | Home | Dave Jackson, Dan O'Halloran
+Chris Neil | Ottawa Senators | Delaying Game-Puck over glass | 11/06/2014 | Minnesota Wild | Home | Dave Jackson, Dan O'Halloran
+Mark Borowiecki | Ottawa Senators | Fighting (maj) | 11/08/2014 | Winnipeg Jets | Home | Chris Lee, Brad Meier
+Kyle Turris | Ottawa Senators | Hi-sticking | 11/08/2014 | Winnipeg Jets | Home | Chris Lee, Brad Meier
+Chris Neil | Ottawa Senators | Roughing | 11/08/2014 | Winnipeg Jets | Home | Chris Lee, Brad Meier
+Erik Karlsson | Ottawa Senators | Cross checking | 11/08/2014 | Winnipeg Jets | Home | Chris Lee, Brad Meier
+Bobby Ryan | Ottawa Senators | Interference | 11/09/2014 | Toronto Maple Leafs | Home | Jean Hebert, Francois St. Laurent
+Mike Hoffman | Ottawa Senators | Too many men/ice - bench | 11/09/2014 | Toronto Maple Leafs | Home | Jean Hebert, Francois St. Laurent
+Mark Borowiecki | Ottawa Senators | Hi-sticking | 11/09/2014 | Toronto Maple Leafs | Home | Jean Hebert, Francois St. Laurent
+Chris Neil | Ottawa Senators | Hooking | 11/11/2014 | Vancouver Canucks | Away | Wes McCauley, Dean Morton
+Jared Cowen | Ottawa Senators | Boarding | 11/11/2014 | Vancouver Canucks | Away | Wes McCauley, Dean Morton
+Chris Neil | Ottawa Senators | Fighting (maj) | 11/13/2014 | Edmonton Oilers | Away | Marc Joannette, Mark Lemelin
+Eric Gryba | Ottawa Senators | Instigator | 11/13/2014 | Edmonton Oilers | Away | Marc Joannette, Mark Lemelin
+Eric Gryba | Ottawa Senators | Misconduct (10 min) | 11/13/2014 | Edmonton Oilers | Away | Marc Joannette, Mark Lemelin
+Eric Gryba | Ottawa Senators | Fighting (maj) | 11/13/2014 | Edmonton Oilers | Away | Marc Joannette, Mark Lemelin
+Mark Borowiecki | Ottawa Senators | Hi-sticking | 11/13/2014 | Edmonton Oilers | Away | Marc Joannette, Mark Lemelin
+Chris Neil | Ottawa Senators | Roughing | 11/13/2014 | Edmonton Oilers | Away | Marc Joannette, Mark Lemelin
+Zack Smith | Ottawa Senators | Interference | 11/13/2014 | Edmonton Oilers | Away | Marc Joannette, Mark Lemelin
+Mark Borowiecki | Ottawa Senators | Holding | 11/13/2014 | Edmonton Oilers | Away | Marc Joannette, Mark Lemelin
+Mark Borowiecki | Ottawa Senators | Fighting (maj) | 11/15/2014 | Calgary Flames | Away | Marc Joannette, Dean Morton
+Alex Chiasson | Ottawa Senators | Hooking | 11/15/2014 | Calgary Flames | Away | Marc Joannette, Dean Morton
+Clarke MacArthur | Ottawa Senators | Illegal Check To Head | 11/15/2014 | Calgary Flames | Away | Marc Joannette, Dean Morton
+Colin Greening | Ottawa Senators | Cross checking | 11/20/2014 | Nashville Predators | Home | Mike Leggo, Tim Peel
+Kyle Turris | Ottawa Senators | Hooking | 11/20/2014 | Nashville Predators | Home | Mike Leggo, Tim Peel
+Clarke MacArthur | Ottawa Senators | Embellishment | 11/20/2014 | Nashville Predators | Home | Mike Leggo, Tim Peel
+Mark Borowiecki | Ottawa Senators | Interference | 11/22/2014 | St Louis Blues | Home | Paul Devorski, Greg Kimmerly
+Patrick Wiercioch | Ottawa Senators | Roughing | 11/22/2014 | St Louis Blues | Home | Paul Devorski, Greg Kimmerly
+Mark Stone | Ottawa Senators | Hi-sticking | 11/22/2014 | St Louis Blues | Home | Paul Devorski, Greg Kimmerly
+Mark Stone | Ottawa Senators | Slashing | 11/22/2014 | St Louis Blues | Home | Paul Devorski, Greg Kimmerly
+Eric Gryba | Ottawa Senators | Tripping | 11/22/2014 | St Louis Blues | Home | Paul Devorski, Greg Kimmerly
+Chris Neil | Ottawa Senators | Hooking | 11/24/2014 | Detroit Red Wings | Away | Kevin Pollock, Francois St. Laurent
+Alex Chiasson | Ottawa Senators | Holding | 11/24/2014 | Detroit Red Wings | Away | Kevin Pollock, Francois St. Laurent
+Mark Borowiecki | Ottawa Senators | Tripping | 11/24/2014 | Detroit Red Wings | Away | Kevin Pollock, Francois St. Laurent
+Craig Anderson | Ottawa Senators | Tripping | 11/24/2014 | Detroit Red Wings | Away | Kevin Pollock, Francois St. Laurent
+Kyle Turris | Ottawa Senators | Embellishment | 11/24/2014 | Detroit Red Wings | Away | Kevin Pollock, Francois St. Laurent
+Clarke MacArthur | Ottawa Senators | Hooking | 11/24/2014 | Detroit Red Wings | Away | Kevin Pollock, Francois St. Laurent
+Patrick Wiercioch | Ottawa Senators | Interference | 11/25/2014 | St Louis Blues | Away | Dan O'Rourke, Frederick L'Ecuyer
+Zack Smith | Ottawa Senators | Roughing | 11/25/2014 | St Louis Blues | Away | Dan O'Rourke, Frederick L'Ecuyer
+David Legwand | Ottawa Senators | Holding | 11/25/2014 | St Louis Blues | Away | Dan O'Rourke, Frederick L'Ecuyer
+Kyle Turris | Ottawa Senators | Roughing | 11/25/2014 | St Louis Blues | Away | Dan O'Rourke, Frederick L'Ecuyer
+Curtis Lazar | Ottawa Senators | Tripping | 11/25/2014 | St Louis Blues | Away | Dan O'Rourke, Frederick L'Ecuyer
+Erik Condra | Ottawa Senators | Fighting (maj) | 11/25/2014 | St Louis Blues | Away | Dan O'Rourke, Frederick L'Ecuyer
+Eric Gryba | Ottawa Senators | Fighting (maj) | 11/25/2014 | St Louis Blues | Away | Dan O'Rourke, Frederick L'Ecuyer
+Colin Greening | Ottawa Senators | Roughing | 11/25/2014 | St Louis Blues | Away | Dan O'Rourke, Frederick L'Ecuyer
+Kyle Turris | Ottawa Senators | Holding | 11/25/2014 | St Louis Blues | Away | Dan O'Rourke, Frederick L'Ecuyer
+Mike Hoffman | Ottawa Senators | Cross checking | 11/25/2014 | St Louis Blues | Away | Dan O'Rourke, Frederick L'Ecuyer
+Chris Phillips | Ottawa Senators | Delay of game | 11/28/2014 | Florida Panthers | Away | Jean Hebert, Rob Martell
+Chris Neil | Ottawa Senators | Fighting (maj) | 11/28/2014 | Florida Panthers | Away | Jean Hebert, Rob Martell
+Zack Smith | Ottawa Senators | Roughing | 11/28/2014 | Florida Panthers | Away | Jean Hebert, Rob Martell
+Patrick Wiercioch | Ottawa Senators | Hooking | 11/28/2014 | Florida Panthers | Away | Jean Hebert, Rob Martell
+Milan Michalek | Ottawa Senators | Hooking | 11/29/2014 | Tampa Bay Lightning | Away | Rob Martell, Eric Furlatt
+Clarke MacArthur | Ottawa Senators | Hooking | 11/29/2014 | Tampa Bay Lightning | Away | Rob Martell, Eric Furlatt
+Clarke MacArthur | Ottawa Senators | Hi stick - double minor | 11/29/2014 | Tampa Bay Lightning | Away | Rob Martell, Eric Furlatt
+Kyle Turris | Ottawa Senators | Slashing | 12/02/2014 | NY Islanders | Away | Tim Peel, Darcy Burchell
+Alex Chiasson | Ottawa Senators | Interference | 12/02/2014 | NY Islanders | Away | Tim Peel, Darcy Burchell
+Curtis Lazar | Ottawa Senators | Boarding | 12/04/2014 | NY Islanders | Home | Ghislain Hebert, Brad Watson
+Kyle Turris | Ottawa Senators | Hooking | 12/04/2014 | NY Islanders | Home | Ghislain Hebert, Brad Watson
+Alex Chiasson | Ottawa Senators | Hooking | 12/04/2014 | NY Islanders | Home | Ghislain Hebert, Brad Watson
+Alex Chiasson | Ottawa Senators | Instigator | 12/06/2014 | Pittsburgh Penguins | Away | Wes McCauley, Francis Charron
+Alex Chiasson | Ottawa Senators | Misconduct (10 min) | 12/06/2014 | Pittsburgh Penguins | Away | Wes McCauley, Francis Charron
+Alex Chiasson | Ottawa Senators | Fighting (maj) | 12/06/2014 | Pittsburgh Penguins | Away | Wes McCauley, Francis Charron
+Curtis Lazar | Ottawa Senators | Too many men/ice - bench | 12/06/2014 | Pittsburgh Penguins | Away | Wes McCauley, Francis Charron
+Mark Borowiecki | Ottawa Senators | Roughing | 12/06/2014 | Pittsburgh Penguins | Away | Wes McCauley, Francis Charron
+Clarke MacArthur | Ottawa Senators | Cross checking | 12/06/2014 | Pittsburgh Penguins | Away | Wes McCauley, Francis Charron
+Milan Michalek | Ottawa Senators | Holding | 12/06/2014 | Pittsburgh Penguins | Away | Wes McCauley, Francis Charron
+Marc Methot | Ottawa Senators | Holding | 12/06/2014 | Pittsburgh Penguins | Away | Wes McCauley, Francis Charron
+Erik Condra | Ottawa Senators | Hooking | 12/06/2014 | Pittsburgh Penguins | Away | Wes McCauley, Francis Charron
+Alex Chiasson | Ottawa Senators | Tripping | 12/07/2014 | Vancouver Canucks | Home | Frederick L'Ecuyer, Ian Walsh
+Chris Neil | Ottawa Senators | Misconduct (10 min) | 12/07/2014 | Vancouver Canucks | Home | Frederick L'Ecuyer, Ian Walsh
+Chris Neil | Ottawa Senators | Fighting (maj) | 12/07/2014 | Vancouver Canucks | Home | Frederick L'Ecuyer, Ian Walsh
+Mark Borowiecki | Ottawa Senators | Interference | 12/07/2014 | Vancouver Canucks | Home | Frederick L'Ecuyer, Ian Walsh
+Jared Cowen | Ottawa Senators | Interference | 12/07/2014 | Vancouver Canucks | Home | Frederick L'Ecuyer, Ian Walsh
+Erik Karlsson | Ottawa Senators | Slashing | 12/11/2014 | LA Kings | Home | Kevin Pollock, Steve Kozari
+Jared Cowen | Ottawa Senators | Fighting (maj) | 12/11/2014 | LA Kings | Home | Kevin Pollock, Steve Kozari
+Jared Cowen | Ottawa Senators | Illegal Check To Head | 12/11/2014 | LA Kings | Home | Kevin Pollock, Steve Kozari
+Erik Condra | Ottawa Senators | Tripping | 12/11/2014 | LA Kings | Home | Kevin Pollock, Steve Kozari
+Jared Cowen | Ottawa Senators | Slashing | 12/11/2014 | LA Kings | Home | Kevin Pollock, Steve Kozari
+Mark Borowiecki | Ottawa Senators | Fighting (maj) | 12/13/2014 | Boston Bruins | Away | Rob Martell, Tom Kowal
+David Legwand | Ottawa Senators | Interference | 12/13/2014 | Boston Bruins | Away | Rob Martell, Tom Kowal
+Mark Borowiecki | Ottawa Senators | Fighting (maj) | 12/15/2014 | Buffalo Sabres | Away | Wes McCauley, Dean Morton
+Kyle Turris | Ottawa Senators | Hooking | 12/15/2014 | Buffalo Sabres | Away | Wes McCauley, Dean Morton
+Eric Gryba | Ottawa Senators | Hooking | 12/15/2014 | Buffalo Sabres | Away | Wes McCauley, Dean Morton
+Jared Cowen | Ottawa Senators | Holding | 12/15/2014 | Buffalo Sabres | Away | Wes McCauley, Dean Morton
+Mika Zibanejad | Ottawa Senators | Hi-sticking | 12/15/2014 | Buffalo Sabres | Away | Wes McCauley, Dean Morton
+Alex Chiasson | Ottawa Senators | Roughing | 12/15/2014 | Buffalo Sabres | Away | Wes McCauley, Dean Morton
+Bobby Ryan | Ottawa Senators | Slashing | 12/17/2014 | New Jersey Devils | Away | Justin St. Pierre, Brad Watson
+Bobby Ryan | Ottawa Senators | Tripping | 12/17/2014 | New Jersey Devils | Away | Justin St. Pierre, Brad Watson
+Eric Gryba | Ottawa Senators | Hooking | 12/17/2014 | New Jersey Devils | Away | Justin St. Pierre, Brad Watson
+Alex Chiasson | Ottawa Senators | Unsportsmanlike conduct | 12/17/2014 | New Jersey Devils | Away | Justin St. Pierre, Brad Watson
+Kyle Turris | Ottawa Senators | Holding the stick | 12/17/2014 | New Jersey Devils | Away | Justin St. Pierre, Brad Watson
+Colin Greening | Ottawa Senators | Hooking | 12/19/2014 | Anaheim Ducks | Home | Dean Morton, Francois St. Laurent
+Mika Zibanejad | Ottawa Senators | Interference | 12/19/2014 | Anaheim Ducks | Home | Dean Morton, Francois St. Laurent
+Alex Chiasson | Ottawa Senators | Hooking | 12/19/2014 | Anaheim Ducks | Home | Dean Morton, Francois St. Laurent
+Erik Karlsson | Ottawa Senators | Hooking | 12/20/2014 | Montreal Canadiens | Away | Kelly Sutherland, Francois St. Laurent
+Eric Gryba | Ottawa Senators | Hooking | 12/20/2014 | Montreal Canadiens | Away | Kelly Sutherland, Francois St. Laurent
+Mike Hoffman | Ottawa Senators | Too many men/ice - bench | 12/20/2014 | Montreal Canadiens | Away | Kelly Sutherland, Francois St. Laurent
+David Legwand | Ottawa Senators | Holding | 12/20/2014 | Montreal Canadiens | Away | Kelly Sutherland, Francois St. Laurent
+Erik Condra | Ottawa Senators | Cross checking | 12/22/2014 | Washington Capitals | Away | Justin St. Pierre, Kevin Pollock
+Mark Borowiecki | Ottawa Senators | Roughing | 12/22/2014 | Washington Capitals | Away | Justin St. Pierre, Kevin Pollock
+Milan Michalek | Ottawa Senators | Delaying Game-Puck over glass | 12/22/2014 | Washington Capitals | Away | Justin St. Pierre, Kevin Pollock
+Colin Greening | Ottawa Senators | Misconduct (10 min) | 12/22/2014 | Washington Capitals | Away | Justin St. Pierre, Kevin Pollock
+Eric Gryba | Ottawa Senators | Holding | 12/22/2014 | Washington Capitals | Away | Justin St. Pierre, Kevin Pollock
+Colin Greening | Ottawa Senators | Interference | 12/27/2014 | Detroit Red Wings | Home | Ghislain Hebert, Eric Furlatt
+Alex Chiasson | Ottawa Senators | Hi-sticking | 12/27/2014 | Detroit Red Wings | Home | Ghislain Hebert, Eric Furlatt
+Mark Borowiecki | Ottawa Senators | Interference | 12/27/2014 | Detroit Red Wings | Home | Ghislain Hebert, Eric Furlatt
+Milan Michalek | Ottawa Senators | Slashing | 12/27/2014 | Detroit Red Wings | Home | Ghislain Hebert, Eric Furlatt
+Colin Greening | Ottawa Senators | Hooking | 12/29/2014 | Buffalo Sabres | Home | Paul Devorski, Graham Skilliter
+Jared Cowen | Ottawa Senators | Fighting (maj) | 12/29/2014 | Buffalo Sabres | Home | Paul Devorski, Graham Skilliter
+Chris Phillips | Ottawa Senators | Hooking | 12/29/2014 | Buffalo Sabres | Home | Paul Devorski, Graham Skilliter
+David Legwand | Ottawa Senators | Hooking | 12/29/2014 | Buffalo Sabres | Home | Paul Devorski, Graham Skilliter
+David Legwand | Ottawa Senators | Hooking | 12/29/2014 | Buffalo Sabres | Home | Paul Devorski, Graham Skilliter
+Colin Greening | Ottawa Senators | Roughing | 12/29/2014 | Buffalo Sabres | Home | Paul Devorski, Graham Skilliter
+Erik Karlsson | Ottawa Senators | Holding | 01/03/2015 | Boston Bruins | Away | Wes McCauley, Dean Morton
+Bobby Ryan | Ottawa Senators | Too many men/ice - bench | 01/03/2015 | Boston Bruins | Away | Wes McCauley, Dean Morton
+Milan Michalek | Ottawa Senators | Tripping | 01/03/2015 | Boston Bruins | Away | Wes McCauley, Dean Morton
+Eric Gryba | Ottawa Senators | Holding the stick | 01/04/2015 | Tampa Bay Lightning | Home | Chris Rooney, Eric Furlatt
+Erik Karlsson | Ottawa Senators | Delaying Game-Puck over glass | 01/04/2015 | Tampa Bay Lightning | Home | Chris Rooney, Eric Furlatt
+Clarke MacArthur | Ottawa Senators | Hooking | 01/04/2015 | Tampa Bay Lightning | Home | Chris Rooney, Eric Furlatt
+Cody Ceci | Ottawa Senators | Hooking | 01/04/2015 | Tampa Bay Lightning | Home | Chris Rooney, Eric Furlatt
+Alex Chiasson | Ottawa Senators | Hooking | 01/04/2015 | Tampa Bay Lightning | Home | Chris Rooney, Eric Furlatt
+Chris Phillips | Ottawa Senators | Illegal Check To Head | 01/04/2015 | Tampa Bay Lightning | Home | Chris Rooney, Eric Furlatt
+Mike Hoffman | Ottawa Senators | Cross checking | 01/04/2015 | Tampa Bay Lightning | Home | Chris Rooney, Eric Furlatt
+Erik Karlsson | Ottawa Senators | Hooking | 01/04/2015 | Tampa Bay Lightning | Home | Chris Rooney, Eric Furlatt
+Erik Karlsson | Ottawa Senators | Unsportsmanlike conduct | 01/04/2015 | Tampa Bay Lightning | Home | Chris Rooney, Eric Furlatt
+Milan Michalek | Ottawa Senators | Holding | 01/06/2015 | Philadelphia Flyers | Away | Francis Charron, Greg Kimmerly
+David Legwand | Ottawa Senators | Tripping | 01/06/2015 | Philadelphia Flyers | Away | Francis Charron, Greg Kimmerly
+Colin Greening | Ottawa Senators | Fighting (maj) | 01/06/2015 | Philadelphia Flyers | Away | Francis Charron, Greg Kimmerly
+Jared Cowen | Ottawa Senators | Holding | 01/06/2015 | Philadelphia Flyers | Away | Francis Charron, Greg Kimmerly
+Clarke MacArthur | Ottawa Senators | Hooking | 01/06/2015 | Philadelphia Flyers | Away | Francis Charron, Greg Kimmerly
+Jared Cowen | Ottawa Senators | Hooking | 01/08/2015 | Colorado Avalanche | Away | Dan O'Halloran, Kyle Rehman
+Erik Karlsson | Ottawa Senators | Slashing | 01/08/2015 | Colorado Avalanche | Away | Dan O'Halloran, Kyle Rehman
+Marc Methot | Ottawa Senators | Interference | 01/10/2015 | Arizona Coyotes | Away | Dave Jackson, Ian Walsh
+Jared Cowen | Ottawa Senators | Holding | 01/10/2015 | Arizona Coyotes | Away | Dave Jackson, Ian Walsh
+Milan Michalek | Ottawa Senators | Tripping | 01/10/2015 | Arizona Coyotes | Away | Dave Jackson, Ian Walsh
+Mika Zibanejad | Ottawa Senators | Too many men/ice - bench | 01/10/2015 | Arizona Coyotes | Away | Dave Jackson, Ian Walsh
+Curtis Lazar | Ottawa Senators | Interference on goalkeeper | 01/10/2015 | Arizona Coyotes | Away | Dave Jackson, Ian Walsh
+David Legwand | Ottawa Senators | Holding the stick | 01/13/2015 | Dallas Stars | Away | Brad Meier, Trevor Hanson
+Erik Karlsson | Ottawa Senators | Interference | 01/13/2015 | Dallas Stars | Away | Brad Meier, Trevor Hanson
+Bobby Ryan | Ottawa Senators | Tripping | 01/13/2015 | Dallas Stars | Away | Brad Meier, Trevor Hanson
+Eric Gryba | Ottawa Senators | Hooking | 01/15/2015 | Montreal Canadiens | Home | Francis Charron, Dan O'Rourke
+Cody Ceci | Ottawa Senators | Hooking | 01/15/2015 | Montreal Canadiens | Home | Francis Charron, Dan O'Rourke
+Clarke MacArthur | Ottawa Senators | Hi-sticking | 01/15/2015 | Montreal Canadiens | Home | Francis Charron, Dan O'Rourke
+Mark Stone | Ottawa Senators | Tripping | 01/15/2015 | Montreal Canadiens | Home | Francis Charron, Dan O'Rourke
+Erik Karlsson | Ottawa Senators | Tripping | 01/17/2015 | Carolina Hurricanes | Home | Paul Devorski, Kendrick Nicholson
+Bobby Ryan | Ottawa Senators | Too many men/ice - bench | 01/17/2015 | Carolina Hurricanes | Home | Paul Devorski, Kendrick Nicholson
+Mark Stone | Ottawa Senators | Hi-sticking | 01/17/2015 | Carolina Hurricanes | Home | Paul Devorski, Kendrick Nicholson
+David Legwand | Ottawa Senators | Hi-sticking | 01/17/2015 | Carolina Hurricanes | Home | Paul Devorski, Kendrick Nicholson
+Mike Hoffman | Ottawa Senators | Hi-sticking | 01/20/2015 | NY Rangers | Away | Greg Kimmerly, Brad Meier
+David Legwand | Ottawa Senators | Holding | 01/20/2015 | NY Rangers | Away | Greg Kimmerly, Brad Meier
+Eric Gryba | Ottawa Senators | Hi-sticking | 01/20/2015 | NY Rangers | Away | Greg Kimmerly, Brad Meier
+Milan Michalek | Ottawa Senators | Slashing | 01/21/2015 | Toronto Maple Leafs | Home | Frederick L'Ecuyer, Marc Joannette
+Milan Michalek | Ottawa Senators | Fighting (maj) | 01/21/2015 | Toronto Maple Leafs | Home | Frederick L'Ecuyer, Marc Joannette
+Kyle Turris | Ottawa Senators | Hooking | 01/21/2015 | Toronto Maple Leafs | Home | Frederick L'Ecuyer, Marc Joannette
+Erik Karlsson | Ottawa Senators | Interference | 01/21/2015 | Toronto Maple Leafs | Home | Frederick L'Ecuyer, Marc Joannette
+Alex Chiasson | Ottawa Senators | Hi-sticking | 01/21/2015 | Toronto Maple Leafs | Home | Frederick L'Ecuyer, Marc Joannette
+Marc Methot | Ottawa Senators | Holding | 01/29/2015 | Dallas Stars | Home | Mike Leggo, Jean Hebert
+Eric Gryba | Ottawa Senators | Hooking | 01/29/2015 | Dallas Stars | Home | Mike Leggo, Jean Hebert
+Jean-Gabriel Pageau | Ottawa Senators | Tripping | 01/29/2015 | Dallas Stars | Home | Mike Leggo, Jean Hebert
+Erik Karlsson | Ottawa Senators | Roughing | 01/29/2015 | Dallas Stars | Home | Mike Leggo, Jean Hebert
+Chris Neil | Ottawa Senators | Fighting (maj) | 01/31/2015 | Arizona Coyotes | Home | Dan O'Halloran, Rob Martell
+Chris Neil | Ottawa Senators | Holding | 01/31/2015 | Arizona Coyotes | Home | Dan O'Halloran, Rob Martell
+Marc Methot | Ottawa Senators | Holding the stick | 01/31/2015 | Arizona Coyotes | Home | Dan O'Halloran, Rob Martell
+Mark Borowiecki | Ottawa Senators | Hi-sticking | 01/31/2015 | Arizona Coyotes | Home | Dan O'Halloran, Rob Martell
+Milan Michalek | Ottawa Senators | Roughing | 01/31/2015 | Arizona Coyotes | Home | Dan O'Halloran, Rob Martell
+Curtis Lazar | Ottawa Senators | Interference | 02/03/2015 | New Jersey Devils | Away | Brian Pochmara, Brad Meier
+Erik Karlsson | Ottawa Senators | Holding | 02/03/2015 | New Jersey Devils | Away | Brian Pochmara, Brad Meier
+Kyle Turris | Ottawa Senators | Hooking | 02/03/2015 | New Jersey Devils | Away | Brian Pochmara, Brad Meier
+Bobby Ryan | Ottawa Senators | Roughing | 02/05/2015 | Washington Capitals | Home | Gord Dwyer, Chris Lee
+Chris Neil | Ottawa Senators | Roughing | 02/05/2015 | Washington Capitals | Home | Gord Dwyer, Chris Lee
+Milan Michalek | Ottawa Senators | Interference | 02/05/2015 | Washington Capitals | Home | Gord Dwyer, Chris Lee
+Alex Chiasson | Ottawa Senators | Hooking | 02/07/2015 | Columbus Blue Jackets | Home | Kelly Sutherland, Ghislain Hebert
+Chris Neil | Ottawa Senators | Fighting (maj) | 02/07/2015 | Columbus Blue Jackets | Home | Kelly Sutherland, Ghislain Hebert
+Erik Condra | Ottawa Senators | Roughing | 02/10/2015 | Buffalo Sabres | Away | Dan O'Halloran, Greg Kimmerly
+Erik Condra | Ottawa Senators | Fighting (maj) | 02/10/2015 | Buffalo Sabres | Away | Dan O'Halloran, Greg Kimmerly
+Mark Borowiecki | Ottawa Senators | Fighting (maj) | 02/10/2015 | Buffalo Sabres | Away | Dan O'Halloran, Greg Kimmerly
+Mark Borowiecki | Ottawa Senators | Roughing | 02/10/2015 | Buffalo Sabres | Away | Dan O'Halloran, Greg Kimmerly
+Clarke MacArthur | Ottawa Senators | Holding | 02/10/2015 | Buffalo Sabres | Away | Dan O'Halloran, Greg Kimmerly
+Eric Gryba | Ottawa Senators | Elbowing | 02/10/2015 | Buffalo Sabres | Away | Dan O'Halloran, Greg Kimmerly
+Marc Methot | Ottawa Senators | Tripping | 02/10/2015 | Buffalo Sabres | Away | Dan O'Halloran, Greg Kimmerly
+Clarke MacArthur | Ottawa Senators | Holding | 02/12/2015 | Pittsburgh Penguins | Home | Dan O'Rourke, Ian Walsh
+Chris Neil | Ottawa Senators | Misconduct (10 min) | 02/12/2015 | Pittsburgh Penguins | Home | Dan O'Rourke, Ian Walsh
+Mika Zibanejad | Ottawa Senators | Tripping | 02/14/2015 | Edmonton Oilers | Home | Marc Joannette, TJ Luxmore
+Chris Neil | Ottawa Senators | Fighting (maj) | 02/14/2015 | Edmonton Oilers | Home | Marc Joannette, TJ Luxmore
+David Legwand | Ottawa Senators | Holding | 02/14/2015 | Edmonton Oilers | Home | Marc Joannette, TJ Luxmore
+Mika Zibanejad | Ottawa Senators | Holding | 02/16/2015 | Carolina Hurricanes | Home | Chris Rooney, Kyle Rehman
+Patrick Wiercioch | Ottawa Senators | Hooking | 02/16/2015 | Carolina Hurricanes | Home | Chris Rooney, Kyle Rehman
+Jared Cowen | Ottawa Senators | Hi-sticking | 02/16/2015 | Carolina Hurricanes | Home | Chris Rooney, Kyle Rehman
+Eric Gryba | Ottawa Senators | Hi-sticking | 02/16/2015 | Carolina Hurricanes | Home | Chris Rooney, Kyle Rehman
+Marc Methot | Ottawa Senators | Holding | 02/16/2015 | Carolina Hurricanes | Home | Chris Rooney, Kyle Rehman
+Mark Borowiecki | Ottawa Senators | Holding | 02/18/2015 | Montreal Canadiens | Home | Brian Pochmara, Rob Martell
+Mark Borowiecki | Ottawa Senators | Fighting (maj) | 02/18/2015 | Montreal Canadiens | Home | Brian Pochmara, Rob Martell
+Erik Condra | Ottawa Senators | Tripping | 02/18/2015 | Montreal Canadiens | Home | Brian Pochmara, Rob Martell
+Jared Cowen | Ottawa Senators | Interference | 02/21/2015 | Florida Panthers | Home | Eric Furlatt, TJ Luxmore
+Jared Cowen | Ottawa Senators | Fighting (maj) | 02/21/2015 | Florida Panthers | Home | Eric Furlatt, TJ Luxmore
+Alex Chiasson | Ottawa Senators | Hi-sticking | 02/21/2015 | Florida Panthers | Home | Eric Furlatt, TJ Luxmore
+Alex Chiasson | Ottawa Senators | Delaying Game-Puck over glass | 02/25/2015 | Anaheim Ducks | Away | Dan O'Halloran, Kyle Rehman
+Kyle Turris | Ottawa Senators | Interference | 02/25/2015 | Anaheim Ducks | Away | Dan O'Halloran, Kyle Rehman
+Mark Borowiecki | Ottawa Senators | Fighting (maj) | 02/25/2015 | Anaheim Ducks | Away | Dan O'Halloran, Kyle Rehman
+Patrick Wiercioch | Ottawa Senators | Tripping | 02/26/2015 | LA Kings | Away | Brad Watson, Ian Walsh
+Eric Gryba | Ottawa Senators | Slashing | 02/26/2015 | LA Kings | Away | Brad Watson, Ian Walsh
+Bobby Ryan | Ottawa Senators | Tripping | 02/26/2015 | LA Kings | Away | Brad Watson, Ian Walsh
+Mika Zibanejad | Ottawa Senators | Hooking | 02/26/2015 | LA Kings | Away | Brad Watson, Ian Walsh
+Mark Stone | Ottawa Senators | Cross checking | 02/28/2015 | SJ Sharks | Away | Brad Watson, Ian Walsh
+Colin Greening | Ottawa Senators | Boarding | 02/28/2015 | SJ Sharks | Away | Brad Watson, Ian Walsh
+Kyle Turris | Ottawa Senators | Holding | 02/28/2015 | SJ Sharks | Away | Brad Watson, Ian Walsh
+Matt Puempel | Ottawa Senators | Slashing | 03/03/2015 | Minnesota Wild | Away | Gord Dwyer, Rob Martell
+Milan Michalek | Ottawa Senators | Hi-sticking | 03/03/2015 | Minnesota Wild | Away | Gord Dwyer, Rob Martell
+Milan Michalek | Ottawa Senators | Holding the stick | 03/03/2015 | Minnesota Wild | Away | Gord Dwyer, Rob Martell
+Cody Ceci | Ottawa Senators | Holding | 03/04/2015 | Winnipeg Jets | Away | Gord Dwyer, Tom Kowal
+Erik Karlsson | Ottawa Senators | Delaying Game-Puck over glass | 03/04/2015 | Winnipeg Jets | Away | Gord Dwyer, Tom Kowal
+Erik Karlsson | Ottawa Senators | Slashing | 03/04/2015 | Winnipeg Jets | Away | Gord Dwyer, Tom Kowal
+Erik Condra | Ottawa Senators | Cross checking | 03/06/2015 | Buffalo Sabres | Home | Greg Kimmerly, Tom Kowal
+Mark Borowiecki | Ottawa Senators | Fighting (maj) | 03/08/2015 | Calgary Flames | Home | Frederick L'Ecuyer, Marc Joannette
+Kyle Turris | Ottawa Senators | Slashing | 03/08/2015 | Calgary Flames | Home | Frederick L'Ecuyer, Marc Joannette
+Matt Puempel | Ottawa Senators | Interference | 03/08/2015 | Calgary Flames | Home | Frederick L'Ecuyer, Marc Joannette
+Marc Methot | Ottawa Senators | Hooking | 03/10/2015 | Boston Bruins | Home | Chris Lee, Kyle Rehman
+Curtis Lazar | Ottawa Senators | Cross checking | 03/10/2015 | Boston Bruins | Home | Chris Lee, Kyle Rehman
+Erik Karlsson | Ottawa Senators | Hooking | 03/10/2015 | Boston Bruins | Home | Chris Lee, Kyle Rehman
+Alex Chiasson | Ottawa Senators | Hooking | 03/10/2015 | Boston Bruins | Home | Chris Lee, Kyle Rehman
+Alex Chiasson | Ottawa Senators | Hi stick - double minor | 03/12/2015 | Montreal Canadiens | Away | Mike Leggo, Chris Lee
+Mike Hoffman | Ottawa Senators | Tripping | 03/12/2015 | Montreal Canadiens | Away | Mike Leggo, Chris Lee
+Matt Puempel | Ottawa Senators | Hi stick - double minor | 03/12/2015 | Montreal Canadiens | Away | Mike Leggo, Chris Lee
+Jean-Gabriel Pageau | Ottawa Senators | Holding | 03/13/2015 | NY Islanders | Away | Mike Leggo, Graham Skilliter
+Patrick Wiercioch | Ottawa Senators | Hooking | 03/13/2015 | NY Islanders | Away | Mike Leggo, Graham Skilliter
+David Legwand | Ottawa Senators | Tripping | 03/13/2015 | NY Islanders | Away | Mike Leggo, Graham Skilliter
+Mika Zibanejad | Ottawa Senators | Tripping | 03/15/2015 | Philadelphia Flyers | Home | Chris Rooney, Kyle Rehman
+Alex Chiasson | Ottawa Senators | Hooking | 03/15/2015 | Philadelphia Flyers | Home | Chris Rooney, Kyle Rehman
+Patrick Wiercioch | Ottawa Senators | Interference | 03/15/2015 | Philadelphia Flyers | Home | Chris Rooney, Kyle Rehman
+Erik Karlsson | Ottawa Senators | Delaying Game-Puck over glass | 03/15/2015 | Philadelphia Flyers | Home | Chris Rooney, Kyle Rehman
+Mark Borowiecki | Ottawa Senators | Fighting (maj) | 03/17/2015 | Carolina Hurricanes | Away | Greg Kimmerly, Marc Joannette
+Milan Michalek | Ottawa Senators | Interference | 03/17/2015 | Carolina Hurricanes | Away | Greg Kimmerly, Marc Joannette
+Erik Condra | Ottawa Senators | Hooking | 03/17/2015 | Carolina Hurricanes | Away | Greg Kimmerly, Marc Joannette
+Mike Hoffman | Ottawa Senators | Roughing | 03/17/2015 | Carolina Hurricanes | Away | Greg Kimmerly, Marc Joannette
+Milan Michalek | Ottawa Senators | Roughing | 03/17/2015 | Carolina Hurricanes | Away | Greg Kimmerly, Marc Joannette
+Eric Gryba | Ottawa Senators | Tripping | 03/19/2015 | Boston Bruins | Home | Francis Charron, Kelly Sutherland
+Kyle Turris | Ottawa Senators | Hooking | 03/19/2015 | Boston Bruins | Home | Francis Charron, Kelly Sutherland
+Eric Gryba | Ottawa Senators | Hi-sticking | 03/19/2015 | Boston Bruins | Home | Francis Charron, Kelly Sutherland
+Eric Gryba | Ottawa Senators | Fighting (maj) | 03/21/2015 | Toronto Maple Leafs | Home | Dean Morton, Francois St. Laurent
+Bobby Ryan | Ottawa Senators | Interference on goalkeeper | 03/21/2015 | Toronto Maple Leafs | Home | Dean Morton, Francois St. Laurent
+Mark Borowiecki | Ottawa Senators | Fighting (maj) | 03/21/2015 | Toronto Maple Leafs | Home | Dean Morton, Francois St. Laurent
+Mark Borowiecki | Ottawa Senators | Tripping | 03/23/2015 | SJ Sharks | Home | Graham Skilliter, Kevin Pollock
+Zack Smith | Ottawa Senators | Roughing | 03/26/2015 | NY Rangers | Home | Dan O'Rourke, Greg Kimmerly
+Bobby Ryan | Ottawa Senators | Slashing | 03/28/2015 | Toronto Maple Leafs | Away | Mike Leggo, Paul Devorski
+Jean-Gabriel Pageau | Ottawa Senators | Fighting (maj) | 03/28/2015 | Toronto Maple Leafs | Away | Mike Leggo, Paul Devorski
+Clarke MacArthur | Ottawa Senators | Boarding | 03/28/2015 | Toronto Maple Leafs | Away | Mike Leggo, Paul Devorski
+Mika Zibanejad | Ottawa Senators | Delaying Game-Puck over glass | 03/28/2015 | Toronto Maple Leafs | Away | Mike Leggo, Paul Devorski
+Alex Chiasson | Ottawa Senators | Interference | 03/29/2015 | Florida Panthers | Home | Brian Pochmara, Graham Skilliter
+Alex Chiasson | Ottawa Senators | Interference | 03/29/2015 | Florida Panthers | Home | Brian Pochmara, Graham Skilliter
+Eric Gryba | Ottawa Senators | Interference | 03/29/2015 | Florida Panthers | Home | Brian Pochmara, Graham Skilliter
+Mika Zibanejad | Ottawa Senators | Interference | 03/29/2015 | Florida Panthers | Home | Brian Pochmara, Graham Skilliter
+Jared Cowen | Ottawa Senators | Interference | 03/29/2015 | Florida Panthers | Home | Brian Pochmara, Graham Skilliter
+Eric Gryba | Ottawa Senators | Roughing | 03/29/2015 | Florida Panthers | Home | Brian Pochmara, Graham Skilliter
+Erik Karlsson | Ottawa Senators | Unsportsmanlike conduct | 03/29/2015 | Florida Panthers | Home | Brian Pochmara, Graham Skilliter
+Clarke MacArthur | Ottawa Senators | Roughing | 03/31/2015 | Detroit Red Wings | Away | Justin St. Pierre, Kevin Pollock
+Marc Methot | Ottawa Senators | Roughing | 03/31/2015 | Detroit Red Wings | Away | Justin St. Pierre, Kevin Pollock
+Eric Gryba | Ottawa Senators | Holding | 03/31/2015 | Detroit Red Wings | Away | Justin St. Pierre, Kevin Pollock
+Alex Chiasson | Ottawa Senators | Slashing | 03/31/2015 | Detroit Red Wings | Away | Justin St. Pierre, Kevin Pollock
+Mark Stone | Ottawa Senators | Holding | 03/31/2015 | Detroit Red Wings | Away | Justin St. Pierre, Kevin Pollock
+Erik Condra | Ottawa Senators | Roughing | 04/02/2015 | Tampa Bay Lightning | Home | Ghislain Hebert, Eric Furlatt
+Zack Smith | Ottawa Senators | Roughing | 04/02/2015 | Tampa Bay Lightning | Home | Ghislain Hebert, Eric Furlatt
+Erik Karlsson | Ottawa Senators | Holding | 04/02/2015 | Tampa Bay Lightning | Home | Ghislain Hebert, Eric Furlatt
+David Legwand | Ottawa Senators | Tripping | 04/02/2015 | Tampa Bay Lightning | Home | Ghislain Hebert, Eric Furlatt
+Eric Gryba | Ottawa Senators | Delaying Game-Puck over glass | 04/02/2015 | Tampa Bay Lightning | Home | Ghislain Hebert, Eric Furlatt
+Mark Borowiecki | Ottawa Senators | Fighting (maj) | 04/04/2015 | Washington Capitals | Home | Tim Peel, Steve Kozari
+Mike Hoffman | Ottawa Senators | Hooking | 04/04/2015 | Washington Capitals | Home | Tim Peel, Steve Kozari
+Eric Gryba | Ottawa Senators | Roughing | 04/04/2015 | Washington Capitals | Home | Tim Peel, Steve Kozari
+Erik Condra | Ottawa Senators | Hooking | 04/05/2015 | Toronto Maple Leafs | Away | Dave Jackson, Dean Morton
+Zack Smith | Ottawa Senators | Roughing | 04/05/2015 | Toronto Maple Leafs | Away | Dave Jackson, Dean Morton
+Bobby Ryan | Ottawa Senators | Interference | 04/05/2015 | Toronto Maple Leafs | Away | Dave Jackson, Dean Morton
+Patrick Wiercioch | Ottawa Senators | Hi-sticking | 04/07/2015 | Pittsburgh Penguins | Home | Chris Rooney, Marc Joannette
+Marc Methot | Ottawa Senators | Cross checking | 04/07/2015 | Pittsburgh Penguins | Home | Chris Rooney, Marc Joannette
+Bobby Ryan | Ottawa Senators | Tripping | 04/07/2015 | Pittsburgh Penguins | Home | Chris Rooney, Marc Joannette
+Erik Condra | Ottawa Senators | Hi-sticking | 04/07/2015 | Pittsburgh Penguins | Home | Chris Rooney, Marc Joannette
+Mika Zibanejad | Ottawa Senators | Interference on goalkeeper | 04/09/2015 | NY Rangers | Away | Wes McCauley, Justin St. Pierre
+Bobby Ryan | Ottawa Senators | Too many men/ice - bench | 04/09/2015 | NY Rangers | Away | Wes McCauley, Justin St. Pierre
+Mark Borowiecki | Ottawa Senators | Cross checking | 04/11/2015 | Philadelphia Flyers | Away | Wes McCauley, Francis Charron
+Kyle Turris | Ottawa Senators | Holding | 04/11/2015 | Philadelphia Flyers | Away | Wes McCauley, Francis Charron
