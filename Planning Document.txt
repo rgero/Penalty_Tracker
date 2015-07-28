@@ -21,3 +21,10 @@ Ideas for next iteration:
 		-Investigate how
 	-USE AN OBJECT ORIENTATED DESIGN
 		- I was storing every penalty event as an array that was then inserted into another array. This was definitely a bad practice as I could have easily written a class to do this cleaner.
+
+		
+Talking Point on 7/28
+--------------------
+Would I ever need to have the master list sorted by aspect?
+	-Initial thought is I do not need to worry about this at the lower levels. This can be be done at the high level Javascript. Reddit can do it therefore it can be done quickly and interactively.
+	-I just need to generate the HTML file correctly.
