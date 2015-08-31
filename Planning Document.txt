@@ -28,3 +28,16 @@ Talking Point on 7/28
 Would I ever need to have the master list sorted by aspect?
 	-Initial thought is I do not need to worry about this at the lower levels. This can be be done at the high level Javascript. Reddit can do it therefore it can be done quickly and interactively.
 	-I just need to generate the HTML file correctly.
+	
+	
+	
+Update on 8/31
+--------------------
+I have three weeks until my hockey starts up again. This means that I have time to actually work on this substantially and get it done.
+
+What needs to be done though:
+	- 	Using the Windows Task Scheduler, I need to set up a task that runs at 1AM every day to update the penalties from the game.
+	-	I need to make it so that the program remembers when it last ran and only looks at the games it hasn't seen
+	-	I need to record the penalties from these games
+	-	I need to upload a copy of the recorded penalties to a front facing web server (Something others can grab)
+	-	Once this is in place, I will need to write the website to deal with the UI elements of it.

@@ -52,10 +52,8 @@ class TestingSGMethods(unittest.TestCase):
 			pG = procedurallyGenerated[i]
 			fF = readingFromFile[i]
 			self.assertTrue(pG.getPlayer()==fF.getPlayer(), pG.getPlayer() + " : " + fF.getPlayer() + " in entry " + str(i))
-			self.assertTrue(pG.getTeam()==fF.getTeam(), pG.getTeam() + " : " + fF.getTeam()
-				+ " in entry " + str(i))
-			self.assertTrue(pG.getPenalty()==fF.getPenalty(), pG.getPenalty() + " : " + 
-				fF.getPenalty() + " in entry " + str(i))
+			self.assertTrue(pG.getTeam()==fF.getTeam(), pG.getTeam() + " : " + fF.getTeam() + " in entry " + str(i))
+			self.assertTrue(pG.getPenalty()==fF.getPenalty(), pG.getPenalty() + " : " + fF.getPenalty() + " in entry " + str(i))
 			self.assertTrue(pG.getSide()==fF.getSide(), pG.getSide() + " : " + 
 				fF.getSide() + " in entry " + str(i))
 			self.assertTrue(pG.getOpponent()==fF.getOpponent(), pG.getOpponent() + " : " + 
