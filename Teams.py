@@ -1,3 +1,7 @@
+'''
+	This is a simple file containing a dictionary of all the teams so I can make the list clearer.
+'''
+
 Teams = {
 	"ANA" : "Anaheim Ducks",
 	"ARI" : "Arizona Coyotes",
