@@ -73,12 +73,12 @@ class TestingGDPMethods(unittest.TestCase):
 		self.assertEqual(formatDate("2015-09-04"),"09/04/2015")
 	
 	def testProcessGameDay(self):
-		dateProcessing("02/26/2015", ".\\TestingDocs\\TestingGDP_Data.txt") #This doesn't return anything
+		dateProcessing("02/26/2015", ".\\TestingDocs\\TestingGDP_Data.txt")
 		try:
 			newFile = open(".\\TestingDocs\\TestingGDP_Data.txt", 'r')
 			oldFile = open(".\\TestingDocs\\02-26-2015.txt",'r')
 		except:
-			self.assertTrue(False)
+			self.assertTrue(False) #If either file doesn't exist, bail out.
 		newData = newFile.read()
 		oldData = oldFile.read()
 		newFile.close()
@@ -89,12 +89,12 @@ class TestingGDPMethods(unittest.TestCase):
 		os.remove(".\\TestingDocs\\TestingGDP_Data.txt")
 		
 	def testProcessingGameDay2(self):
-		dateProcessing("10/17/2014", ".\\TestingDocs\\TestingGDP_Data.txt") #This doesn't return anything
+		dateProcessing("10/17/2014", ".\\TestingDocs\\TestingGDP_Data.txt")
 		try:
 			newFile = open(".\\TestingDocs\\TestingGDP_Data.txt", 'r')
 			oldFile = open(".\\TestingDocs\\10-17-2014.txt",'r')
 		except:
-			self.assertTrue(False)
+			self.assertTrue(False) #If either file doesn't exist, bail out.
 		newData = newFile.read()
 		oldData = oldFile.read()
 		newFile.close()

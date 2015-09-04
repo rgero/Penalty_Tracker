@@ -29,7 +29,7 @@ def formatDate(*args):
 		
 		Returns: String in the format of MM/DD/YYYY
 	'''
-	if len(args) == 0:
+	if len(args) == 0: #This if statement allows me to use this function in unit testing.
 		today = date.today()
 		dateAsString = str(today)
 	else:
@@ -46,7 +46,9 @@ def dateProcessing(dateToProcess, *args):
 	desiredWebsite = urllib.urlopen(desiredURL)
 	websiteData = desiredWebsite.read()
 	
-	#I might want to pass this in to the function so I can leverage it in my unit testing.
+	#	I added the need to specify a second argument to this function so that I can
+	#	stop it from running if I am running it through the unit tester. I might switch
+	#	the cases around, as I should have that second argument if I'm testing.
 	if len(args) == 0:
 		upload = True
 		fileName = "MasterPenaltyList.txt"
@@ -71,7 +73,7 @@ def dateProcessing(dateToProcess, *args):
 			games.append(gameURL)
 		websiteData = websiteData[found+1::] #Have to offset found by one so the search doesn't repeat itself
 	
-	if len(games) > 0:
+	if len(games) > 0: #If the number of games on that day are greater than 0, go through each game
 		for i in games:
 			gamePage = urllib.urlopen(i)
 			gameData = gamePage.read()
@@ -82,7 +84,7 @@ def dateProcessing(dateToProcess, *args):
 		MasterPenaltyList.write("\nNo games on " + dateToProcess + "\n\n")
 	MasterPenaltyList.close()
 	
-	if upload:
+	if upload: #If I'm not running this in a unit test, upload the file to the website.
 		uploadFile(fileName)
 	
 try:
