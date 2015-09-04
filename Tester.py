@@ -1,7 +1,12 @@
+'''
+	This program was written by Roy W. Gero.
+	If you have questions, comments or concerns please contact him on GitHub
+'''
+
 from Penalty import *
 from scanning_games import *
-import unittest
-import os,sys
+from gameDayProcessor import *
+import unittest,os,sys
 
 class TestingPenaltyClass(unittest.TestCase):
 	def testPlayerName(self):
@@ -63,7 +68,45 @@ class TestingSGMethods(unittest.TestCase):
 			self.assertTrue(pG.getRefsAsString()==fF.getRefsAsString(), pG.getRefsAsString() + " : " + fF.getRefsAsString() + " in entry " + str(i))
 	
 
+class TestingGDPMethods(unittest.TestCase):
+	def testFirstDate(self):
+		self.assertEqual(formatDate("2015-09-04"),"09/04/2015")
+	
+	def testProcessGameDay(self):
+		dateProcessing("02/26/2015", ".\\TestingDocs\\TestingGDP_Data.txt") #This doesn't return anything
+		try:
+			newFile = open(".\\TestingDocs\\TestingGDP_Data.txt", 'r')
+			oldFile = open(".\\TestingDocs\\02-26-2015.txt",'r')
+		except:
+			self.assertTrue(False)
+		newData = newFile.read()
+		oldData = oldFile.read()
+		newFile.close()
+		oldFile.close()
+		self.assertEqual(newData,oldData)	#Compares the data
 		
+		#Removes the created test file
+		os.remove(".\\TestingDocs\\TestingGDP_Data.txt")
+		
+	def testProcessingGameDay2(self):
+		dateProcessing("10/17/2014", ".\\TestingDocs\\TestingGDP_Data.txt") #This doesn't return anything
+		try:
+			newFile = open(".\\TestingDocs\\TestingGDP_Data.txt", 'r')
+			oldFile = open(".\\TestingDocs\\10-17-2014.txt",'r')
+		except:
+			self.assertTrue(False)
+		newData = newFile.read()
+		oldData = oldFile.read()
+		newFile.close()
+		oldFile.close()
+		self.assertEqual(newData,oldData)	#Compares the data
+		
+		#Removes the created test file
+		os.remove(".\\TestingDocs\\TestingGDP_Data.txt")
+		
+		
+	
+	
 '''
 // Setting up Data
 '''	
@@ -85,3 +128,8 @@ print "\nTesting the functions in scanning_games using \"" + file_name + "\""
 print "--------------------------------------------------------"
 sgFileSuite = unittest.TestLoader().loadTestsFromTestCase(TestingSGMethods)
 unittest.TextTestRunner(verbosity=2).run(sgFileSuite)
+
+print "Testing the methods in gameDayProcessor. (1 Test)"
+print "--------------------------------------------------------"
+gdpFileSuite = unittest.TestLoader().loadTestsFromTestCase(TestingGDPMethods)
+unittest.TextTestRunner(verbosity=2).run(gdpFileSuite)
