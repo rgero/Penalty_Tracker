@@ -1,3 +1,8 @@
+'''
+	This program was written by Roy W. Gero.
+	If you have questions, comments or concerns please contact him on GitHub
+'''
+
 class Penalty:
 	def __init__(self, player, team, penalty, side, opponent, date, referees):
 		self.name = player

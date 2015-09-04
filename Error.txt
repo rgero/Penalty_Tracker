@@ -1,3 +1,0 @@
-<type 'exceptions.ZeroDivisionError'>
-integer division or modulo by zero
-<traceback object at 0x022A4DC8>
