@@ -3,8 +3,22 @@
 	If you have questions, comments or concerns please contact him on GitHub
 '''
 import urllib, sys
+from ftplib import FTP
 from datetime import date
 from scanning_games import *
+from credientials import *
+
+def uploadFile(fileName):
+	address = credientials["address"]
+	user = credientials["username"]
+	password = credientials["password"]
+	fileName = ".\\" + fileName
+	
+	ftp = FTP(address)
+	ftp.login(user, password)
+	ftp.storlines("STOR " + fileName, open(fileName, 'r'))
+	ftp.close()
+
 
 def formatDate(*args):
 	'''
@@ -34,9 +48,13 @@ def dateProcessing(dateToProcess, *args):
 	
 	#I might want to pass this in to the function so I can leverage it in my unit testing.
 	if len(args) == 0:
-		MasterPenaltyList = open("MasterPenaltyList.txt", 'a')
+		upload = True
+		fileName = "MasterPenaltyList.txt"
+		MasterPenaltyList = open(fileName, 'a')
 	else:
-		MasterPenaltyList = open(args[0], 'w')
+		upload = False
+		fileName = args[0]
+		MasterPenaltyList = open(fileName, 'w')
 	
 	
 	found = 0
@@ -61,11 +79,14 @@ def dateProcessing(dateToProcess, *args):
 			for j in results:
 				MasterPenaltyList.write(j.printEvent() + "\n")
 	else:
-		MasterPenaltyList.write("No games on " + dateToProcess)
+		MasterPenaltyList.write("\nNo games on " + dateToProcess + "\n\n")
 	MasterPenaltyList.close()
+	
+	if upload:
+		uploadFile(fileName)
 	
 try:
 	sys.argv[1]
-	dateProcessing(formatData())
+	dateProcessing(formatDate())
 except IndexError:
 	pass #If this is ran from the unit test, nothing extra runs.
