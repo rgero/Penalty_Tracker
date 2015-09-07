@@ -1,7 +1,10 @@
-# Penalty Tracker
+# Penalty Counter
 ---------
-Penalty Tracker is a program written by Roy Gero. The purpose of this program is going to be a web scraper that parses through the box scores for NHL games and creates a database of all the penalties called in the season. With this database, an end user can search for the number of times a certain penalty was called, a number of times a team had a penalty called on them, as well as some other criteria.
+Written by Roy Gero in Python 2.7.10 using object orientated design
 
-It is my intention to have the user be able to generate HTML Reports based on the search criteria they enter.
+## Purpose of the Program
+Every NHL season there are 1,230 games played between the 30 teams and each one of these games, there can be any number of penalties called. I want to provide people with the ability to make more informed statements when it comes to penalties that occur. The way that this program performs this is by searching the NHL website and gathering all the penalties that occur. After gathering the information, the program hands a text file to a website. This website, seen in the repo "[Penalty Counter Website](https://github.com/Roymond35/PenaltyCounterWebsite)" takes the parameters the user is looking for and parses the text file for anything that matches.
 
-This project is also going to be an example of my abilities to create unit tests using the module "unittest" provided in Python 2.7.10
+## Things learned through this project
+* unittest module - One of the skill I wanted to strengthen was the ability to think through and use automated tests to insure that changes made to algorithms or functions didn't change the overall result.
+* ftp module - This was a smaller area I wanted to improve upon, however, programmatically accessing a website through the Python 2.7.10 ftp module was something I did want to learn.
