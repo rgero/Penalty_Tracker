@@ -2,13 +2,18 @@
 	This program was written by Roy W. Gero.
 	If you have questions, comments or concerns please contact him on GitHub
 '''
-import urllib, sys
+import urllib, sys, shutil
 from ftplib import FTP
 from datetime import date
 from scanning_games import *
 from credientials import *
+from processHTML import *
 
-def uploadFile(fileName):
+def uploadFile(files):
+	'''Uploads the file to the website
+	   Note: Does not return anything
+	   The credientials are also stored locally.
+	'''
 	address = credientials["address"]
 	user = credientials["username"]
 	password = credientials["password"]
@@ -16,8 +21,31 @@ def uploadFile(fileName):
 	
 	ftp = FTP(address)
 	ftp.login(user, password)
-	ftp.storlines("STOR " + fileName, open(fileName, 'r'))
+	
+	for i in files:
+		i = fileName
+		fileName = ".\\" + fileName
+		ftp.storlines("STOR " + fileName, open(fileName, 'r'))
 	ftp.close()
+	
+def htmlGenerator(newSection):
+	'''	Opens the local copy of the index.html file and appends it with the new penalty data	
+	'''
+
+	indexFile = open("index.html",'r')
+	indexFileRead = indexFile.read()
+	indexFile.close()
+	
+	#Renaming and moving the file (it's good to have backups.)
+	todaysDate = str(date.today())
+	newName = ".\\defunct_files\\old_pages\\index_" + todaysDate + ".html"
+	shutil.copy("index.html", newName)
+	
+	newFile = open("index.html",'w')
+	locationOfNote = indexFileRead.find("<!-- INSERT DATA HERE -->")
+	endingData = indexFileRead[locationOfNote::] #Storing the data after the last entry since it will be overwritten
+	newFile.write(indexFileRead[0:locationOfNote-1] + newSection + endingData)
+	newFile.close()
 
 
 def formatDate(*args):
@@ -45,6 +73,8 @@ def dateProcessing(dateToProcess, *args):
 	desiredURL = "http://www.nhl.com/ice/scores.htm?date=" + dateToProcess
 	desiredWebsite = urllib.urlopen(desiredURL)
 	websiteData = desiredWebsite.read()
+	newPenalties = "\n" # Has to start as a new line.
+	files = ["MasterPenaltyList.txt","index.html"]
 	
 	#	I added the need to specify a second argument to this function so that I can
 	#	stop it from running if I am running it through the unit tester. I might switch
@@ -79,13 +109,15 @@ def dateProcessing(dateToProcess, *args):
 			gameData = gamePage.read()
 			results = processData(gameData)
 			for j in results:
+				newPenalties += j.printTable() + "\n"		#Adding this line to print to the table.
 				MasterPenaltyList.write(j.printEvent() + "\n")
 	else:
 		MasterPenaltyList.write("\nNo games on " + dateToProcess + "\n\n")
 	MasterPenaltyList.close()
 	
 	if upload: #If I'm not running this in a unit test, upload the file to the website.
-		uploadFile(fileName)
+		htmlReturn = processHTML.htmlUpdater(newPenalties)
+		uploadFile(files)
 	
 try:
 	sys.argv[1]
