@@ -56,4 +56,8 @@ class Penalty:
 	def printEvent(self):
 		entry = self.name + " | " + self.team + " | " + self.penalty + " | " + self.date + " | " + self.opponent + " | " + self.getSide() + " | " + self.getRefsAsString()
 		return entry
-		
+	
+	#Adding a new function to print as a table.
+	def printTable(self):
+		entry = "<tr><td>" + self.name + "<//td><td>" + self.team + "<//td><td>" + self.penalty + "<//td><td>" + self.date + "<//td><td>" + self.opponent + "<//td><td>" + self.getSide() + "<//td><td>" + self.getRefsAsString() + "<//td><//tr>"
+		return entry
