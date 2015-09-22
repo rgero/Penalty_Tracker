@@ -32,6 +32,9 @@ class TestingPenaltyClass(unittest.TestCase):
 		
 	def testPrint(self):
 		self.assertEqual(event.printEvent(),"Roy Gero | Colorado Avalanche | Too Much Man | July 8, 2015 | Calgary Flames | Home | Don, Ron")
+		
+	def testTablePrint(self):
+		self.assertEqual(event.printTable(),"<tr><td>Roy Gero<//td><td>Colorado Avalanche<//td><td>Too Much Man<//td><td>July 8, 2015<//td><td>Calgary Flames<//td><td>Home<//td><td>Don, Ron<//td><//tr>")
 	
 
 		
