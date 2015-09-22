@@ -58,7 +58,7 @@ def formatDate(*args):
 		Returns: String in the format of MM/DD/YYYY
 	'''
 	if len(args) == 0: #This if statement allows me to use this function in unit testing.
-		today = date.today()
+		today = date.today()-datetime.timedelta(1)
 		dateAsString = str(today)
 	else:
 		dateAsString = args[0]
