@@ -7,7 +7,6 @@ from ftplib import FTP
 from datetime import date
 from scanning_games import *
 from credientials import *
-from processHTML import *
 
 def uploadFile(files):
 	'''Uploads the file to the website
@@ -28,23 +27,26 @@ def uploadFile(files):
 		ftp.storlines("STOR " + fileName, open(fileName, 'r'))
 	ftp.close()
 	
-def htmlGenerator(newSection):
-	'''	Opens the local copy of the index.html file and appends it with the new penalty data	
+def htmlGenerator(newSection, desiredFileName):
+	'''	Opens the local copy of the index.html file and appends it with the new penalty data
+		INPUTS: 
+			newSection - The new section to be written to the file
+			desiredFileName - the name of the file we're writing to. JUST THE NAME. Do not open.
 	'''
 
-	indexFile = open("index.html",'r')
+	indexFile = open(desiredFileName,'r')
 	indexFileRead = indexFile.read()
 	indexFile.close()
 	
 	#Renaming and moving the file (it's good to have backups.)
 	todaysDate = str(date.today())
-	newName = ".\\defunct_files\\old_pages\\index_" + todaysDate + ".html"
-	shutil.copy("index.html", newName)
+	newName = ".\\defunct_files\\old_pages\\" + desiredFileName + "_" + todaysDate + ".html"
+	shutil.copy(desiredFileName, newName)
 	
-	newFile = open("index.html",'w')
+	newFile = open(desiredFileName,'w')
 	locationOfNote = indexFileRead.find("<!-- INSERT DATA HERE -->")
 	endingData = indexFileRead[locationOfNote::] #Storing the data after the last entry since it will be overwritten
-	newFile.write(indexFileRead[0:locationOfNote-1] + newSection + endingData)
+	newFile.write(indexFileRead[0:locationOfNote-1] + newSection + "\n\t\t"+ endingData)
 	newFile.close()
 
 
@@ -116,7 +118,7 @@ def dateProcessing(dateToProcess, *args):
 	MasterPenaltyList.close()
 	
 	if upload: #If I'm not running this in a unit test, upload the file to the website.
-		htmlReturn = processHTML.htmlUpdater(newPenalties)
+		htmlReturn = processHTML.htmlUpdater(newPenalties, "index.html")
 		uploadFile(files)
 	
 try:
