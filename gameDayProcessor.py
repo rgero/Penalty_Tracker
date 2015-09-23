@@ -82,7 +82,7 @@ def dateProcessing(dateToProcess, *args):
 	desiredURL = "http://www.nhl.com/ice/scores.htm?date=" + dateToProcess
 	desiredWebsite = urllib.urlopen(desiredURL)
 	websiteData = desiredWebsite.read()
-	newPenalties = "\n" # Has to start as a new line.
+	newPenalties = "" # Has to start as a new line.
 	files = ["MasterPenaltyList.txt","index.html"]
 	
 	#	I added the need to specify a second argument to this function so that I can
@@ -113,6 +113,7 @@ def dateProcessing(dateToProcess, *args):
 		websiteData = websiteData[found+1::] #Have to offset found by one so the search doesn't repeat itself
 	
 	if len(games) > 0: #If the number of games on that day are greater than 0, go through each game
+		newPenalties = "\n"
 		for i in games:
 			gamePage = urllib.urlopen(i)
 			gameData = gamePage.read()
@@ -125,7 +126,7 @@ def dateProcessing(dateToProcess, *args):
 	MasterPenaltyList.close()
 	
 	if upload: #If I'm not running this in a unit test, upload the file to the website.
-		htmlReturn = processHTML.htmlUpdater(newPenalties, "index.html", "")
+		htmlGenerator(newPenalties, "index.html", "")
 		uploadFile(files)
 	
 try:
