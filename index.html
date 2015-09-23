@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<title>Penalty Counter Website!</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- DataTables CSS -->
+		<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.9/css/jquery.dataTables.css">
+		  
+		<!-- jQuery -->
+		<script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		  
+		<!-- DataTables -->
+		<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.9/js/jquery.dataTables.js"></script>
+
+	</head>
+
+	<body>
+		<center>
+			<h1>Penalty Counter!</h1>
+			<p id="explanation">
+				<b><u>How this program works</u></b><BR/><BR/>
+					This program runs a script nightly to parse through the box scores of NHL games, obtaining relevant data about the penalties that occurred during the game. This webpage takes the data that was obtained, and allows you to select what you want to see.<BR/><BR/>
+					To see the source code for this project, the code repository is located <a href="https://github.com/Roymond35/Penalty_Tracker" alt="Link to the code repository">here</a>
+				<BR>
+				<button id="hideExplanation">Hide this Explanation</button>
+			</p>
+			
+		<table id="penaltyTable">
+			<thead>
+				<tr>
+					<th id="header_playerName">Player</th>
+					<th id="header_playerTeam">Team Name</th>
+					<th id="header_playerPenalty">Penalty</th>
+					<th id="header_penaltyDate">Date</th>
+					<th id="header_opponentName">Opponent</th>
+					<th id="header_location">H/A</th>
+					<th id="header_referees">Refs</th></tr>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- INSERT DATA HERE -->
+			</tbody>
+		</table>
+	
+	
+	
+		<script type="text/javascript">
+			$(document).ready( function () {
+				$('#penaltyTable').DataTable();
+			} );
+			
+			document.getElementById("hideExplanation").onclick = function(){
+				$("#explanation").css("display","none");
+			};
+		</script>
+		<div id="footer">This list was last updated on: <B id="newDate">{DATE}</b></div>
+	</body>
+</html>

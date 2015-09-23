@@ -27,7 +27,7 @@ def uploadFile(files):
 		ftp.storlines("STOR " + fileName, open(fileName, 'r'))
 	ftp.close()
 	
-def htmlGenerator(newSection, desiredFileName):
+def htmlGenerator(newSection, desiredFileName, dt):
 	'''	Opens the local copy of the index.html file and appends it with the new penalty data
 		INPUTS: 
 			newSection - The new section to be written to the file
@@ -40,13 +40,20 @@ def htmlGenerator(newSection, desiredFileName):
 	
 	#Renaming and moving the file (it's good to have backups.)
 	todaysDate = str(date.today())
+	
+	if (dt == ""):
+		dt = todaysDate
+	
 	newName = ".\\defunct_files\\old_pages\\" + desiredFileName + "_" + todaysDate + ".html"
 	shutil.copy(desiredFileName, newName)
 	
 	newFile = open(desiredFileName,'w')
 	locationOfNote = indexFileRead.find("<!-- INSERT DATA HERE -->")
-	endingData = indexFileRead[locationOfNote::] #Storing the data after the last entry since it will be overwritten
-	newFile.write(indexFileRead[0:locationOfNote-1] + newSection + "\n\t\t"+ endingData)
+	locationOfDate = indexFileRead.find("<B id=\"newDate\">") +  len("<B id=\"newDate\">")
+	midSection = indexFileRead[locationOfNote:locationOfDate]
+	locationOfEnd = indexFileRead.find("</b>")
+	endingData = indexFileRead[locationOfEnd::] #Storing the data after the last entry since it will be overwritten
+	newFile.write(indexFileRead[0:locationOfNote-1] + newSection + "\n\t\t"+ midSection + dt + endingData)
 	newFile.close()
 
 
@@ -118,7 +125,7 @@ def dateProcessing(dateToProcess, *args):
 	MasterPenaltyList.close()
 	
 	if upload: #If I'm not running this in a unit test, upload the file to the website.
-		htmlReturn = processHTML.htmlUpdater(newPenalties, "index.html")
+		htmlReturn = processHTML.htmlUpdater(newPenalties, "index.html", "")
 		uploadFile(files)
 	
 try:
