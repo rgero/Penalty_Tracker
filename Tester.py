@@ -6,7 +6,7 @@
 from Penalty import *
 from scanning_games import *
 from gameDayProcessor import *
-import unittest,os,sys
+import unittest,os,sys,shutil
 
 class TestingPenaltyClass(unittest.TestCase):
 	def testPlayerName(self):
@@ -106,6 +106,15 @@ class TestingGDPMethods(unittest.TestCase):
 		
 		#Removes the created test file
 		os.remove(".\\TestingDocs\\TestingGDP_Data.txt")
+		
+	def testTableGenerator(self):
+		newSection = "<tr><td>Roy Gero<//td><td>Colorado Avalanche<//td><td>Too Much Man<//td><td>July 8, 2015<//td><td>Calgary Flames<//td><td>Home<//td><td>Don, Ron<//td><//tr>"
+		desiredFileName = "tableGenerator.html"
+		htmlGenerator(newSection,desiredFileName)
+		newFile = open("tableGenerator.html",'r').read()
+		baseline = open(".\\TestingDocs\\tableGenerator.html",'r').read()
+		shutil.copy("tableBaseline.html", desiredFileName)
+		self.assertEqual(newFile,baseline)
 		
 		
 	
