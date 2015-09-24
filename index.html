@@ -57,10 +57,22 @@
 				 {
 						dom: 'Bfrtip',
 						buttons: [
-							'copyHtml5',
-							'excelHtml5',
-							'csvHtml5',
-							'pdfHtml5'
+							{
+								extend: 'copyHtml5',
+								fileSeparation: ' | '
+							},
+							{
+								extend: 'excelHtml5',
+								title: 'Penalty Data export'
+							},
+							{
+								extend: 'pdfHtml5',
+								title: 'Penalty Data export'
+							},
+							{
+								extend: 'csvHtml5',
+								title: 'Penalty Data export'
+							},
 						]
 				});
 			});
