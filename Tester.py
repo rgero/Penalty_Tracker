@@ -69,6 +69,19 @@ class TestingSGMethods(unittest.TestCase):
 			self.assertTrue(pG.getDate()==fF.getDate(), pG.getDate() + " : " + 
 				fF.getDate() + " in entry " + str(i))
 			self.assertTrue(pG.getRefsAsString()==fF.getRefsAsString(), pG.getRefsAsString() + " : " + fF.getRefsAsString() + " in entry " + str(i))
+
+class TestingSGTwoMethods(unittest.TestCase):
+	def testTeamsPlaying(self):
+		self.assertEqual(teamsPlaying(scan2),["Tampa Bay Lightning", "Nashville Predators"])
+	
+	def testRefsInGame(self):
+		self.assertEqual(refsInGame(scan2),["TJ Luxmore", "Dean Morton"])
+	
+	def testDate(self):
+		self.assertEqual(getDateFromFile(scan2),"09/23/2015")
+		
+	def testProcessFile(self):
+		self.assertEqual(len(processData(scan2)),17)
 	
 
 class TestingGDPMethods(unittest.TestCase):
@@ -130,6 +143,10 @@ file_name = "TestingDocs\\Testing.htm"
 file = open(file_name,'r')
 scan = file.read()
 
+file_name2 = "TestingDocs\\Testing2.htm"
+file2 = open(file_name2,'r')
+scan2 = file2.read()
+
 	  
 print "Testing the class constructor and get functions. (8 Tests)"
 print "--------------------------------------------------------"
@@ -139,6 +156,11 @@ unittest.TextTestRunner(verbosity=2).run(penaltyClassSuite)
 print "\nTesting the functions in scanning_games using \"" + file_name + "\""
 print "--------------------------------------------------------"
 sgFileSuite = unittest.TestLoader().loadTestsFromTestCase(TestingSGMethods)
+unittest.TextTestRunner(verbosity=2).run(sgFileSuite)
+
+print "\nTesting the functions in scanning_games using \"" + file_name2 + "\""
+print "--------------------------------------------------------"
+sgFileSuite = unittest.TestLoader().loadTestsFromTestCase(TestingSGTwoMethods)
 unittest.TextTestRunner(verbosity=2).run(sgFileSuite)
 
 print "Testing the methods in gameDayProcessor. (1 Test)"
