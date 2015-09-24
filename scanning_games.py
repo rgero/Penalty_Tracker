@@ -94,7 +94,10 @@ def processData(scan):
 			if(GameData[i] in Teams):
 				playersTeam = Teams[GameData[i]]
 				playersName = GameData[i+1]
-				playersPenalty = processPenalty(GameData[i+2])
+				if "served" in GameData[i+2].lower():
+					playersPenalty = processPenalty(GameData[i+4])
+				else:
+					playersPenalty = processPenalty(GameData[i+2])
 				
 				if (playersTeam == teams[0]):
 					location = False
