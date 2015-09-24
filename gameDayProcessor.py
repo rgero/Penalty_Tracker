@@ -4,7 +4,7 @@
 '''
 import urllib, sys, shutil
 from ftplib import FTP
-from datetime import date
+from datetime import *
 from scanning_games import *
 from credientials import *
 
@@ -16,15 +16,12 @@ def uploadFile(files):
 	address = credientials["address"]
 	user = credientials["username"]
 	password = credientials["password"]
-	fileName = ".\\" + fileName
 	
 	ftp = FTP(address)
 	ftp.login(user, password)
 	
-	for i in files:
-		i = fileName
-		fileName = ".\\" + fileName
-		ftp.storlines("STOR " + fileName, open(fileName, 'r'))
+	ftp.storlines("STOR " + files[0], open(files[0], 'r'))
+	ftp.storlines("STOR " + files[1], open(files[1], 'r'))
 	ftp.close()
 	
 def htmlGenerator(newSection, desiredFileName, dt):
@@ -51,8 +48,8 @@ def htmlGenerator(newSection, desiredFileName, dt):
 	locationOfNote = indexFileRead.find("<!-- INSERT DATA HERE -->")
 	locationOfDate = indexFileRead.find("<B id=\"newDate\">") +  len("<B id=\"newDate\">")
 	midSection = indexFileRead[locationOfNote:locationOfDate]
-	locationOfEnd = indexFileRead.find("</b>")
-	endingData = indexFileRead[locationOfEnd::] #Storing the data after the last entry since it will be overwritten
+	locationOfEnd = indexFileRead[::-1].find(">b/<") + len(">b/<") #The tag has to be backwards.
+	endingData = indexFileRead[len(indexFileRead)-locationOfEnd::] #Storing the data after the last entry since it will be overwritten
 	newFile.write(indexFileRead[0:locationOfNote-1] + newSection + "\n\t\t"+ midSection + dt + endingData)
 	newFile.close()
 
@@ -67,7 +64,7 @@ def formatDate(*args):
 		Returns: String in the format of MM/DD/YYYY
 	'''
 	if len(args) == 0: #This if statement allows me to use this function in unit testing.
-		today = date.today()-datetime.timedelta(1)
+		today = date.today()- timedelta(1)
 		dateAsString = str(today)
 	else:
 		dateAsString = args[0]
