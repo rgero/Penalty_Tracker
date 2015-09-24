@@ -4,12 +4,20 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<!-- DataTables CSS -->
 		<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.9/css/jquery.dataTables.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.0.3/css/buttons.dataTables.min.css">
 		  
 		<!-- jQuery -->
-		<script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 		  
 		<!-- DataTables -->
 		<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.9/js/jquery.dataTables.js"></script>
+		<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.0.3/js/dataTables.buttons.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="http://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="http://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="http://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+		<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/buttons/1.0.3/js/buttons.html5.min.js"></script>
+		
 
 	</head>
 
@@ -45,8 +53,17 @@
 	
 		<script type="text/javascript">
 			$(document).ready( function () {
-				$('#penaltyTable').DataTable();
-			} );
+				$('#penaltyTable').DataTable(
+				 {
+						dom: 'Bfrtip',
+						buttons: [
+							'copyHtml5',
+							'excelHtml5',
+							'csvHtml5',
+							'pdfHtml5'
+						]
+				});
+			});
 			
 			document.getElementById("hideExplanation").onclick = function(){
 				$("#explanation").css("display","none");
