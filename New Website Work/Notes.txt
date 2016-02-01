@@ -1,0 +1,6 @@
+Notes on the new NHL Website.
+
+- Scores are located here: https://www.nhl.com/scores
+- The base url for scores is: http://www.nhl.com/gamecenter/{Game ID}/recap/box-score
+
+I'm going to need another website.
