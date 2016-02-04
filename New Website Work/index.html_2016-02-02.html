@@ -1,0 +1,166 @@
+<html>
+	<head>
+		<title>Penalty Counter Website!</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- DataTables CSS -->
+		<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.9/css/jquery.dataTables.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.0.3/css/buttons.dataTables.min.css">
+		  
+		<!-- jQuery -->
+		<script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		  
+		<!-- DataTables -->
+		<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.9/js/jquery.dataTables.js"></script>
+		<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.0.3/js/dataTables.buttons.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="http://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="http://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="http://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+		<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/buttons/1.0.3/js/buttons.html5.min.js"></script>
+		
+
+	</head>
+
+	<body>
+		<center>
+			<h1>Penalty Counter!</h1>
+			<p id="explanation">
+				<b><u>How this program works</u></b><BR/><BR/>
+					This program runs a script nightly to parse through the box scores of NHL games, obtaining relevant data about the penalties that occurred during the game. This webpage takes the data that was obtained, and allows you to select what you want to see.<BR/><BR/>
+					To see the source code for this project, the code repository is located <a href="https://github.com/Roymond35/Penalty_Tracker" alt="Link to the code repository">here</a>
+				<BR>
+				<button id="hideExplanation">Hide this Explanation</button>
+			</p>
+			
+		<table id="penaltyTable">
+			<thead>
+				<tr>
+					<th id="header_playerName">Player</th>
+					<th id="header_playerTeam">Team Name</th>
+					<th id="header_playerPenalty">Penalty</th>
+					<th id="header_penaltyDate">Date</th>
+					<th id="header_opponentName">Opponent</th>
+					<th id="header_location">H/A</th>
+					<th id="header_referees">Refs</th></tr>
+				</tr>
+			</thead>
+			<tbody>
+
+	<tr><td>Chris Kreider<//td><td>New York Rangers<//td><td>Interference - Goalkeeper<//td><td>2015-01-27<//td><td>New York Islanders<//td><td>Away<//td><td>Kelly Sutherland, Justin St. Pierre<//td><//tr>
+<tr><td>Nikolay Kulemin<//td><td>New York Islanders<//td><td>Tripping<//td><td>2015-01-27<//td><td>New York Rangers<//td><td>Home<//td><td>Kelly Sutherland, Justin St. Pierre<//td><//tr>
+<tr><td>Cal Clutterbuck<//td><td>New York Islanders<//td><td>Interference<//td><td>2015-01-27<//td><td>New York Rangers<//td><td>Home<//td><td>Kelly Sutherland, Justin St. Pierre<//td><//tr>
+<tr><td>Tanner Glass<//td><td>New York Rangers<//td><td>Tripping<//td><td>2015-01-27<//td><td>New York Islanders<//td><td>Away<//td><td>Kelly Sutherland, Justin St. Pierre<//td><//tr>
+<tr><td>Rick Nash<//td><td>New York Rangers<//td><td>Slashing<//td><td>2015-01-27<//td><td>New York Islanders<//td><td>Away<//td><td>Kelly Sutherland, Justin St. Pierre<//td><//tr>
+<tr><td>Matt Martin<//td><td>New York Islanders<//td><td>Roughing<//td><td>2015-01-27<//td><td>New York Rangers<//td><td>Home<//td><td>Kelly Sutherland, Justin St. Pierre<//td><//tr>
+<tr><td>Tanner Glass<//td><td>New York Rangers<//td><td>Roughing<//td><td>2015-01-27<//td><td>New York Islanders<//td><td>Away<//td><td>Kelly Sutherland, Justin St. Pierre<//td><//tr>
+<tr><td>Matt Martin<//td><td>New York Islanders<//td><td>Misconduct<//td><td>2015-01-27<//td><td>New York Rangers<//td><td>Home<//td><td>Kelly Sutherland, Justin St. Pierre<//td><//tr>
+<tr><td>Tanner Glass<//td><td>New York Rangers<//td><td>Misconduct<//td><td>2015-01-27<//td><td>New York Islanders<//td><td>Away<//td><td>Kelly Sutherland, Justin St. Pierre<//td><//tr>
+<tr><td>John Tavares<//td><td>New York Islanders<//td><td>Too many men on the ice<//td><td>2015-01-27<//td><td>New York Rangers<//td><td>Home<//td><td>Kelly Sutherland, Justin St. Pierre<//td><//tr>
+<tr><td>Brandon McMillan<//td><td>Arizona Coyotes<//td><td>Holding<//td><td>2015-01-27<//td><td>Philadelphia Flyers<//td><td>Away<//td><td>Frederick L'Ecuyer, Francois St. Laurent<//td><//tr>
+<tr><td>Ryan White<//td><td>Philadelphia Flyers<//td><td>Interference<//td><td>2015-01-27<//td><td>Arizona Coyotes<//td><td>Home<//td><td>Frederick L'Ecuyer, Francois St. Laurent<//td><//tr>
+<tr><td>Oliver Ekman-Larsson<//td><td>Arizona Coyotes<//td><td>Holding<//td><td>2015-01-27<//td><td>Philadelphia Flyers<//td><td>Away<//td><td>Frederick L'Ecuyer, Francois St. Laurent<//td><//tr>
+<tr><td>Chris Thorburn<//td><td>Winnipeg Jets<//td><td>Hooking<//td><td>2015-01-27<//td><td>Pittsburgh Penguins<//td><td>Away<//td><td>Mike Leggo, Rob Martell<//td><//tr>
+<tr><td>Ben Chiarot<//td><td>Winnipeg Jets<//td><td>Fighting<//td><td>2015-01-27<//td><td>Pittsburgh Penguins<//td><td>Away<//td><td>Mike Leggo, Rob Martell<//td><//tr>
+<tr><td>Zach Sill<//td><td>Pittsburgh Penguins<//td><td>Fighting<//td><td>2015-01-27<//td><td>Winnipeg Jets<//td><td>Home<//td><td>Mike Leggo, Rob Martell<//td><//tr>
+<tr><td>Chris Thorburn<//td><td>Winnipeg Jets<//td><td>Slashing<//td><td>2015-01-27<//td><td>Pittsburgh Penguins<//td><td>Away<//td><td>Mike Leggo, Rob Martell<//td><//tr>
+<tr><td>Kris Letang<//td><td>Pittsburgh Penguins<//td><td>Slashing<//td><td>2015-01-27<//td><td>Winnipeg Jets<//td><td>Home<//td><td>Mike Leggo, Rob Martell<//td><//tr>
+<tr><td>Blake Wheeler<//td><td>Winnipeg Jets<//td><td>Slashing<//td><td>2015-01-27<//td><td>Pittsburgh Penguins<//td><td>Away<//td><td>Mike Leggo, Rob Martell<//td><//tr>
+<tr><td>Adam Lowry<//td><td>Winnipeg Jets<//td><td>Charging<//td><td>2015-01-27<//td><td>Pittsburgh Penguins<//td><td>Away<//td><td>Mike Leggo, Rob Martell<//td><//tr>
+<tr><td>Tom Wilson<//td><td>Washington Capitals<//td><td>Boarding<//td><td>2015-01-27<//td><td>Columbus Blue Jackets<//td><td>Away<//td><td>Brad Watson, Eric Furlatt<//td><//tr>
+<tr><td>Matt Niskanen<//td><td>Washington Capitals<//td><td>Holding<//td><td>2015-01-27<//td><td>Columbus Blue Jackets<//td><td>Away<//td><td>Brad Watson, Eric Furlatt<//td><//tr>
+<tr><td>Fedor Tyutin<//td><td>Columbus Blue Jackets<//td><td>Hi-sticking<//td><td>2015-01-27<//td><td>Washington Capitals<//td><td>Home<//td><td>Brad Watson, Eric Furlatt<//td><//tr>
+<tr><td>Jack Hillen<//td><td>Washington Capitals<//td><td>Hooking<//td><td>2015-01-27<//td><td>Columbus Blue Jackets<//td><td>Away<//td><td>Brad Watson, Eric Furlatt<//td><//tr>
+<tr><td>Brandon Dubinsky<//td><td>Columbus Blue Jackets<//td><td>Tripping<//td><td>2015-01-27<//td><td>Washington Capitals<//td><td>Home<//td><td>Brad Watson, Eric Furlatt<//td><//tr>
+<tr><td>Jared Boll<//td><td>Columbus Blue Jackets<//td><td>Hooking<//td><td>2015-01-27<//td><td>Washington Capitals<//td><td>Home<//td><td>Brad Watson, Eric Furlatt<//td><//tr>
+<tr><td>Tom Wilson<//td><td>Washington Capitals<//td><td>Interference<//td><td>2015-01-27<//td><td>Columbus Blue Jackets<//td><td>Away<//td><td>Brad Watson, Eric Furlatt<//td><//tr>
+<tr><td>Nicklas Backstrom<//td><td>Washington Capitals<//td><td>Holding<//td><td>2015-01-27<//td><td>Columbus Blue Jackets<//td><td>Away<//td><td>Brad Watson, Eric Furlatt<//td><//tr>
+<tr><td>Brad Malone<//td><td>Carolina Hurricanes<//td><td>Holding<//td><td>2015-01-27<//td><td>Tampa Bay Lightning<//td><td>Home<//td><td>Wes McCauley, TJ Luxmore<//td><//tr>
+<tr><td>Andrej Sustr<//td><td>Tampa Bay Lightning<//td><td>Hooking<//td><td>2015-01-27<//td><td>Carolina Hurricanes<//td><td>Away<//td><td>Wes McCauley, TJ Luxmore<//td><//tr>
+<tr><td>Valtteri Filppula<//td><td>Tampa Bay Lightning<//td><td>Holding<//td><td>2015-01-27<//td><td>Carolina Hurricanes<//td><td>Away<//td><td>Wes McCauley, TJ Luxmore<//td><//tr>
+<tr><td>Nikita Nesterov<//td><td>Tampa Bay Lightning<//td><td>Delaying Game - Smothering puck<//td><td>2015-01-27<//td><td>Carolina Hurricanes<//td><td>Away<//td><td>Wes McCauley, TJ Luxmore<//td><//tr>
+<tr><td>Nathan Gerbe<//td><td>Carolina Hurricanes<//td><td>Slashing<//td><td>2015-01-27<//td><td>Tampa Bay Lightning<//td><td>Home<//td><td>Wes McCauley, TJ Luxmore<//td><//tr>
+<tr><td>Jordan Staal<//td><td>Carolina Hurricanes<//td><td>Cross checking<//td><td>2015-01-27<//td><td>Tampa Bay Lightning<//td><td>Home<//td><td>Wes McCauley, TJ Luxmore<//td><//tr>
+<tr><td>Ryan Garbutt<//td><td>Dallas Stars<//td><td>Hooking<//td><td>2015-01-27<//td><td>Montreal Canadiens<//td><td>Away<//td><td>Jean Hebert, Marc Joannette<//td><//tr>
+<tr><td>Brandon Prust<//td><td>Montreal Canadiens<//td><td>Interference<//td><td>2015-01-27<//td><td>Dallas Stars<//td><td>Home<//td><td>Jean Hebert, Marc Joannette<//td><//tr>
+<tr><td>Alexei Emelin<//td><td>Montreal Canadiens<//td><td>Boarding<//td><td>2015-01-27<//td><td>Dallas Stars<//td><td>Home<//td><td>Jean Hebert, Marc Joannette<//td><//tr>
+<tr><td>Alexei Emelin<//td><td>Montreal Canadiens<//td><td>Game misconduct<//td><td>2015-01-27<//td><td>Dallas Stars<//td><td>Home<//td><td>Jean Hebert, Marc Joannette<//td><//tr>
+<tr><td>Vernon Fiddler<//td><td>Dallas Stars<//td><td>Hooking<//td><td>2015-01-27<//td><td>Montreal Canadiens<//td><td>Away<//td><td>Jean Hebert, Marc Joannette<//td><//tr>
+<tr><td>Alex Goligoski<//td><td>Dallas Stars<//td><td>Hooking<//td><td>2015-01-27<//td><td>Montreal Canadiens<//td><td>Away<//td><td>Jean Hebert, Marc Joannette<//td><//tr>
+<tr><td>Jason Spezza<//td><td>Dallas Stars<//td><td>Too many men on the ice<//td><td>2015-01-27<//td><td>Montreal Canadiens<//td><td>Away<//td><td>Jean Hebert, Marc Joannette<//td><//tr>
+<tr><td>Jiri Sekac<//td><td>Montreal Canadiens<//td><td>Hi-sticking<//td><td>2015-01-27<//td><td>Dallas Stars<//td><td>Home<//td><td>Jean Hebert, Marc Joannette<//td><//tr>
+<tr><td>Alex Goligoski<//td><td>Dallas Stars<//td><td>Tripping<//td><td>2015-01-27<//td><td>Montreal Canadiens<//td><td>Away<//td><td>Jean Hebert, Marc Joannette<//td><//tr>
+<tr><td>Dale Weise<//td><td>Montreal Canadiens<//td><td>Holding<//td><td>2015-01-27<//td><td>Dallas Stars<//td><td>Home<//td><td>Jean Hebert, Marc Joannette<//td><//tr>
+<tr><td>Alex Galchenyuk<//td><td>Montreal Canadiens<//td><td>Too many men on the ice<//td><td>2015-01-27<//td><td>Dallas Stars<//td><td>Home<//td><td>Jean Hebert, Marc Joannette<//td><//tr>
+<tr><td>Danny DeKeyser<//td><td>Detroit Red Wings<//td><td>Delaying Game - Puck over glass<//td><td>2015-01-27<//td><td>Florida Panthers<//td><td>Away<//td><td>Dan O'Halloran, Steve Kozari<//td><//tr>
+<tr><td>Kyle Quincey<//td><td>Detroit Red Wings<//td><td>Slashing<//td><td>2015-01-27<//td><td>Florida Panthers<//td><td>Away<//td><td>Dan O'Halloran, Steve Kozari<//td><//tr>
+<tr><td>Brian Campbell<//td><td>Florida Panthers<//td><td>Interference<//td><td>2015-01-27<//td><td>Detroit Red Wings<//td><td>Home<//td><td>Dan O'Halloran, Steve Kozari<//td><//tr>
+<tr><td>Pavel Datsyuk<//td><td>Detroit Red Wings<//td><td>Too many men on the ice<//td><td>2015-01-27<//td><td>Florida Panthers<//td><td>Away<//td><td>Dan O'Halloran, Steve Kozari<//td><//tr>
+<tr><td>Brendan Smith<//td><td>Detroit Red Wings<//td><td>Roughing<//td><td>2015-01-27<//td><td>Florida Panthers<//td><td>Away<//td><td>Dan O'Halloran, Steve Kozari<//td><//tr>
+<tr><td>Drew Miller<//td><td>Detroit Red Wings<//td><td>Interference<//td><td>2015-01-27<//td><td>Florida Panthers<//td><td>Away<//td><td>Dan O'Halloran, Steve Kozari<//td><//tr>
+<tr><td>Alex Tanguay<//td><td>Colorado Avalanche<//td><td>Tripping<//td><td>2015-01-27<//td><td>Nashville Predators<//td><td>Away<//td><td>Paul Devorski, Garrett Rank<//td><//tr>
+<tr><td>Anton Volchenkov<//td><td>Nashville Predators<//td><td>Holding<//td><td>2015-01-27<//td><td>Colorado Avalanche<//td><td>Home<//td><td>Paul Devorski, Garrett Rank<//td><//tr>
+<tr><td>Paul Gaustad<//td><td>Nashville Predators<//td><td>Fighting<//td><td>2015-01-27<//td><td>Colorado Avalanche<//td><td>Home<//td><td>Paul Devorski, Garrett Rank<//td><//tr>
+<tr><td>Cody McLeod<//td><td>Colorado Avalanche<//td><td>Fighting<//td><td>2015-01-27<//td><td>Nashville Predators<//td><td>Away<//td><td>Paul Devorski, Garrett Rank<//td><//tr>
+<tr><td>John Mitchell<//td><td>Colorado Avalanche<//td><td>Hi-sticking<//td><td>2015-01-27<//td><td>Nashville Predators<//td><td>Away<//td><td>Paul Devorski, Garrett Rank<//td><//tr>
+<tr><td>Paul Gaustad<//td><td>Nashville Predators<//td><td>Tripping<//td><td>2015-01-27<//td><td>Colorado Avalanche<//td><td>Home<//td><td>Paul Devorski, Garrett Rank<//td><//tr>
+<tr><td>Joe Colborne<//td><td>Calgary Flames<//td><td>Hooking<//td><td>2015-01-27<//td><td>Buffalo Sabres<//td><td>Home<//td><td>Tom Kowal, Brad Meier<//td><//tr>
+<tr><td>Torrey Mitchell<//td><td>Buffalo Sabres<//td><td>Holding<//td><td>2015-01-27<//td><td>Calgary Flames<//td><td>Away<//td><td>Tom Kowal, Brad Meier<//td><//tr>
+<tr><td>Joe Colborne<//td><td>Calgary Flames<//td><td>Hi-sticking<//td><td>2015-01-27<//td><td>Buffalo Sabres<//td><td>Home<//td><td>Tom Kowal, Brad Meier<//td><//tr>
+<tr><td>Brian Flynn<//td><td>Buffalo Sabres<//td><td>Delaying Game - Puck over glass<//td><td>2015-01-27<//td><td>Calgary Flames<//td><td>Away<//td><td>Tom Kowal, Brad Meier<//td><//tr>
+<tr><td>Tyler Ennis<//td><td>Buffalo Sabres<//td><td>Hooking<//td><td>2015-01-27<//td><td>Calgary Flames<//td><td>Away<//td><td>Tom Kowal, Brad Meier<//td><//tr>
+<tr><td>Mike Weber<//td><td>Buffalo Sabres<//td><td>Delaying Game - Puck over glass<//td><td>2015-01-27<//td><td>Calgary Flames<//td><td>Away<//td><td>Tom Kowal, Brad Meier<//td><//tr>
+<tr><td>Mikael Granlund<//td><td>Minnesota Wild<//td><td>Closing hand on puck<//td><td>2015-01-27<//td><td>Edmonton Oilers<//td><td>Away<//td><td>Brian Pochmara, Greg Kimmerly<//td><//tr>
+<tr><td>Matt Cooke<//td><td>Minnesota Wild<//td><td>Tripping<//td><td>2015-01-27<//td><td>Edmonton Oilers<//td><td>Away<//td><td>Brian Pochmara, Greg Kimmerly<//td><//tr>
+<tr><td>Rob Klinkhammer<//td><td>Edmonton Oilers<//td><td>Tripping<//td><td>2015-01-27<//td><td>Minnesota Wild<//td><td>Home<//td><td>Brian Pochmara, Greg Kimmerly<//td><//tr>
+<tr><td>Jeff Petry<//td><td>Edmonton Oilers<//td><td>Holding the stick<//td><td>2015-01-27<//td><td>Minnesota Wild<//td><td>Home<//td><td>Brian Pochmara, Greg Kimmerly<//td><//tr>
+<tr><td>Ryan Suter<//td><td>Minnesota Wild<//td><td>Holding the stick<//td><td>2015-01-27<//td><td>Edmonton Oilers<//td><td>Away<//td><td>Brian Pochmara, Greg Kimmerly<//td><//tr>
+<tr><td>Nail Yakupov<//td><td>Edmonton Oilers<//td><td>Unsportsmanlike conduct<//td><td>2015-01-27<//td><td>Minnesota Wild<//td><td>Home<//td><td>Brian Pochmara, Greg Kimmerly<//td><//tr>
+<tr><td>Devan Dubnyk<//td><td>Minnesota Wild<//td><td>Slashing<//td><td>2015-01-27<//td><td>Edmonton Oilers<//td><td>Away<//td><td>Brian Pochmara, Greg Kimmerly<//td><//tr>
+<tr><td>Daniel Sedin<//td><td>Vancouver Canucks<//td><td>Hooking<//td><td>2015-01-27<//td><td>Anaheim Ducks<//td><td>Home<//td><td>Kevin Pollock, Tom Chmielewski<//td><//tr>
+<tr><td>Ben Lovejoy<//td><td>Anaheim Ducks<//td><td>Interference<//td><td>2015-01-27<//td><td>Vancouver Canucks<//td><td>Away<//td><td>Kevin Pollock, Tom Chmielewski<//td><//tr>
+<tr><td>Francois Beauchemin<//td><td>Anaheim Ducks<//td><td>Cross checking<//td><td>2015-01-27<//td><td>Vancouver Canucks<//td><td>Away<//td><td>Kevin Pollock, Tom Chmielewski<//td><//tr>
+<tr><td>Corey Perry<//td><td>Anaheim Ducks<//td><td>Hooking<//td><td>2015-01-27<//td><td>Vancouver Canucks<//td><td>Away<//td><td>Kevin Pollock, Tom Chmielewski<//td><//tr>
+<tr><td>Zack Kassian<//td><td>Vancouver Canucks<//td><td>Roughing<//td><td>2015-01-27<//td><td>Anaheim Ducks<//td><td>Home<//td><td>Kevin Pollock, Tom Chmielewski<//td><//tr>
+<tr><td>Jannik Hansen<//td><td>Vancouver Canucks<//td><td>Interference - Goalkeeper<//td><td>2015-01-27<//td><td>Anaheim Ducks<//td><td>Home<//td><td>Kevin Pollock, Tom Chmielewski<//td><//tr>
+
+		<!-- INSERT DATA HERE -->
+			</tbody>
+		</table>
+	
+	
+	
+		<script type="text/javascript">
+			$(document).ready( function () {
+				$('#penaltyTable').DataTable(
+				 {
+						dom: 'Bfrtip',
+						buttons: [
+							{
+								extend: 'copyHtml5',
+								text: 'Copy for Reddit',
+								fieldSeparator: ' | ',
+								header: true
+							},
+							{
+								extend: 'excelHtml5',
+								title: 'Penalty Data export'
+							},
+							{
+								extend: 'pdfHtml5',
+								title: 'Penalty Data export'
+							},
+							{
+								extend: 'csvHtml5',
+								title: 'Penalty Data export'
+							},
+						]
+				});
+			});
+			
+			document.getElementById("hideExplanation").onclick = function(){
+				$("#explanation").css("display","none");
+			};
+		</script>
+		<div id="footer">This list was last updated on: <B id="newDate">2016-02-02</b></div>
+	</body>
+</html>
