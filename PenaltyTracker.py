@@ -5,19 +5,19 @@ from ftplib import FTP
 from credientials import *
 
 def uploadFile(file):
-	'''Uploads the file to the website
-	   Note: Does not return anything
-	   The credientials are also stored locally.
-	'''
-	address = credientials["address"]
-	user = credientials["username"]
-	password = credientials["password"]
+    '''Uploads the file to the website
+    Note: Does not return anything
+    The credientials are also stored locally.
+    '''
+    address = credientials["address"]
+    user = credientials["username"]
+    password = credientials["password"]
+
+    ftp = FTP(address)
+    ftp.login(user, password)
 	
-	ftp = FTP(address)
-	ftp.login(user, password)
-	
-	ftp.storlines("STOR " + file, open(file, 'r'))
-	ftp.close()
+    ftp.storlines("STOR " + file, open(file, 'r'))
+    ftp.close()
 
 
 # Lifting this from the htmlGenerator
@@ -106,7 +106,7 @@ def processGames(game, date):
             
         dateFormatted = date[5:7] + "/" + date[8::] + "/" + date[0:4]
             
-        newPenalty = Penalty(playerName, playerTeamName, penaltyName, location, opponentTeamName, date, refs)
+        newPenalty = Penalty(playerName, playerTeamName, penaltyName, location, opponentTeamName, dateFormatted, refs)
         
         gamePenaltyList.append(newPenalty)
             
@@ -131,11 +131,9 @@ def getData(date):
         websiteData = urllib.urlopen(full_url)
         jsonData = json.load(websiteData)
     except:
-        sys.exit(-1)
-    
+        sys.exit(-1)   
     gameURLS = []
     gameURLS[:] = []
-    
     for i in jsonData['dates'][0]['games']:
         gameURLS.append( gameDataURLprefix + i["link"] )
         
@@ -149,7 +147,7 @@ def getString(penaltyList):
     
     
 def run():
-    date = formatDate("2016-02-03")
+    date = formatDate() #If the tracker missed a day, put a string of the date in this function.
     gameURLS = getData(date)
     if ( len(gameURLS) ) > 0:
         newPenaltyString = ""
