@@ -4,7 +4,7 @@ from Penalty import *
 from ftplib import FTP
 from credientials import *
 
-def uploadFile(file):
+def steve(file):
     '''Uploads the file to the website
     Note: Does not return anything
     The credientials are also stored locally.
@@ -105,10 +105,12 @@ def processGames(game, date):
             opponentTeamName = awayTeam
             
         dateFormatted = date[5:7] + "/" + date[8::] + "/" + date[0:4]
-            
-        newPenalty = Penalty(playerName, playerTeamName, penaltyName, location, opponentTeamName, dateFormatted, refs)
         
-        gamePenaltyList.append(newPenalty)
+        if "PS-" not in penaltyName:
+            newPenalty = Penalty(playerName, playerTeamName, penaltyName, location, opponentTeamName, dateFormatted, refs)
+            gamePenaltyList.append(newPenalty)
+        else:
+            print "Ignoring Penalty Shot"
             
     return gamePenaltyList
         
@@ -147,15 +149,17 @@ def getString(penaltyList):
     
     
 def run():
-    date = formatDate() #If the tracker missed a day, put a string of the date in this function.
+    date = formatDate("2016-02-24") #If the tracker missed a day, put a string of the date in this function.
     gameURLS = getData(date)
     if ( len(gameURLS) ) > 0:
         newPenaltyString = ""
         for game in gameURLS:
             penaltyList = processGames(game,date)
             newPenaltyString += getString(penaltyList)
-        htmlGenerator(newPenaltyString, "index.html", "")
-        uploadFile("index.html")
+        for i in penaltyList:
+            i.printEvent()
+        #htmlGenerator(newPenaltyString, "index.html", "")
+        #uploadFile("index.html")
 
         
 run()
