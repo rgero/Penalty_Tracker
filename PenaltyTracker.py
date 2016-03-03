@@ -147,7 +147,7 @@ def getString(penaltyList):
     
     
 def run():
-    date = formatDate("2016-02-24") #If the tracker missed a day, put a string of the date in this function.
+    date = formatDate() #If the tracker missed a day, put a string of the date in this function.
     gameURLS = getData(date)
     if ( len(gameURLS) ) > 0:
         newPenaltyString = ""
