@@ -1,8 +1,9 @@
-import urllib,json, sys, shutil
+import urllib,json, sys, shutil, httplib
 from datetime import *
 from Penalty import *
 from ftplib import FTP
 from credientials import *
+
 
 def uploadFile(file):
     '''Uploads the file to the website
@@ -145,14 +146,33 @@ def getString(penaltyList):
         data += penalty.printTable() + "\n"
     return data
     
+def uploadToParse(penaltyList):
+    connection = httplib.HTTPSConnection('api.parse.com', 443)
+    connection.connect()
+    for penalty in penaltyList:
+        connection.request('POST', '/1/classes/Penalties', json.dumps({
+           "player": penalty.getPlayer(),
+            "team": penalty.getTeam(),
+            "penalty": penalty.getPenalty(),
+            "date": penalty.getDate(),
+            "opponent": penalty.getOpponent(),
+            "location": penalty.getSide(),
+            "referees" : penalty.getRefs()
+         }), {
+           "X-Parse-Application-Id": credientials["appID"],
+           "X-Parse-REST-API-Key": credientials["restID"],
+           "Content-Type": "application/json"
+         })
+    results = json.loads(connection.getresponse().read())
     
 def run():
-    date = formatDate("2016-02-24") #If the tracker missed a day, put a string of the date in this function.
+    date = formatDate() #If the tracker missed a day, put a string of the date in this function.
     gameURLS = getData(date)
     if ( len(gameURLS) ) > 0:
         newPenaltyString = ""
         for game in gameURLS:
             penaltyList = processGames(game,date)
+            uploadToParse(penaltyList)
             newPenaltyString += getString(penaltyList)
         htmlGenerator(newPenaltyString, "index.html", "")
         uploadFile("index.html")
