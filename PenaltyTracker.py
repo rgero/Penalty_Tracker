@@ -163,7 +163,7 @@ def uploadToParse(penaltyList):
            "X-Parse-REST-API-Key": credientials["restID"],
            "Content-Type": "application/json"
          })
-    results = json.loads(connection.getresponse().read())
+        results = json.loads(connection.getresponse().read())
     
 def run():
     date = formatDate() #If the tracker missed a day, put a string of the date in this function.
