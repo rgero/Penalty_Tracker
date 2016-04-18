@@ -1,0 +1,13 @@
+Potential Enhancements to be made to the Penalty Tracker during the off season
+--------------------
+
+- Store the data in a better way.
+    - Currently the data is being stored inefficiently. Since I plan on storing MORE data, I have to store this better.
+- Store more data
+    - Some initial ideas are
+        - Timestamps of the penalties
+        - Where there was a goal scored on the resulting powerplay
+- Apps!
+    - (Think this out more...)
+
+    
