@@ -135,8 +135,12 @@ def getData(date):
         sys.exit(-1)   
     gameURLS = []
     gameURLS[:] = []
-    for i in jsonData['dates'][0]['games']:
-        gameURLS.append( gameDataURLprefix + i["link"] )
+    try:
+        for i in jsonData['dates'][0]['games']:
+            gameURLS.append( gameDataURLprefix + i["link"] )
+    except IndexError:
+        print "No games today!"
+        sys.exit(0)
         
     return gameURLS
     
@@ -166,7 +170,7 @@ def uploadToParse(penaltyList):
         results = json.loads(connection.getresponse().read())
     
 def run():
-    date = formatDate() #If the tracker missed a day, put a string of the date in this function.
+    date = formatDate("2016-05-14") #If the tracker missed a day, put a string of the date in this function.
     gameURLS = getData(date)
     if ( len(gameURLS) ) > 0:
         newPenaltyString = ""
