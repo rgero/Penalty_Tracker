@@ -40,6 +40,16 @@ class TestingPenaltyTracker(unittest.TestCase):
         numberOfGames = len( getData("2016-02-26") )
         self.assertEqual( numberOfGames, 5 )
         
+    def testPenaltyProcessing(self):
+        testGameList = getData("2016-02-26")
+        penaltyString = ""
+        for game in testGameList:
+            penaltyList = processGame(game, "2016-02-26")
+            penaltyString += getPenaltyListAsString(penaltyList)
+        file = open('.\TestingDocs\TestList.txt','r')
+        testedData = file.read()
+        self.assertEqual(testedData, penaltyString)
+        
 	
 
 		
@@ -57,6 +67,7 @@ print "--------------------------------------------------------"
 penaltyClassSuite = unittest.TestLoader().loadTestsFromTestCase(TestingPenaltyClass)
 unittest.TextTestRunner(verbosity=2).run(penaltyClassSuite)
 
+print ""
 print "Testing the Penalty Tracker"
 print "--------------------------------------------------------"
 penaltyTrackerSuite = unittest.TestLoader().loadTestsFromTestCase(TestingPenaltyTracker)
