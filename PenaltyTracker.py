@@ -153,7 +153,7 @@ def getData(date):
         
     return gameURLS
     
-def getString(penaltyList):
+def getPenaltyListAsString(penaltyList):
     data = ""
     for penalty in penaltyList:
         data += penalty.printTable() + "\n"
@@ -186,7 +186,7 @@ def run():
         for game in gameURLS:
             penaltyList = processGame(game,date)
             uploadToParse(penaltyList)
-            newPenaltyString += getString(penaltyList)
+            newPenaltyString += getPenaltyListAsString(penaltyList)
         generateHTML(newPenaltyString, "index.html")
         uploadFile("index.html")
 
