@@ -23,8 +23,6 @@ def uploadFile(file):
 def backupData(desiredFileName, todaysDate):
     ''' Since there is a chance of data corruption it is good to backup the index file.
     '''
-    
-     
     if not os.path.exists('.\\defunct_files\\'):
         shutil.os.mkdir('.\\defunct_files\\')
     if not os.path.exists('.\\defunct_files\\old_pages'):
@@ -192,6 +190,10 @@ def run():
         generateHTML(newPenaltyString, "index.html")
         uploadFile("index.html")
 
-        
-run()
+
+try:
+	sys.argv[1]
+	run()
+except IndexError:
+	pass #If this is ran from the unit test, nothing extra runs.
     
