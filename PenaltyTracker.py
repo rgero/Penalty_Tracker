@@ -1,4 +1,4 @@
-import urllib,json, sys, shutil, httplib
+import urllib,json, sys, os, shutil, httplib
 from datetime import *
 from Penalty import *
 from ftplib import FTP
@@ -16,71 +16,82 @@ def uploadFile(file):
 
     ftp = FTP(address)
     ftp.login(user, password)
-	
+    
     ftp.storlines("STOR " + file, open(file, 'r'))
     ftp.close()
+    
+def backupData(desiredFileName, todaysDate):
+    ''' Since there is a chance of data corruption it is good to backup the index file.
+    '''
+    
+     
+    if not os.path.exists('.\\defunct_files\\'):
+        shutil.os.mkdir('.\\defunct_files\\')
+    if not os.path.exists('.\\defunct_files\\old_pages'):
+        shutil.os.mkdir('.\\defunct_files\\old_pages')
+    newName = ".\\defunct_files\\old_pages\\" + desiredFileName + "_" + todaysDate + ".html"
+    shutil.copy(desiredFileName, newName)
+    
 
 
-# Lifting this from the htmlGenerator
-def htmlGenerator(newSection, desiredFileName, dt):
-	'''	Opens the local copy of the index.html file and appends it with the new penalty data
-		INPUTS: 
-			newSection - The new section to be written to the file
-			desiredFileName - the name of the file we're writing to. JUST THE NAME. Do not open.
-	'''
+# Lifting this from the old generateHTML
+def generateHTML(newSection, desiredFileName):
+    '''    Opens the local copy of the index.html file and appends it with the new penalty data
+        INPUTS: 
+            newSection - The new section to be written to the file
+            desiredFileName - the name of the file we're writing to. JUST THE NAME. Do not open.
+    '''
 
-	indexFile = open(desiredFileName,'r')
-	indexFileRead = indexFile.read()
-	indexFile.close()
-	
-	#Renaming and moving the file (it's good to have backups.)
-	todaysDate = str(date.today())
-	
-	if (dt == ""):
-		dt = todaysDate
-	
-	newName = ".\\defunct_files\\old_pages\\" + desiredFileName + "_" + todaysDate + ".html"
-	shutil.copy(desiredFileName, newName)
-	
-	newFile = open(desiredFileName,'w')
-	locationOfNote = indexFileRead.find("<!-- INSERT DATA HERE -->")
-	locationOfDate = indexFileRead.find("<B id=\"newDate\">") +  len("<B id=\"newDate\">")
-	midSection = indexFileRead[locationOfNote:locationOfDate]
-	locationOfEnd = indexFileRead[::-1].find(">b/<") + len(">b/<") #The tag has to be backwards.
-	endingData = indexFileRead[len(indexFileRead)-locationOfEnd::] #Storing the data after the last entry since it will be overwritten
-	newFile.write(indexFileRead[0:locationOfNote-1] + newSection + "\n\t\t"+ midSection + dt + endingData)
-	newFile.close()
+    indexFile = open(desiredFileName,'r')
+    indexFileRead = indexFile.read()
+    indexFile.close()
+    
+    todaysDate = str(date.today(desiredFileName)) # This is for the generation date at the bottom of the page.
+    backupData(desiredFileName, todaysDate)
+        
+    
+    newFile = open(desiredFileName,'w')
+    locationOfNote = indexFileRead.find("<!-- INSERT DATA HERE -->")
+    locationOfDate = indexFileRead.find("<B id=\"newDate\">") +  len("<B id=\"newDate\">")
+    midSection = indexFileRead[locationOfNote:locationOfDate]
+    locationOfEnd = indexFileRead[::-1].find(">b/<") + len(">b/<") #The tag has to be backwards.
+    endingData = indexFileRead[len(indexFileRead)-locationOfEnd::] #Storing the data after the last entry since it will be overwritten
+    newFile.write(indexFileRead[0:locationOfNote-1] + newSection + "\n\t\t"+ midSection + todaysDate + endingData)
+    newFile.close()
 
 
 def formatDate(*args):
-	'''
-		Looks at the system to determine the date
-		Converts the date to the proper format
-		
-		DateTimes format is YYYY-MM-DD
-		
-		Returns: String in the format of YYYY-MM-DD
-	'''
-	if len(args) == 0: #This if statement allows me to use this function in unit testing.
-		today = date.today()- timedelta(1)
-		dateAsString = str(today)
-	else:
-		dateAsString = args[0]
-	return dateAsString
+    '''
+        Looks at the system to determine the date
+        Converts the date to the proper format...
+        
+        This is to safe guard the NHL changing the date format again.
+        
+        DateTimes format is YYYY-MM-DD        
+        Returns: String in the format of YYYY-MM-DD
+    '''
+    if len(args) == 0: #This allows me to specify dates for testing / in case I miss a date.
+        today = date.today()- timedelta(1)
+        dateAsString = str(today)
+    else:
+        dateAsString = args[0]
+    return dateAsString
     
-def processGames(game, date):
+def processGame(game, date):
     gamePenaltyList = []
     gamePenaltyList[:] = []
     
     gameData = urllib.urlopen(game)
     jsonData = json.load(gameData)
     
+    #Added a special case for Montreal because they have an accent.
     awayTeam = jsonData["gameData"]["teams"]["away"]["name"]
     if (awayTeam.lower().find("canadiens") != -1):
         awayTeam = "Montreal Canadiens"
     homeTeam = jsonData["gameData"]["teams"]["home"]["name"]
     if (homeTeam.lower().find("canadiens") != -1):
         homeTeam = "Montreal Canadiens"
+    
     refs = []
     refs[:] = []
     
@@ -170,16 +181,17 @@ def uploadToParse(penaltyList):
         results = json.loads(connection.getresponse().read())
     
 def run():
-    date = formatDate("2016-05-14") #If the tracker missed a day, put a string of the date in this function.
+    date = formatDate() #If the tracker missed a day, put a string of the date in this function.
     gameURLS = getData(date)
     if ( len(gameURLS) ) > 0:
         newPenaltyString = ""
         for game in gameURLS:
-            penaltyList = processGames(game,date)
+            penaltyList = processGame(game,date)
             uploadToParse(penaltyList)
             newPenaltyString += getString(penaltyList)
-        htmlGenerator(newPenaltyString, "index.html", "")
+        generateHTML(newPenaltyString, "index.html")
         uploadFile("index.html")
 
         
 run()
+    

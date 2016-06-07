@@ -2,3 +2,6 @@ credientials.py
 credientials.pyc
 *.pyc
 defunct_files/
+depreciated_files/
+DataChecker/
+Yup.py
