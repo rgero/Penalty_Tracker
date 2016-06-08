@@ -44,7 +44,7 @@ def generateHTML(newSection, desiredFileName):
     indexFileRead = indexFile.read()
     indexFile.close()
     
-    todaysDate = str(date.today(desiredFileName)) # This is for the generation date at the bottom of the page.
+    todaysDate = str(date.today()) # This is for the generation date at the bottom of the page.
     backupData(desiredFileName, todaysDate)
         
     

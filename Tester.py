@@ -5,7 +5,7 @@
 
 from Penalty import *
 from PenaltyTracker import *
-import unittest,os,sys,shutil
+import unittest,os,sys,shutil, filecmp
 
 class TestingPenaltyClass(unittest.TestCase):
 	def testPlayerName(self):
@@ -46,13 +46,22 @@ class TestingPenaltyTracker(unittest.TestCase):
         for game in testGameList:
             penaltyList = processGame(game, "2016-02-26")
             penaltyString += getPenaltyListAsString(penaltyList)
-        file = open('/TestingDocs/TestList.txt','r')
+        file = open('.\TestingDocs\TestList.txt','r')
         testedData = file.read()
         self.assertEqual(testedData, penaltyString)
 
-	def testHTMLGeneration(self):
-		shutil.copyfile('.\TestingDocs\tableGenerator.html')
+    def testHTMLGeneration(self):
+        #Note to self! Check the date if this function fails. HTML Generate puts today's date on all new html files.
+        currentDir = os.getcwd()
+        testingDocDir = os.path.join(currentDir, "TestingDocs")
+        shutil.copyfile( testingDocDir + "\\tableGenerator.html", currentDir + "\\Test.html")
+        
+        event = Penalty("Claude McSlash","Boston Bruins","Slashing",True,"Calgary Flames","July 10, 2015",["Don","Ron"])
+        generateHTML( event.printTable(), "Test.html")
+        self.assertTrue(filecmp.cmp("Test.html", testingDocDir + "\\CorrectTestTable.html"))
+        os.remove("Test.html")
 
+        
 
 
 
