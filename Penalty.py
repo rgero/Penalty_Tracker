@@ -67,5 +67,5 @@ class Penalty:
       homeaway = 0
     else:
       homeaway = 1
-    entry = "'{0}','{1}','{2}','{3}','{4}','{5}','{6}'".format(self.name, self.team, self.penalty, self.date, self.opponent, str(homeaway), self.getRefsAsString())
+    entry = """ "{0}","{1}","{2}","{3}","{4}","{5}","{6}" """.format(self.name, self.team, self.penalty, self.date, self.opponent, str(homeaway), self.getRefsAsString())
     return entry
