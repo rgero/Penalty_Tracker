@@ -2,6 +2,7 @@ import urllib,json, sys, os, shutil, httplib
 from datetime import *
 from Penalty import *
 from ftplib import FTP
+from DatabaseManager import *
 from credientials import *
 
 
@@ -24,54 +25,6 @@ def uploadFile(file):
     ftp.storlines("STOR " + file, open(file, 'r'))
     ftp.close()
     
-def backupData(desiredFileName, todaysDate):
-    ''' In order to guard against data corruption, this script creates a local back-up copy of any required file.
-    
-    Inputs:
-        desiredFileName - This is the file that will be backed up
-        
-    Returns:
-        There is no return value for this. Potential enhancement would be return a success signal.
-    '''
-    
-    #Checking to see if the directories exist, if they don't create them.
-    if not os.path.exists('.\\defunct_files\\'):
-        shutil.os.mkdir('.\\defunct_files\\')
-    if not os.path.exists('.\\defunct_files\\old_pages'):
-        shutil.os.mkdir('.\\defunct_files\\old_pages')
-        
-    #Setting up the name and copying the file.
-    newName = ".\\defunct_files\\old_pages\\" + desiredFileName + "_" + todaysDate + ".html"
-    shutil.copy(desiredFileName, newName)
-    
-
-
-# Lifting this from the old generateHTML
-def generateHTML(newSection, desiredFileName):
-    '''    Opens the local copy of the index.html file and appends it with the new penalty data
-        INPUTS: 
-            newSection - The new section to be written to the file
-            desiredFileName - the name of the file we're writing to. JUST THE NAME. Do not open.
-    '''
-
-    indexFile = open(desiredFileName,'r')
-    indexFileRead = indexFile.read()
-    indexFile.close()
-    
-    todaysDate = str(date.today()) # This is for the generation date at the bottom of the page.
-    backupData(desiredFileName, todaysDate) # This function creates the local backup.
-        
-    
-    newFile = open(desiredFileName,'w')
-    locationOfNote = indexFileRead.find("<!-- INSERT DATA HERE -->") # This is the note that exists at the end of the previous dataset.
-    locationOfDate = indexFileRead.find("<B id=\"newDate\">") +  len("<B id=\"newDate\">") #This is the location of the modified date
-    midSection = indexFileRead[locationOfNote:locationOfDate]
-    locationOfEnd = indexFileRead[::-1].find(">b/<") + len(">b/<") #The tag has to be backwards.
-    endingData = indexFileRead[len(indexFileRead)-locationOfEnd::] #Storing the data after the last entry since it will be overwritten
-    newFile.write(indexFileRead[0:locationOfNote-1] + newSection + "\n\t\t"+ midSection + todaysDate + endingData)
-    newFile.close()
-
-
 def formatDate(*args):
     '''
         Looks at the system to determine the date
@@ -185,53 +138,18 @@ def getData(date):
         sys.exit(0)
         
     return gameURLS
-    
-def getPenaltyListAsString(penaltyList):
-    ''' This converts the penalty data to a string of HTML. This way I can put the data in the HTML file
-    
-        Input:
-            penaltyList - a list of Penalties
-        
-        Returns:
-            data - A string.
-    '''
-    data = ""
-    for penalty in penaltyList:
-        data += penalty.printTable() + "\n"
-    return data
-    
-def uploadToParse(penaltyList):
-    ''' This function will upload the penalty objects onto Parse-Application-Id
-    
-        Input:
-            penaltyList - a list of Penalties
-        
-        Returns:
-            Nothing at the moment. I should enhance this to return a status.
-    '''
-    connection = httplib.HTTPSConnection('api.parse.com', 443)
-    connection.connect()
-    for penalty in penaltyList:
-        connection.request('POST', '/1/classes/Penalties', json.dumps({
-           "player": penalty.getPlayer(),
-            "team": penalty.getTeam(),
-            "penalty": penalty.getPenalty(),
-            "date": penalty.getDate(),
-            "opponent": penalty.getOpponent(),
-            "location": penalty.getSide(),
-            "referees" : penalty.getRefs()
-         }), {
-           "X-Parse-Application-Id": credientials["appID"],
-           "X-Parse-REST-API-Key": credientials["restID"],
-           "Content-Type": "application/json"
-         })
-        results = json.loads(connection.getresponse().read())
-    
+
 def run():
     '''
         This is the main function. I had to create this to allow me to get this entire script under test with the UnitTest framework
     '''
     
+    #For now delete any existing test
+    if os.path.isfile("test.db"):
+      os.remove("test.db")
+    
+    #Create the DatabaseManager   
+    dbManager = DatabaseManager("test.db")
 
     date = formatDate() #If the tracker missed a day, put a string of the date in this function.
     gameURLS = getData(date)
@@ -239,15 +157,13 @@ def run():
         newPenaltyString = ""
         for game in gameURLS:
             penaltyList = processGame(game,date)
-            uploadToParse(penaltyList)
-            newPenaltyString += getPenaltyListAsString(penaltyList)
-        generateHTML(newPenaltyString, "index.html")
-        uploadFile("index.html")
-
+            for penalty in penaltyList:
+              dbManager.insertData(penalty.formatForSQL())
 
 try:
-	sys.argv[1]
-	run()
+  sys.argv[1]
+  run()
 except IndexError:
-	pass #If this is ran from the unit test, nothing extra runs.
+  print "This is running from Unit Test"
+  pass #If this is ran from the unit test, nothing extra runs.
     
