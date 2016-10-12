@@ -3,27 +3,6 @@ from datetime import *
 from Penalty import *
 from ftplib import FTP
 from DatabaseManager import *
-from credientials import *
-
-
-def uploadFile(file):
-    '''
-    Inputs:
-        file - The file that will be uploaded.
-    
-    
-    Uploads the file to the website. It does not return anything to report that it has been successful. Potential Enhancement.
-    The credientials are also stored locally. On the server there is a specific user set up. The root directory for that user is the Penalty Tracker's root.
-    '''
-    address = credientials["address"]
-    user = credientials["username"]
-    password = credientials["password"]
-
-    ftp = FTP(address)
-    ftp.login(user, password)
-    
-    ftp.storlines("STOR " + file, open(file, 'r'))
-    ftp.close()
     
 def formatDate(*args):
     '''
@@ -144,12 +123,9 @@ def run():
         This is the main function. I had to create this to allow me to get this entire script under test with the UnitTest framework
     '''
     
-    #For now delete any existing test
-    if os.path.isfile("test.db"):
-      os.remove("test.db")
-    
+    dbLoc = "test.db"  
     #Create the DatabaseManager   
-    dbManager = DatabaseManager("test.db")
+    dbManager = DatabaseManager(dbLoc)
 
     date = formatDate() #If the tracker missed a day, put a string of the date in this function.
     gameURLS = getData(date)
