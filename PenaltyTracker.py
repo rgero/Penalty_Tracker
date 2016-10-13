@@ -123,7 +123,7 @@ def run():
         This is the main function. I had to create this to allow me to get this entire script under test with the UnitTest framework
     '''
     
-    dbLoc = "test.db"  
+    dbLoc = "/home/roymond/Website/RoymondNET/PenaltyTracker/static/season.db"  
     #Create the DatabaseManager   
     dbManager = DatabaseManager(dbLoc)
 
