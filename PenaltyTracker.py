@@ -81,7 +81,7 @@ def processGame(game, date):
         dateFormatted = date[5:7] + "/" + date[8::] + "/" + date[0:4]
         
         #Checking to see if it was a penalty shot. At this time, the NHL does not consider Penalty Shots to count towards the team totals.
-        if "PS-" not in penaltyName:
+        if "PS-" not in penaltyName and "PS - " not in penaltyName:
             newPenalty = Penalty(playerName, playerTeamName, penaltyName, location, opponentTeamName, dateFormatted, refs)
             gamePenaltyList.append(newPenalty)
             
@@ -124,15 +124,14 @@ def run():
     '''
         This is the main function. I had to create this to allow me to get this entire script under test with the UnitTest framework
     '''
-    
-    dbLoc = "/home/roymond/Website/RoymondNET/PenaltyTracker/static/season.db"  
+    dbLoc = "/home/roymond/Website/RoymondNET/PenaltyTracker/static/penaltytracker/season.db"
+    #dbLoc = "season.db"
     #Create the DatabaseManager   
     dbManager = DatabaseManager(dbLoc)
 
     date = formatDate() #If the tracker missed a day, put a string of the date in this function.
     gameURLS = getData(date)
     if ( len(gameURLS) ) > 0:
-        newPenaltyString = ""
         for game in gameURLS:
             penaltyList = processGame(game,date)
             for penalty in penaltyList:
