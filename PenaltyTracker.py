@@ -68,6 +68,8 @@ def processGame(game, date):
         playerName = penaltyEvent["players"][0]["player"]["fullName"]
         penaltyName = penaltyEvent["result"]["secondaryType"]
         playerTeamName = penaltyEvent["team"]["name"]
+        if (playerTeamName.lower().find("canadiens") != -1):
+          playerTeamName = "Montreal Canadiens"
         
         if playerTeamName == awayTeam:
             location = False
