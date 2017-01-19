@@ -17,11 +17,12 @@ In order to run the script, you need to define a file called "credientials.py". 
 
 ## Future Considerations for this project
 With the offseason quickly approaching, I am currently investigating several enhancements that I will be making to this. Here are a brief couple.
-* I'd like to make this a completely web based service. While the data is stored on my website and on Parse.com, the actual script runs on a secondary computer. This is a liability that could cause the script to not be ran at the correct time.
-* I'd like to make it more of a "on demand" service. In this most recent season, there were over 9,500 penalties called. The user, especially mobile users, should not have to sit and wait while the entire page is loaded. Ideally, the user would fill out a form, and the results of that form should be passed back to them.
 * I'd also like to display more information. I've had several people request data be added to the website.
 
 ## Things learned through this project
 * unittest module - One of the skill I wanted to strengthen was the ability to think through and use automated tests to insure that changes made to algorithms or functions didn't change the overall result.
-* Parse REST API
-* ftp module - This was a smaller area I wanted to improve upon, however, programmatically accessing a website through the Python 2.7.10 ftp module was something I did want to learn.
+* The SQLite3 Module - I use this to store data for the 2016-17 season.
+
+## Deprecated Modules that I used in previous versions
+* Parse's python module
+* The FTP module
