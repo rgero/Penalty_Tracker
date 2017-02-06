@@ -120,16 +120,20 @@ def getData(date):
 
     return gameURLS
 
-def run():
-    '''
-        This is the main function. I had to create this to allow me to get this entire script under test with the UnitTest framework
-    '''
-    dbLoc = "/home/roymond/Website/RoymondNET/PenaltyTracker/static/penaltytracker/season.db"
-    #dbLoc = "season.db"
+def run(**kwargs):
+    if "dbLoc" not in kwargs:
+        dbLoc = "/home/roymond/Website/RoymondNET/PenaltyTracker/static/penaltytracker/season.db"
+    else:
+        dbLoc = kwargs["dbLoc"]
+
     #Create the DatabaseManager
     dbManager = DatabaseManager(dbLoc)
 
-    date = formatDate() #If the tracker missed a day, put a string of the date in this function.
+    if "date" not in kwargs:
+        date = formatDate( kwargs["date"] )
+    else:
+        date = formatDate()
+
     gameURLS = getData(date)
     if ( len(gameURLS) ) > 0:
         for game in gameURLS:
@@ -137,9 +141,5 @@ def run():
             for penalty in penaltyList:
               dbManager.insertData(penalty.formatForSQL())
 
-try:
-  sys.argv[1]
-  run()
-except IndexError:
-  print("This is running from Unit Test")
-  pass #If this is ran from the unit test, nothing extra runs.
+if __name__ == "__main__":
+    run()
