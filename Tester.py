@@ -38,7 +38,11 @@ class TestingPenaltyTracker(unittest.TestCase):
     self.assertEqual( numberOfGames, 5 )
 
   def testPenaltyProcessing(self):
-    pass # Needs to be updated.
+    if os.path.exists( os.path.join( os.getcwd(), "test_penalty.db") ):
+        os.remove( os.path.join( os.getcwd(), "test_penalty.db") )
+    run(dbLoc="test_penalty.db", date="2016-10-24")
+    # Compares the data. Need to investigate this. Right now the test will just pass if this code executes.
+    os.remove( os.path.join( os.getcwd(), "test_penalty.db") )
 
 '''
 // Setting up Data
