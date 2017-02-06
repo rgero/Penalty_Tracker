@@ -40,8 +40,15 @@ class TestingPenaltyTracker(unittest.TestCase):
   def testPenaltyProcessing(self):
     if os.path.exists( os.path.join( os.getcwd(), "test_penalty.db") ):
         os.remove( os.path.join( os.getcwd(), "test_penalty.db") )
-    run(dbLoc="test_penalty.db", date="2016-10-24")
-    # Compares the data. Need to investigate this. Right now the test will just pass if this code executes.
+    unitDic = {
+        "dbLoc": "test_penalty.db",
+        "date":"2016-10-24"
+    }
+    run(**unitDic)
+
+    self.assertTrue(filecmp.cmp("test_penalty.db", os.path.join(os.getcwd(), "TestingDocs", "season_test_10-24-16.db")))
+
+    #Cleans up the file.
     os.remove( os.path.join( os.getcwd(), "test_penalty.db") )
 
 '''
