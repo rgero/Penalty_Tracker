@@ -129,7 +129,7 @@ def run(**kwargs):
     #Create the DatabaseManager
     dbManager = DatabaseManager(dbLoc)
 
-    if "date" not in kwargs:
+    if "date" in kwargs:
         date = formatDate( kwargs["date"] )
     else:
         date = formatDate()
