@@ -32,8 +32,6 @@ def processGame(game, date):
         Returns:
             gamePenaltyList - List of Penalty Objects - This is the list of penalties that occur during the game.
     '''
-    print("Parsing: " + game)
-
     #Establishing and clearing the list of Penalties
     gamePenaltyList = []
     gamePenaltyList[:] = []
