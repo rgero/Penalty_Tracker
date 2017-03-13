@@ -11,7 +11,7 @@ def organizeDataDump(file):
             if data.lower() != "team name":
                 data = data.split(" ")
                 data = data[len(data)-1]
-                if teamDump.has_key(data):
+                if data in teamDump:
                     teamDump[data]+=1
                 else:
                     teamDump[data]=1
@@ -40,9 +40,9 @@ def processNHLData(file):
 
 if __name__ == "__main__":
     if len(sys.argv) <= 2:
-        print "You need two additional arguments"
-        print "The first one is the CSV Spreadsheet saved from the NHL Website"
-        print "The second one is the CSV Data Dump from Roymond.net"
+        print("You need two additional arguments")
+        print("The first one is the CSV Spreadsheet saved from the NHL Website")
+        print("The second one is the CSV Data Dump from Roymond.net")
         sys.exit(-1)
     else:
         issueTeams = {}
@@ -54,9 +54,9 @@ if __name__ == "__main__":
             if int(nhlData[i]) != int(rData[i]):
                 issueTeams[i] = int(nhlData[i])-int(rData[i])
         if len(issueTeams) != 0:
-            print "Error! There is a difference between the NHL Data and Roymond Data"
-            print "Team\t:\tDifference"
+            print("Error! There is a difference between the NHL Data and Roymond Data")
+            print("Team\t:\tDifference")
             for i in issueTeams:
-                print i + "\t: \t" + str(issueTeams[i])
+                print(i + "\t: \t" + str(issueTeams[i]))
         else:
-            print "Everything is Fine"
+            print("Everything is Fine")
