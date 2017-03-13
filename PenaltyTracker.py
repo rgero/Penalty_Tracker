@@ -3,6 +3,7 @@ from urllib import request, error, parse, robotparser
 from datetime import *
 from Penalty import *
 from DatabaseManager import *
+import ssl
 
 def formatDate(*args):
     '''
@@ -37,13 +38,14 @@ def processGame(game, date):
     gamePenaltyList[:] = []
 
     #Getting the JSON data from the NHL website
-    response = request.urlopen(game).read().decode('UTF-8')
+    context = ssl._create_unverified_context()
+    response = request.urlopen(game, context=context).read().decode('UTF-8')
     jsonData = json.loads(response)
-    
+
     #getting gameDate
     gameDate = jsonData["gameData"]["datetime"]["dateTime"].lower().split('t')[0]
-    
-    
+
+
     #Added a special case for Montreal because they have an accent.
     awayTeam = jsonData["gameData"]["teams"]["away"]["name"]
     if (awayTeam.lower().find("canadiens") != -1):
@@ -102,11 +104,12 @@ def getData(date):
     middle_url="&endDate="
     end_url="&expand=schedule.teams,schedule.linescore,schedule.broadcasts,schedule.ticket,schedule.game.content.media.epg&leaderCategories=&site=en_nhl&teamId="
     full_url = beginning_url + date + middle_url + date + end_url
-    
+
     gameDataURLprefix = "https://statsapi.web.nhl.com"
 
     try:
-        websiteData = request.urlopen(full_url).read().decode('UTF-8')
+        context = ssl._create_unverified_context()
+        websiteData = request.urlopen(full_url, context=context).read().decode('UTF-8')
         jsonData = json.loads(websiteData)
     except:
         print("Error")
@@ -123,7 +126,7 @@ def getData(date):
         # If there are no games, there is no sense in updating anything, so it should exit.
         print("No games today!")
         sys.exit(0)
-        
+
     return gameURLS
 
 def run(**kwargs):
