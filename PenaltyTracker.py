@@ -32,6 +32,7 @@ def processGame(game, date):
         Returns:
             gamePenaltyList - List of Penalty Objects - This is the list of penalties that occur during the game.
     '''
+    print("Parsing: " + game)
 
     #Establishing and clearing the list of Penalties
     gamePenaltyList = []
@@ -40,7 +41,11 @@ def processGame(game, date):
     #Getting the JSON data from the NHL website
     response = request.urlopen(game).read().decode('UTF-8')
     jsonData = json.loads(response)
-
+    
+    #getting gameDate
+    gameDate = jsonData["gameData"]["datetime"]["dateTime"].lower().split('t')[0]
+    
+    
     #Added a special case for Montreal because they have an accent.
     awayTeam = jsonData["gameData"]["teams"]["away"]["name"]
     if (awayTeam.lower().find("canadiens") != -1):
@@ -78,7 +83,7 @@ def processGame(game, date):
             location = True
             opponentTeamName = awayTeam
 
-        dateFormatted = date[5:7] + "/" + date[8::] + "/" + date[0:4]
+        dateFormatted = gameDate[5:7] + "/" + gameDate[8::] + "/" + gameDate[0:4]
 
         #Checking to see if it was a penalty shot. At this time, the NHL does not consider Penalty Shots to count towards the team totals.
         if "PS-" not in penaltyName and "PS - " not in penaltyName:
@@ -99,25 +104,28 @@ def getData(date):
     middle_url="&endDate="
     end_url="&expand=schedule.teams,schedule.linescore,schedule.broadcasts,schedule.ticket,schedule.game.content.media.epg&leaderCategories=&site=en_nhl&teamId="
     full_url = beginning_url + date + middle_url + date + end_url
-
+    
     gameDataURLprefix = "https://statsapi.web.nhl.com"
 
     try:
         websiteData = request.urlopen(full_url).read().decode('UTF-8')
         jsonData = json.loads(websiteData)
     except:
+        print("Error")
         sys.exit(-1)   #If we can't load the page, exit with an error.
 
     gameURLS = [] # This list is going to contain the URLs pointing to games as strings.
     gameURLS[:] = []
     try:
-        for i in jsonData['dates'][0]['games']:
-            gameURLS.append( gameDataURLprefix + i["link"] )
+        numberOfDates = len(jsonData['dates'])
+        for date in range(0, numberOfDates):
+          for i in jsonData['dates'][date]['games']:
+              gameURLS.append( gameDataURLprefix + i["link"] )
     except IndexError:
         # If there are no games, there is no sense in updating anything, so it should exit.
         print("No games today!")
         sys.exit(0)
-
+        
     return gameURLS
 
 def run(**kwargs):
