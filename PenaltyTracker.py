@@ -41,11 +41,7 @@ def processGame(game, date):
     context = ssl._create_unverified_context()
     response = request.urlopen(game, context=context).read().decode('UTF-8')
     jsonData = json.loads(response)
-
-    #getting gameDate
-    gameDate = jsonData["gameData"]["datetime"]["dateTime"].lower().split('t')[0]
-
-
+    
     #Added a special case for Montreal because they have an accent.
     awayTeam = jsonData["gameData"]["teams"]["away"]["name"]
     if (awayTeam.lower().find("canadiens") != -1):
@@ -83,7 +79,7 @@ def processGame(game, date):
             location = True
             opponentTeamName = awayTeam
 
-        dateFormatted = gameDate[5:7] + "/" + gameDate[8::] + "/" + gameDate[0:4]
+        dateFormatted = date[5:7] + "/" + date[8::] + "/" + date[0:4]
 
         #Checking to see if it was a penalty shot. At this time, the NHL does not consider Penalty Shots to count towards the team totals.
         if "PS-" not in penaltyName and "PS - " not in penaltyName:
@@ -122,7 +118,7 @@ def getData(date):
         for date in range(0, numberOfDates):
           gameDay = jsonData['dates'][date]["date"]
           for i in jsonData['dates'][date]['games']:
-              gameURLS.append( (gameDataURLprefix + i["link"], date) )
+              gameURLS.append( (gameDataURLprefix + i["link"], gameDay) )
     except IndexError:
         # If there are no games, there is no sense in updating anything, so it should exit.
         print("No games today!")
@@ -134,8 +130,8 @@ def run(**kwargs):
     if "dbLoc" not in kwargs:
         dbLoc = "/home/roymond/Website/RoymondNET/PenaltyTracker/static/penaltytracker/season.db"
     else:
-        dbLoc = kwargs["dbLoc"]
-
+        dbLoc = kwargs["dbLoc"] 
+    
     #Create the DatabaseManager
     dbManager = DatabaseManager(dbLoc)
 
@@ -147,6 +143,7 @@ def run(**kwargs):
     gameURLS = getData(date)
     if ( len(gameURLS) ) > 0:
         for game in gameURLS:
+            print(game)
             gameURL = game[0]
             date = game[1]
             penaltyList = processGame(gameURL,date)
