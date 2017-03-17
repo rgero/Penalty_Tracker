@@ -120,8 +120,9 @@ def getData(date):
     try:
         numberOfDates = len(jsonData['dates'])
         for date in range(0, numberOfDates):
+          gameDay = jsonData['dates'][date]["date"]
           for i in jsonData['dates'][date]['games']:
-              gameURLS.append( gameDataURLprefix + i["link"] )
+              gameURLS.append( (gameDataURLprefix + i["link"], date) )
     except IndexError:
         # If there are no games, there is no sense in updating anything, so it should exit.
         print("No games today!")
@@ -146,7 +147,9 @@ def run(**kwargs):
     gameURLS = getData(date)
     if ( len(gameURLS) ) > 0:
         for game in gameURLS:
-            penaltyList = processGame(game,date)
+            gameURL = game[0]
+            date = game[1]
+            penaltyList = processGame(gameURL,date)
             for penalty in penaltyList:
               dbManager.insertData(penalty.formatForSQL())
 
