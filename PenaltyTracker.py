@@ -41,7 +41,7 @@ def processGame(game, date):
     context = ssl._create_unverified_context()
     response = request.urlopen(game, context=context).read().decode('UTF-8')
     jsonData = json.loads(response)
-    
+
     #Added a special case for Montreal because they have an accent.
     awayTeam = jsonData["gameData"]["teams"]["away"]["name"]
     if (awayTeam.lower().find("canadiens") != -1):
@@ -130,10 +130,10 @@ def run(**kwargs):
     if "dbLoc" not in kwargs:
         dbLoc = "/home/roymond/Website/RoymondNET/PenaltyTracker/static/penaltytracker/season.db"
     else:
-        dbLoc = kwargs["dbLoc"] 
-    
+        dbLoc = kwargs["dbLoc"]
+
     #Create the DatabaseManager
-    dbManager = DatabaseManager(dbLoc)
+    dbManager = DatabaseManager(dbLoc, "Playoffs")
 
     if "date" in kwargs:
         date = formatDate( kwargs["date"] )
@@ -143,7 +143,6 @@ def run(**kwargs):
     gameURLS = getData(date)
     if ( len(gameURLS) ) > 0:
         for game in gameURLS:
-            print(game)
             gameURL = game[0]
             date = game[1]
             penaltyList = processGame(gameURL,date)
