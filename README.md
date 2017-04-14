@@ -1,7 +1,7 @@
 # Penalty Counter
 ---------
 Originally written by Roy Gero in Python 2.7.10
-Currently being upgraded to Python 3.6 as of Feb 6th, 2017
+Currently version is in Python 3.6
 
 ## Purpose of the Program
 Every NHL season there are 1,230 games played between the 30 teams. In each one of these games, there can be any number of penalties called. I want to provide people with the ability to make more informed statements when it comes to penalties that occur. The way that this program performs this is by parsing through the NHL website's game data and gathering all the penalties that occur. After gathering the information, the script hands the data to Parse.com as well as appends the data to an existing website. This website, [The Penalty Tracker](http://roymond.net/penaltytracker) displays this data to the user in a sortable manner.
