@@ -6,15 +6,16 @@ class DatabaseManager:
   location = None
   tableName = None
 
-  def __init__(self, location, tableName):
+  def __init__(self, location, tableName=None):
     self.location = location
     self.tableName = tableName
     if not os.path.isfile(self.location): #If the file doesn't exist we need to create the table
       self.openConnection()
-      self.createTable(tableName)
+      if tableName is not None:
+          self.createTable(tableName)
     else:
       self.openConnection()
-      if not self.checkTable(self.tableName):
+      if tableName is not None and not self.checkTable(self.tableName):
           self.createTable(self.tableName)
 
   def openConnection(self):
