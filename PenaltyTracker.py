@@ -133,7 +133,7 @@ def run(**kwargs):
         dbLoc = kwargs["dbLoc"]
 
     #Create the DatabaseManager
-    dbManager = DatabaseManager(dbLoc, "Regular_17_18")
+    dbManager = DatabaseManager(dbLoc, "Playoffs_17_18")
 
     if "date" in kwargs:
         date = formatDate( kwargs["date"] )
