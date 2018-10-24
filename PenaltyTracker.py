@@ -132,8 +132,13 @@ def run(**kwargs):
     else:
         dbLoc = kwargs["dbLoc"]
 
+    if "timePeriod" not in kwargs:
+        timePeriod = "Regular_18_19"
+    else:
+        timePeriod = kwargs["timePeriod"]
+
     #Create the DatabaseManager
-    dbManager = DatabaseManager(dbLoc, "Regular_18_19")
+    dbManager = DatabaseManager(dbLoc, timePeriod)
 
     if "date" in kwargs:
         date = formatDate( kwargs["date"] )

@@ -42,7 +42,8 @@ class TestingPenaltyTracker(unittest.TestCase):
         os.remove( os.path.join( os.getcwd(), "test_penalty.db") )
     unitDic = {
         "dbLoc": "test_penalty.db",
-        "date":"2016-10-24"
+        "date":"2016-10-24",
+        "timePeriod": "PenaltyTracker"
     }
     run(**unitDic)
 
