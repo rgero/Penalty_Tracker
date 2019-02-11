@@ -79,11 +79,9 @@ def processGame(game, date):
             location = True
             opponentTeamName = awayTeam
 
-        dateFormatted = date[5:7] + "/" + date[8::] + "/" + date[0:4]
-
         #Checking to see if it was a penalty shot. At this time, the NHL does not consider Penalty Shots to count towards the team totals.
         if "PS-" not in penaltyName and "PS - " not in penaltyName:
-            newPenalty = Penalty(playerName, playerTeamName, penaltyName, location, opponentTeamName, dateFormatted, refs)
+            newPenalty = Penalty(playerName, playerTeamName, penaltyName, location, opponentTeamName, date, refs)
             gamePenaltyList.append(newPenalty)
 
     return gamePenaltyList
