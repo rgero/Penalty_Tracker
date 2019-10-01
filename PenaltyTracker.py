@@ -131,7 +131,7 @@ def run(**kwargs):
         dbLoc = kwargs["dbLoc"]
 
     if "timePeriod" not in kwargs:
-        timePeriod = "Playoffs_18_19"
+        timePeriod = "Regular_19_20"
     else:
         timePeriod = kwargs["timePeriod"]
 
