@@ -53,7 +53,7 @@ class Penalty:
     refereeString = refereeString[0:len(refereeString)-2]
     return refereeString
   
-  def printEvent(self):
+  def getEventAsString(self):
     entry = self.name + " | " + self.team + " | " + self.penalty + " | " + self.date + " | " + self.opponent + " | " + self.getSide() + " | " + self.getRefsAsString()
     return entry
   
