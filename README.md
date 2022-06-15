@@ -1,10 +1,13 @@
-# Penalty Counter
+# Penalty Tracker
 ---------
-Originally written by Roy Gero in Python 2.7.10
-Currently version is in Python 3.6
-
 ## Purpose of the Program
-Every NHL season there are 1,230 games played between the 30 teams. In each one of these games, there can be any number of penalties called. I want to provide people with the ability to make more informed statements when it comes to penalties that occur. The way that this program performs this is by parsing through the NHL website's game data and gathering all the penalties that occur. After gathering the information, the script hands the data to a SQLite Database. Currently the only way to access the data is through [The Penalty Tracker](http://roymond.net/penaltytracker). However I am going to make its own site soon.
+Every NHL season there are 1,312 games played between the 32 teams. In each one of these games, there can be any number of penalties called. I want to provide people with the ability to make more informed statements when it comes to penalties that occur. The way that this program performs this is by parsing through the NHL website's game data and gathering all the penalties that occur. After gathering the information, the script hands the data to a SQLite Database.
+
+**Important Note**: In the upcoming weeks, I intend on reviving this project. It has been out of date for at least 3 seasons (Last one was the 2020 season regular season). Everything below this point is related to the old version.
+
+The goal of reviving this project is to upgrade it to latest version of Python, and to implement some better strategies that I've learned over the years.
+
+----
 
 ## Description of Files
 There are really four main files of the project.
@@ -17,9 +20,3 @@ There are really four main files of the project.
 ## Things learned through this project
 * unittest module - One of the skill I wanted to strengthen was the ability to think through and use automated tests to insure that changes made to algorithms or functions didn't change the overall result.
 * The SQLite3 Module - I use this to store data for the 2016-17 season.
-
-## Deprecated Modules that I used in previous versions
-* Parse's python module
-* The FTP module
-
-## Potential React Front End coming soon.
