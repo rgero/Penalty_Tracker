@@ -37,6 +37,11 @@ class DatabaseManager:
       value = 0
     return value
 
+  def getData(self, command):
+    value = self.cursor.execute(command).fetchall()
+    if value is not None:
+      return value
+
   def createTable(self, tableName):
     self.cursor.execute('''create table if not exists ''' + tableName + ''' (
                     id integer not null primary key autoincrement,

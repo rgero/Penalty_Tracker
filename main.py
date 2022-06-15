@@ -1,4 +1,4 @@
-from NewPenaltyTracker import PenaltyTracker
+from PenaltyTracker import PenaltyTracker
 
 test = PenaltyTracker()
 test.setTargetDate("2022-06-11")
