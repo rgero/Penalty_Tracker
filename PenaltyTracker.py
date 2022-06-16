@@ -8,9 +8,11 @@ from Penalty import Penalty
 class PenaltyTracker:
 
     def __init__(self):
-        self.targetDate = date.today() - timedelta(1);
         self.databaseLocation = os.getenv("PT_DBLOC")
         self.timePeriod = os.getenv("PT_SEASON")
+
+        self.endDate = date.today() - timedelta(1)
+        self.startDate = self.endDate
 
         if self.databaseLocation is not None and self.timePeriod is not None:
             self.databaseManager = self.createAndSetDatabaseManager()
@@ -26,18 +28,32 @@ class PenaltyTracker:
         self.timePeriod = newSeason
         return self
 
-    def setTargetDate(self, newDate):
+    def validateDate(self, targetDate):
         try:
-            if isinstance(newDate, date):
-                self.targetDate = newDate
-            elif isinstance(newDate, str):
-                tryDate = datetime.strptime(newDate, '%Y-%m-%d')
-                self.targetDate = tryDate;
+            if isinstance(targetDate, date):
+                return targetDate
+            elif isinstance(targetDate, str):
+                tryDate = datetime.strptime(targetDate, '%Y-%m-%d')
+                return tryDate;
             else:
                 raise Exception("Expected inputs for Target Date are a string in the YYYY-MM-DD format or a date object")
         except Exception as err:
             print("Exception Encountered:", err)
             sys.exit(-1)
+
+    def setDateRange(self, startDate, endDate):
+        """
+            This should be used when you want to run the tracker against a date range.
+        """
+        self.startDate = self.validateDate(startDate)
+        self.endDate = self.validateDate(endDate)
+
+    def setTargetDate(self, newDate):
+        """
+            This should be used when you want to run the tracker against a specific date, not a date range.
+        """
+        self.endDate = self.validateDate(newDate)
+        self.startDate = self.validateDate(newDate)
 
     def createAndSetDatabaseManager(self):
         try:
@@ -58,18 +74,19 @@ class PenaltyTracker:
                 raise Exception("No Season provided")
             if self.databaseManager is None:
                 raise Exception("No Database Manager defined")
-            if self.targetDate is None:
+            if self.endDate is None:
                 raise Exception("No Date is defined")
         except Exception as err:
             print("Exception Encountered:", err)
             sys.exit(-1)
 
     def GetGameURLS(self):
-        targetDate = self.targetDate.strftime("%Y-%m-%d")
+        targetDate = self.endDate.strftime("%Y-%m-%d")
+        startDate = self.startDate.strftime("%Y-%m-%d")
         gameDataURLprefix = "https://statsapi.web.nhl.com"
         beginning_url = gameDataURLprefix + "/api/v1/schedule?startDate="
         middle_url="&endDate="
-        full_url = beginning_url + targetDate + middle_url + targetDate
+        full_url = beginning_url + startDate + middle_url + targetDate
 
         try:
             context = ssl._create_unverified_context()
