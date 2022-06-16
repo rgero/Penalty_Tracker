@@ -1,6 +1,6 @@
 from datetime import date, datetime, timedelta
 from urllib import request
-import json, os, ssl
+import json, os, ssl, sys
 
 from DatabaseManager import DatabaseManager
 from Penalty import Penalty
@@ -32,11 +32,12 @@ class PenaltyTracker:
                 self.targetDate = newDate
             elif isinstance(newDate, str):
                 tryDate = datetime.strptime(newDate, '%Y-%m-%d')
-                self.targetDate = newDate;
+                self.targetDate = tryDate;
             else:
                 raise Exception("Expected inputs for Target Date are a string in the YYYY-MM-DD format or a date object")
         except Exception as err:
             print("Exception Encountered:", err)
+            sys.exit(-1)
 
     def createAndSetDatabaseManager(self):
         try:
@@ -47,22 +48,24 @@ class PenaltyTracker:
             self.databaseManager = DatabaseManager(self.databaseLocation, self.timePeriod);
         except Exception as err:
             print("Exception Encountered:", err)
+            sys.exit(-1)
 
     def RunErrorChecking(self):
         try:
-            if self.databaseLocation == "":
+            if self.databaseLocation == None:
                 raise Exception("No Database provided")
-            if self.timePeriod == "":
+            if self.timePeriod == None:
                 raise Exception("No Season provided")
             if self.databaseManager is None:
                 raise Exception("No Database Manager defined")
             if self.targetDate is None:
-                self.targetDate = date.today();
+                raise Exception("No Date is defined")
         except Exception as err:
             print("Exception Encountered:", err)
+            sys.exit(-1)
 
     def GetGameURLS(self):
-        targetDate = str(self.targetDate)
+        targetDate = self.targetDate.strftime("%Y-%m-%d")
         gameDataURLprefix = "https://statsapi.web.nhl.com"
         beginning_url = gameDataURLprefix + "/api/v1/schedule?startDate="
         middle_url="&endDate="
@@ -74,6 +77,7 @@ class PenaltyTracker:
             jsonData = json.loads(websiteData)
         except Exception as err:
             print("Error:", err)
+            sys.exit(-1)
 
         gameURLS = [] # This list is going to contain the URLs pointing to games as strings.
         gameURLS[:] = []
@@ -85,6 +89,7 @@ class PenaltyTracker:
                     gameURLS.append( (gameDataURLprefix + i["link"], gameDay) )
         except IndexError as err:
             print("Error:", err)
+            sys.exit(-1)
         return gameURLS
 
     def ProcessGame(self, game):
@@ -162,8 +167,11 @@ class PenaltyTracker:
             self.databaseManager.insertData(penalty.formatForSQL())
         except Exception as err:
             print("Error:", err)
+            sys.exit(-1)
         
     def run(self):
+        if self.databaseManager is None:
+            self.createAndSetDatabaseManager()
         self.RunErrorChecking();
         gameURLS = self.GetGameURLS()
         for game in gameURLS:
